@@ -1,0 +1,21 @@
+<Config>
+  <DB>
+    <ConnectionString>Data Source=localhost\MSSQLSERVER2008;Initial Catalog=CCBOnlineNews;Trusted_connection=false;Integrated Security=false;User Id=sa;Password=117Chipwood</ConnectionString>
+  </DB>
+  <Stocks>
+    <!-- Gainers -->
+    <Stock url="http://ca.finance.yahoo.com/gainers?e=to" table="stock_gainer_loser" source="yahoo" market="tsx" type="gainer" desc="TSX"/>
+	  <Stock url="http://ca.finance.yahoo.com/gainers?e=V" table="stock_gainer_loser" source="yahoo" market="tsxv" type="gainer" desc="TSX Venture"/>
+	  <Stock url="http://ca.finance.yahoo.com/gainers?e=US" table="stock_gainer_loser" source="yahoo" market="us" type="gainer" desc="US"/>
+	  <Stock url="http://ca.finance.yahoo.com/gainers?e=O" table="stock_gainer_loser" source="yahoo" market="nasdaq" type="gainer" desc="NASDAQ"/>
+	  <Stock url="http://ca.finance.yahoo.com/gainers?e=AQ" table="stock_gainer_loser" source="yahoo" market="amex" type="gainer" desc="AMEX"/>
+	  <Stock url="http://ca.finance.yahoo.com/gainers?e=NQ" table="stock_gainer_loser" source="yahoo" market="nyse" type="gainer" desc="NYSE"/>
+    <!-- Losers -->
+    <Stock url="http://ca.finance.yahoo.com/losers?e=to" table="stock_gainer_loser" source="yahoo" market="tsx" type="loser" desc="TSX"/>
+    <Stock url="http://ca.finance.yahoo.com/losers?e=V" table="stock_gainer_loser" source="yahoo" market="tsxv" type="loser" desc="TSX Venture"/>
+    <Stock url="http://ca.finance.yahoo.com/losers?e=US" table="stock_gainer_loser" source="yahoo" market="us" type="loser" desc="US"/>
+    <Stock url="http://ca.finance.yahoo.com/losers?e=O" table="stock_gainer_loser" source="yahoo" market="nasdaq" type="loser" desc="NASDAQ"/>
+    <Stock url="http://ca.finance.yahoo.com/losers?e=AQ" table="stock_gainer_loser" source="yahoo" market="amex" type="loser" desc="AMEX"/>
+    <Stock url="http://ca.finance.yahoo.com/losers?e=NQ" table="stock_gainer_loser" source="yahoo" market="nyse" type="loser" desc="NYSE"/>
+  </Stocks>
+</Config>

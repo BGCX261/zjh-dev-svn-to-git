@@ -1,0 +1,55 @@
+#include "GTScriptEngine.h"
+#include "GTJSScriptEngine.h"
+
+GTSINGLETON_IMP(GTScriptEngine);
+
+GTScriptEngine::GTScriptEngine() :
+	m_pGTScriptEngineObject(NULL)
+{
+}
+
+
+GTScriptEngine::~GTScriptEngine()
+{
+}
+
+
+// Initialize script engine
+void GTScriptEngine::Initialize(void)
+{
+	if(m_pGTScriptEngineObject)
+	{
+		Destroy();
+		m_pGTScriptEngineObject = NULL;
+	}
+
+	m_pGTScriptEngineObject = new GTJSScriptEngine();
+	if(m_pGTScriptEngineObject)
+	{
+		m_pGTScriptEngineObject->Initialize();
+	}
+}
+
+
+// Destroy script engine
+void GTScriptEngine::Destroy(void)
+{
+	if(m_pGTScriptEngineObject)
+	{
+		m_pGTScriptEngineObject->Destroy();
+		delete m_pGTScriptEngineObject;
+		m_pGTScriptEngineObject = NULL;
+	}
+}
+
+
+// Run a script
+bool GTScriptEngine::RunScript(const char* szScript)
+{
+	if(NULL == m_pGTScriptEngineObject || NULL == szScript)
+	{
+		return false;
+	}
+
+	return m_pGTScriptEngineObject->RunScript(szScript);
+}

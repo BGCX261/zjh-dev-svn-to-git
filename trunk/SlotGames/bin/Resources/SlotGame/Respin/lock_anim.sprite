@@ -1,0 +1,22 @@
+Sprite
+{
+	Image = SlotGame/Respin/lock_anim.png
+	Plist = SlotGame/Respin/lock_anim.plist
+	Animation
+	{		
+		Clip = lock
+		{
+			DelayTime = 0.375
+			Prefix = reel_lock_ani_
+			StartFrame = 1
+			EndFrame = 7
+		}
+		Clip = unlock
+		{
+			DelayTime = 0.375
+			Prefix = reel_unlock_ani_
+			StartFrame = 1
+			EndFrame = 7
+		}
+	}
+}

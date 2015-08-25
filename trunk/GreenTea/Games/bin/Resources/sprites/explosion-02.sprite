@@ -1,0 +1,15 @@
+GameObjectSprite = sprites/explosion-02.sprite
+{
+	Image = sprites/explosion-02.png
+	Plist = sprites/explosion-02.plist
+	Animation
+	{		
+		Clip = normal
+		{
+			DelayTime = 0.15
+			Prefix = explosion-02_
+			StartFrame = 1
+			EndFrame = 6
+		}
+	}	
+}

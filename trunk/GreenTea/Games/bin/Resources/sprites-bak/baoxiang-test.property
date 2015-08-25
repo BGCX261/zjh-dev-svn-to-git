@@ -1,0 +1,31 @@
+GameObjectSprite = goSpriteRoot
+{
+	Sprite = sprites/baoxiang.sprite
+	DefaultAnimation = 0
+	DefaultAnimationPlayMode = Loop
+	ZOrder = 10
+	Behaviour
+	{
+		//Script = BSGameObjectGeneral
+	}
+	Children
+	{
+		GameObjectSprite = sprite1
+		{
+			Sprite = sprites/huopen.sprite
+			DefaultAnimation = 0
+			DefaultAnimationPlayMode = Loop
+			ZOrder = 11
+		}
+		GameObjectSprite = sprite2
+		{
+			Sprite = sprites/HuangGaiRun.sprite
+			DefaultAnimation = 0
+			DefaultAnimationPlayMode = Loop
+			ZOrder = 12
+		}
+		GameObject = sprite3
+		{
+		}
+	}
+}

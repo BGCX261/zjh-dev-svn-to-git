@@ -1,0 +1,2 @@
+*Copied from Mono-3.2.3
+*Installed from mono-3.2.3-gtksharp-2.12.11-win32-0.exe

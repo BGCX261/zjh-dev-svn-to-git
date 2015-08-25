@@ -1,0 +1,13 @@
+Property
+{
+	Behaviour
+	{
+		Script = BSGameObjectGeneral
+		Script = BSMapSprite
+		{
+			Sprite = sprites/huopen.sprite
+			DefaultAnimation = 0
+			DefaultAnimationPlayMode = Loop
+		}
+	}
+}

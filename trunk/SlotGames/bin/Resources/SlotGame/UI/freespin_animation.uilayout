@@ -1,0 +1,49 @@
+UILayout
+{
+	UIFrame = FREESPIN_FRAME
+	{		
+		Font = SlotGame/fonts/BitmapFontBlue.fnt
+		Position = 568 40 // Center
+		Size = 1130 60
+		Visible = 1
+		EventType = Children
+		Id = 1000
+		ZOrder = 50
+		Children
+		{
+			UIAnimation = FREESPIN_CONGRATION_ANIM
+			{
+				Position = 0 250
+				Size = 200 200
+				Id = 1001
+				EventType = None
+				Visible = False
+				AnchorPoint = 0.5 0.5
+				ZOrder = 50
+				Sprite = SlotGame/Freespin/freespin_Congrats.sprite
+				DefaultAnimation = 0
+				DefaultAnimationPlayMode = None
+			}
+			
+			UILabelValueTweener = FREESPIN_CONGRATION_LABEL
+			{
+				Position = 0 250
+				Size = 50 50
+				Id = 1002
+				EventType = None
+				Text = 0
+				Visible = False
+				AnchorPoint = 0.5 0.5
+				ZOrder = 51
+				CustomizedValue
+				{
+					PairValue = MinValue 0
+					PairValue = MaxValue 100
+					PairValue = Interval 0.05
+					PairValue = StepValue 1
+					PairValue = Duration 5000
+				}
+			}
+		}
+	}
+}

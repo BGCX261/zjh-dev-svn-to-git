@@ -1,0 +1,19 @@
+<?php
+@include("../../inc/header.php");
+
+/*
+		SoftName : EmpireBak
+		Author   : wm_chief
+		Copyright: Powered by www.phome.net
+*/
+
+E_D("DROP TABLE IF EXISTS `phomelightgx_enewsadclass`;");
+E_C("CREATE TABLE `phomelightgx_enewsadclass` (
+  `classid` smallint(6) NOT NULL AUTO_INCREMENT,
+  `classname` varchar(60) NOT NULL DEFAULT '',
+  PRIMARY KEY (`classid`)
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=gbk");
+E_D("replace into `phomelightgx_enewsadclass` values('1','默认广告分类');");
+
+@include("../../inc/footer.php");
+?>

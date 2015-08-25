@@ -1,0 +1,45 @@
+Property
+{
+	Behaviour
+	{
+		Script = BSGameObjectGeneral
+		{
+			Collision = 32 32
+		}
+		Script = BSMapSprite
+		{
+			Sprite = sprites/MainPlayer.sprite
+			DefaultAnimation = 2
+		}
+		Script = BSPathFinding
+		Script = BSSpriteMovement
+		{
+			Speed = 1
+		}
+		Script = BSPlayerController
+		{
+			PairValue = Life 50
+			PairValue = LifeMax 50
+			PairValue = Attack 10
+			PairValue = AttackSpeed 1
+			PairValue = Armor 1
+			PairValue = AttackRange 3
+			PairValue = MovementSpeed 500
+			PairValue = Experience 10
+			PairValue = ExperienceForNextLevel 40
+			PairValue = Money 700
+			PairValue = Level 1
+			PairValue = SkillPoint 60
+			PairValue = SkillPointMax 60
+		}
+		Script = BSPlayerPlayingUI
+	}
+	Children
+	{
+		GameObject = DbgCollisionIndicator
+		{
+			PropertyName = sprites/DbgCollisionIndicator.property
+			Visible = True
+		}
+	}
+}

@@ -1,0 +1,15 @@
+Property
+{
+	Behaviour
+	{
+		Script = BSGameObjectGeneral
+		{			
+			PairValue = FollowParent True
+		}
+		Script = BSStaticSprite
+		{
+			Sprite = sprites/DbgCollisionIndicator.sprite			
+		}
+		Script = BSDebugGameObject
+	}
+}

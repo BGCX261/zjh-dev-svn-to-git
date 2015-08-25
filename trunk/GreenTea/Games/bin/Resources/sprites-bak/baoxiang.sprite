@@ -1,0 +1,15 @@
+Sprite
+{
+	Image = sprites/baoxiang.png
+	Plist = sprites/baoxiang.plist
+	Animation
+	{		
+		Clip = Normal
+		{
+			DelayTime = 0.20
+			Prefix = baoxiang
+			StartFrame = 0
+			EndFrame = 6
+		}
+	}
+}

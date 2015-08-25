@@ -1,0 +1,13 @@
+Property
+{	
+	Behaviour
+	{
+		Script = BSGameObjectGeneral
+		Script = BSSprite
+		{
+			Sprite = sprites/weapon_ci.sprite
+			DefaultAnimation = 0
+			DefaultAnimationPlayMode = Loop
+		}
+	}
+}

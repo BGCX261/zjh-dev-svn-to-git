@@ -1,0 +1,224 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        body, html
+        {
+            background: none;
+            padding: 0;
+            margin: 0 auto;
+            font-family: Arial;
+            font-size: 12px;
+            line-height: 24px;
+            color: #333;
+        }
+
+        img
+        {
+            border: none;
+        }
+
+        a
+        {
+            color: #333;
+            text-decoration: none;
+        }
+
+            a:hover
+            {
+                color: #f00;
+                text-decoration: underline;
+            }
+
+
+        .ht_top
+        {
+            width: 980px;
+            _width: 1002px;
+            height: 25px;
+            background: #f5f5f5;
+            border: #e6e6e6 1px solid;
+            padding: 10px;
+        }
+
+            .ht_top span
+            {
+                color: #b7b7b7;
+            }
+
+            .ht_top img
+            {
+                margin-right: 5px;
+            }
+
+            .ht_top a
+            {
+                padding-left: 8px;
+                padding-right: 8px;
+            }
+
+        .ht_top_l
+        {
+            float: left;
+            width: 670px;
+        }
+
+        .ht_top_r
+        {
+            float: right;
+            width: 290px;
+        }
+
+        .ht_top_icon
+        {
+            padding-left: 26px;
+            color: #333;
+        }
+
+            .ht_top_icon span
+            {
+                color: #333;
+            }
+
+        .red, .red a, a.red
+        {
+            color: #f00 !important;
+        }
+
+        .blue, .blue a, a.blue
+        {
+            color: #015f87 !important;
+        }
+
+        .gray, .gray a, a.gray
+        {
+            color: #858484 !important;
+        }
+
+        .fff, .fff a, a.fff
+        {
+            color: #fff !important;
+        }
+
+        .sub
+        {
+            background: url(./statics/images/btn_01.jpg) no-repeat;
+            width: 78px;
+            height: 23px;
+            border: 0px;
+        }
+
+        .ht_top_search
+        {
+            border: #c9c9c9 1px solid;
+            width: 215px;
+            border-right: none;
+            height: 23px;
+        }
+    </style>
+    <script language="javascript">
+       
+        t0 = new Date(new Date().getTime());
+        nyear = t0.getFullYear();
+        nmonth = t0.getMonth();
+        nday = t0.getDate();
+        nwday = t0.getDay();
+        nhrs = t0.getHours();
+        nmin = t0.getMinutes();
+        nsec = t0.getSeconds();
+        //alert(String(t0));
+
+    </script>
+    <script language="javascript">
+        t100 = new Date();
+        xnnyear = t100.getFullYear();
+        xnnmonth = t100.getMonth();
+        xnnday = t100.getDate();
+        xnnwday = t100.getDay();
+        xnnhrs = t100.getHours();
+        xnnmin = t100.getMinutes();
+        xnnsec = t100.getSeconds();
+        //alert(String(xnnyear));
+
+    </script>
+
+    <script language="javascript">
+        var hzWeek = new Array("日", "一", "二", "三", "四", "五", "六", "日");
+        nextday = false;
+        function cweekday(wday) { return hzWeek[wday]; }
+        function shapetime(vhrs, vmin, vsec) {
+            if (vsec <= 9) vsec = "0" + vsec; if (vmin <= 9) vmin = "0" + vmin; if (vhrs <= 9) vhrs = "0" + vhrs; return vhrs + ":" + vmin + ":" + vsec
+        }
+        last0 = t0;
+        function NewTick() {
+            noww = new Date();
+            t1 = noww.getTime() + 60 * 60 * 13 * 1000;
+
+            //if (t1 < last0 || ((t1 - last0) > 45000 && last0 != t0)) {
+            //    t1 = last0 + 500;
+            //}
+            //last0 = t1;
+            noww.setTime(t1);// + dectime);
+           // if (noww.getDate() != nday) {
+                nyear = noww.getFullYear();
+                nmonth = noww.getMonth() + 1;
+                nwday = noww.getDay();
+                //alert(String(dectime));
+                nday = noww.getDate();
+                nextday = true;
+            //}
+            nhrs = noww.getHours();
+            nmin = noww.getMinutes();
+            nsec = noww.getSeconds();
+        }
+        function xnNewTick() {
+            noww = new Date();
+            t1 = noww.getTime();
+            //if (t1 < last0 || ((t1 - last0) > 45000 && last0 != t0)) {
+            //    t1 = last0 + 500;
+            //}
+            //last0 = t1;
+            noww.setTime(t1 + xndectime);
+            if (noww.getDate() != xnnday) {
+                xnnyear = noww.getFullYear();
+                xnnmonth = noww.getMonth() + 1;
+                xnnwday = noww.getDay();
+                xnnday = noww.getDate();
+                xnnextday = true;
+            }
+            xnnhrs = noww.getHours();
+            xnnmin = noww.getMinutes();
+            xnnsec = noww.getSeconds();
+        }
+
+        function gettimestr() {
+            return nyear + '年' + nmonth + '月' + nday + '日' + '星期' + cweekday(nwday) + "<br>" + shapetime(nhrs, nmin, nsec);
+        }
+        dectime = new Date(nyear, nmonth - 1, nday, nhrs, nmin, nsec).getTime() - t0;
+        xndectime = new Date(xnnyear, xnnmonth - 1, xnnday, xnnhrs, xnnmin, xnnsec).getTime() - t0;
+    </script>
+    
+</head>
+<body style="background-color: transparent">
+    <div class="ht_top">
+        <div class="ht_top_l"><span style="background: url(./statics/images/icon_01.jpg) no-repeat; color: #333;" class="ht_top_icon">北京时间：<span id="clock"></span>&nbsp;&nbsp;</span> <span style="background: url(./statics/images/canada_flag_icon_small.gif) no-repeat; color: #333;" class="ht_top_icon">&nbsp;&nbsp;加拿大东部时间：<span id="xnclock"></span>&nbsp;&nbsp;</span> </div>
+        <div class="ht_top_r1">
+            <span style="background: url(#) no-repeat; color: #333;" class="ht_top_icon1">&nbsp;&nbsp;&nbsp;<a href="http://localhost:8010/User/LogIn" target="_top" class="red">登录</a></span>|<a href="http://localhost:8010/User/Registration" target="_blank">注册</a>|<a href="#" class="blue">sitemap</a>|<a href="#" class="blue">博客</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="background: url(./statics/images/icon_02.gif) no-repeat; color: #333;" class="ht_top_icon1">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" class="blue"> 微博</a></span>
+        </div>
+    </div>
+    <script language="Javascript">
+        function Draw() {
+            NewTick();
+            xnNewTick();
+            s = nyear + '年' + nmonth + '月' + nday + '日 ' + '星期' + cweekday(nwday) + ' ';
+            //s=nday+'日 '+'星期'+cweekday(nwday)+' ';
+            document.getElementById("clock").innerHTML = nyear + '年' + nmonth + '月' + nday + '日 ' + shapetime(nhrs, nmin, nsec) + ' 星期' + cweekday(nwday) + ' ';
+            document.getElementById("xnclock").innerHTML = xnnyear + '年' + xnnmonth + '月' + xnnday + '日 ' + shapetime(xnnhrs, xnnmin, xnnsec) + ' 星期' + cweekday(xnnwday) + ' ';
+
+            setTimeout("Draw()", 500);
+        }
+        Draw();
+    </script>
+</body>
+</html>

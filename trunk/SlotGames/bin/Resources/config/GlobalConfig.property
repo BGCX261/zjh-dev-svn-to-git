@@ -1,0 +1,26 @@
+GlobalConfig
+{
+	SceneGameObjectTree = SceneRootGameObject
+	{
+		// Behaviour scrips section
+		Behaviour
+		{
+			Script = SceneRootGameObjectBehaviour1
+			Script = SceneRootGameObjectBehaviour2
+		}
+		// Children game objects
+		SceneGeneral
+		{
+			Behaviour
+			{
+				Script = SceneGeneralBehaviour1
+				Script = SceneGeneralBehaviour2
+			}
+		}
+	}
+	PathFinding
+	{
+		PathFindingResultPathMaxLength = 512
+		PathFindingOpenTableMaxLegth = 1024
+	}
+}

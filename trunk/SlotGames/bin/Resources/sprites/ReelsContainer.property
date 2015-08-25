@@ -1,0 +1,48 @@
+Property
+{
+	Name = ReelsContainer
+	Position = 0 0
+	
+	Behaviour
+	{
+		Script = BSGameObjectGeneralV2
+		Script = BSSlotsContainer
+		{
+			ReelColumnCount = 5
+		}
+	}
+	Children
+	{
+		GameObject = ReelColumn0
+		{
+			Position = 77 237
+			RelativePosition = 77 237
+			PropertyName = sprites/ReelsColumn.property
+			Visible = True
+		}		
+		GameObject = ReelColumn1
+		{
+			Position = 159 237
+			PropertyName = sprites/ReelsColumn.property
+			Visible = True
+		}
+		GameObject = ReelColumn2
+		{
+			Position = 241 237
+			PropertyName = sprites/ReelsColumn.property
+			Visible = True
+		}
+		GameObject = ReelColumn3
+		{
+			Position = 323 237
+			PropertyName = sprites/ReelsColumn.property
+			Visible = True
+		}
+		GameObject = ReelColumn4
+		{
+			Position = 405 237
+			PropertyName = sprites/ReelsColumn.property
+			Visible = True
+		}
+	}
+}

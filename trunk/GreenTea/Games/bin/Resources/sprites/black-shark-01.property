@@ -1,0 +1,44 @@
+GameObjectSprite
+{
+	Sprite = sprites/black-shark-01.sprite
+	AnchorPoint = 0.5 0.5
+	Scale = 1.0 1.0
+	ZOrder = 5
+	Behaviour
+	{
+		Script = BSGameObjectGeneral
+		{
+			Collision = 134 79
+		}
+		Script = BSCharacterNPC
+		{
+			Life = 50
+			LifeMax = 50
+			Attack = 10
+			AttackSpeed = 1
+			AttackRange = 3
+			Armor = 1			
+			MovementSpeed = 150
+			Experience = 10
+			ExperienceForNextLevel = 40
+			Money = 700
+			Level = 1
+			SkillPoint = 60
+			SkillPointMax = 60
+			MoveLeftLimit = 36
+			MoveRightLimit = 1100
+			DefaultDirection = 0
+		}
+	}
+	Children
+	{
+		/*
+		GameObjectSprite = dbgCollisionIndicator
+		{
+			PropertyName = sprites/DbgCollisionIndicator.property
+			Visible = True
+			ZOrder = 4
+		}
+		*/
+	}
+}

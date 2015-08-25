@@ -1,0 +1,23 @@
+package MSSQL;
+
+import java.sql.*;
+import com.microsoft.sqlserver.jdbc.*;
+
+public class SqlConnection
+{
+	public void SetServer(const String strServer)
+	{
+		m_strServer = strServer;
+	}
+	public String GetServer()
+	{
+		return m_strServer;
+	}
+	
+	private String m_strServer;
+	private int m_nServerPort;
+	private String m_strDBName;
+	private String m_strUserName;
+	private String m_strPassword;
+	private Connection m_Connection;
+}

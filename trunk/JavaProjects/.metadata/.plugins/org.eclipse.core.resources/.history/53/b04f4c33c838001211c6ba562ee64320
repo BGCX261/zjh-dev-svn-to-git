@@ -1,0 +1,23 @@
+package main;
+
+import java.io.*;
+import MSSQL.*; 
+
+public class MainEntry
+{
+	public static void main(String arg[]) throws InterruptedException
+	{
+		//System.out.print("MainEntry.main");
+		
+		try
+		{
+			SqlConnection sqlConnection = new SqlConnection();
+			sqlConnection.OpenConnection();
+			sqlConnection.CloseConnection();
+		}
+		catch(Exception e)
+		{
+			System.out.println(e.getMessage());
+		}
+	}
+}

@@ -1,0 +1,4 @@
+Sprite
+{
+	Image = sprites/DbgCollisionIndicator.png
+}

@@ -1,0 +1,66 @@
+Property
+{
+	Name = baoxiang-root
+	Position = 0 0
+	ZOrder = 5
+	Children
+	{
+		GameObject = baoxiang-sprite-1
+		{
+			Position = 310 530
+			Visible = True
+			//PropertyName = sprites/baoxiang.property
+			Behaviour
+			{
+				Script = BSGameObjectGeneralV2
+				Script = BSSprite
+				{
+					Sprite = sprites/baoxiang.sprite
+					DefaultAnimation = 0
+					DefaultAnimationPlayMode = Loop
+				}
+			}
+			Children
+			{
+			}
+		}
+		GameObject = baoxiang-sprite-2
+		{
+			Position = 310 430
+			Visible = True
+			//PropertyName = sprites/baoxiang.property
+			Behaviour
+			{
+				Script = BSGameObjectGeneralV2
+				Script = BSSprite
+				{
+					Sprite = sprites/baoxiang.sprite
+					DefaultAnimation = 0
+					DefaultAnimationPlayMode = Loop
+				}
+			}
+			Children
+			{
+			}
+		}
+		GameObject = baoxiang-sprite-3
+		{
+			Position = 310 330
+			Visible = True
+			//PropertyName = sprites/baoxiang.property
+			Behaviour
+			{
+				Script = BSGameObjectGeneralV2
+				Script = BSSprite
+				{
+					Sprite = sprites/baoxiang.sprite
+					DefaultAnimation = 0
+					DefaultAnimationPlayMode = Loop
+				}
+			}
+			Children
+			{
+			}
+		}
+	}
+}

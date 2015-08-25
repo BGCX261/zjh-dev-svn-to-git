@@ -1,0 +1,34 @@
+Property
+{
+	Name = dev-test-root
+	Position = 0 0
+	Size = 50 50
+	
+	Behaviour
+	{
+		//Script = BSGameObjectGeneral
+		/*
+		Script = BSScreenSprite
+		{
+			Sprite = sprites/baoxiang.sprite
+			DefaultAnimation = 0
+			DefaultAnimationPlayMode = Loop
+		}
+		*/
+	}	
+	Children
+	{
+		GameObject = baoxiang1
+		{
+			Position = 50 50
+			PropertyName = sprites/baoxiang.property
+			Visible = True
+		}
+		GameObject = huopen1
+		{
+			Position = 175 134
+			PropertyName = sprites/huopen.property
+			Visible = True
+		}
+	}
+}

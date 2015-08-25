@@ -1,0 +1,19 @@
+Sprite
+{
+	AssetName = Sprites/mainplayer
+	Animation
+	{		
+		FrameSet = MoveLeft
+		{
+			FPS = 10
+			StartFrame = 0
+			FrameCount = 1
+		}
+		FrameSet = MoveRight
+		{
+			FPS = 10
+			StartFrame = 1
+			FrameCount = 1
+		}
+	}
+}

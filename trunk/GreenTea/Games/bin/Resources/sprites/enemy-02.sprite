@@ -1,0 +1,22 @@
+GameObjectSprite
+{
+	Image = sprites/enemy-02.png
+	Plist = sprites/enemy-02.plist
+	Animation
+	{		
+		Clip = MoveRight
+		{
+			DelayTime = 0.20
+			Prefix = enemy-02-right_
+			StartFrame = 1
+			EndFrame = 2
+		}
+		Clip = MoveLeft
+		{
+			DelayTime = 0.20
+			Prefix = enemy-02-left_
+			StartFrame = 1
+			EndFrame = 2
+		}
+	}
+}

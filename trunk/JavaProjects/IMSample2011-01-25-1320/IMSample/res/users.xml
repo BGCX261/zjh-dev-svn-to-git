@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<users>
+  <user>
+    <name>张飞</name>
+    <pswd>123456</pswd>
+  </user>
+  <user>
+    <name>马超</name>
+    <pswd>123</pswd>
+  </user>
+  <user>
+    <name>何杨</name>
+    <pswd>123</pswd>
+  </user>
+  <user>
+    <name>关羽</name>
+    <pswd>123456</pswd>
+  </user>
+  <user>
+    <name>heyang</name>
+    <pswd>123456</pswd>
+  </user>
+  <user>
+    <name>hy</name>
+    <pswd>123456</pswd>
+  </user>
+  <user>
+    <name>赵云</name>
+    <pswd>1</pswd>
+  </user>
+  <user>
+    <name>刘备</name>
+    <pswd>123456</pswd>
+  </user>
+</users>

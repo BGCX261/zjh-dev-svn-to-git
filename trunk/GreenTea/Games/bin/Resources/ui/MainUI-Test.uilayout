@@ -1,0 +1,24 @@
+UILayout
+{
+	UIFrame = MainUIFrame
+	{
+		Skin = ui/MainUI.uiskin
+		Font = fonts/AW_Bold16.fnt
+		Position = 240 290
+		Size = 480 60
+		Visible = 1
+		EventType = Children
+		Children
+		{
+			UILabelSmoothChange = Label_LevelValue
+			{
+				Position = 78 2
+				Size = 50 50
+				EventType = None
+				Text = 99
+				Visible = True
+				AnchorPoint = 0 0
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+#menumain {
+	MARGIN: 0px; WHITE-SPACE: nowrap; HEIGHT: 16px; OVERFLOW: hidden
+}
+#menumain .mainmenuiner {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 26px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FLOAT: left; HEIGHT: 16px; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+#menumain A.menumain:link {
+	TEXT-ALIGN: center; MARGIN: 0px 0px 0px -1px; WIDTH: 95px; DISPLAY: block; FONT: 14px/16px 'Microsoft YaHei','SimSun',Arial,Sans-Serif; BACKGROUND: url(/images/menu.jpg) no-repeat 0px 0px; FLOAT: left; HEIGHT: 16px; COLOR: #FFFFFF; TEXT-DECORATION: none
+}
+#menumain A.menumain:active {
+	TEXT-ALIGN: center; MARGIN: 0px 0px 0px -1px; WIDTH: 95px; DISPLAY: block; FONT: 14px/16px 'Microsoft YaHei','SimSun',Arial,Sans-Serif; BACKGROUND: url(/images/menu.jpg) no-repeat 0px 0px; FLOAT: left; HEIGHT: 16px; COLOR: #FFFFFF; TEXT-DECORATION: none
+}
+#menumain A.menumain:visited {
+	TEXT-ALIGN: center; MARGIN: 0px 0px 0px -1px; WIDTH: 95px; DISPLAY: block; FONT: 14px/16px 'Microsoft YaHei','SimSun',Arial,Sans-Serif; BACKGROUND: url(/images/menu.jpg) no-repeat 0px 0px; FLOAT: left; HEIGHT: 16px; COLOR: #FFFFFF; TEXT-DECORATION: none
+}
+#menumain A.menumain:hover {
+	TEXT-ALIGN: center; MARGIN: 0px 0px 0px -1px; WIDTH: 95px; DISPLAY: block; FONT: 14px/16px 'Microsoft YaHei','SimSun',Arial,Sans-Serif; FLOAT: left; HEIGHT: 16px; COLOR: #e10000; TEXT-DECORATION: none
+}

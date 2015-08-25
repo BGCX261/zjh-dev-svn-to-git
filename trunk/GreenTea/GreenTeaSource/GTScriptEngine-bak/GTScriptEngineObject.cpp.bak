@@ -1,0 +1,10 @@
+#include "GTScriptEngineObject.h"
+
+GTScriptEngineObject::GTScriptEngineObject()
+{
+}
+
+
+GTScriptEngineObject::~GTScriptEngineObject()
+{
+}

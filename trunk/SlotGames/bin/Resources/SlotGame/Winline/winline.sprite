@@ -1,0 +1,15 @@
+Sprite
+{
+	Image = SlotGame/Winline/Winline.png
+	Plist = SlotGame/Winline/Winline.plist
+	Animation
+	{		
+		Clip = static
+		{
+			DelayTime = 0.20
+			Prefix = line_
+			StartFrame = 1
+			EndFrame = 25
+		}
+	}
+}

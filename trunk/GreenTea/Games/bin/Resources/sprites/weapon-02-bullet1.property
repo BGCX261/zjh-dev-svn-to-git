@@ -1,0 +1,42 @@
+GameObjectSprite
+{
+	Sprite = sprites/weapon-02-bullet1.sprite
+	//DefaultAnimation = 0
+	//DefaultAnimationPlayMode = Loop	
+	Behaviour
+	{
+		Script = BSGameObjectGeneral
+		{
+			Collision = 25 25
+		}
+		Script = BSWeaponTimerBomb
+	}
+	Children
+	{
+		GameObjectSprite = explosion
+		{
+			Sprite = sprites/explosion-01.sprite
+			//DefaultAnimation = 0
+			//DefaultAnimationPlayMode = Loop
+			Visible = False
+			//ZOrder = 12
+			Position = 0 0
+			Behaviour
+			{
+				/*
+				Script = BSGameObjectGeneral
+				{
+					PairValue = FollowParent True
+				}
+				*/				
+			}
+		}
+		/*
+		GameObjectSprite = DbgCollisionIndicator
+		{
+			PropertyName = sprites/DbgCollisionIndicator.property
+			Visible = True
+		}
+		*/
+	}
+}

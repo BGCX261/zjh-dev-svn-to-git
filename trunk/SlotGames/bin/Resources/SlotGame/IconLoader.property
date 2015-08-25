@@ -1,0 +1,27 @@
+Property
+{
+	Behaviour
+	{
+		Script = BSGameObjectGeneralV2
+		Script = BSIconLoader
+		{		
+			ReelIcon0 = SlotGame/Icons/icon01_anim.sprite
+			ReelIcon1 = SlotGame/Icons/icon02_anim.sprite
+			ReelIcon2 = SlotGame/Icons/icon03_anim.sprite
+			ReelIcon3 = SlotGame/Icons/icon04_anim.sprite
+			ReelIcon4 = SlotGame/Icons/icon05_anim.sprite
+			ReelIcon5 = SlotGame/Icons/icon06_anim.sprite
+			ReelIcon6 = SlotGame/Icons/icon07_anim.sprite
+			ReelIcon7 = SlotGame/Icons/icon08_anim.sprite
+			ReelIcon8 = SlotGame/Icons/icon09_anim.sprite
+			ReelIcon9 = SlotGame/Icons/icon10_anim.sprite
+			ReelIcon10 = SlotGame/Icons/icon11_anim.sprite		
+
+			Wild_Symbol_ID = 9
+			Bonus_Symbol_ID = 10
+		}		
+	}
+	Children
+	{
+	}
+}

@@ -1,0 +1,15 @@
+实时股票数据获取方式
+
+http://www.cnblogs.com/raymond19840709/archive/2008/07/31/1257048.html
+http://walsece.iteye.com/blog/169514
+
+
+新浪的股票查询接口(2) - web-service接口
+
+http://hi.baidu.com/xg696/item/70a77f2d5060623194f62b9d
+
+
+yahoo-finance-managed
+https://code.google.com/p/yahoo-finance-managed/wiki/YahooFinanceAPIs
+https://code.google.com/p/yahoo-finance-managed/wiki/CSVAPI
+https://code.google.com/p/yahoo-finance-managed/wiki/csvQuotesDownload

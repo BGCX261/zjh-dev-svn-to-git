@@ -1,0 +1,18 @@
+<Template>
+  <FileList>
+	<File>BehaviourClassTemplate.cpp</File>
+	<File>BehaviourClassTemplate.h</File>
+  </FileList>
+  <Parameter>
+    <Name>#define</Name>
+    <Replacement>$DefineReplacement$</Replacement>
+  </Parameter>
+  <Parameter>
+    <Name>Class</Name>
+    <Replacement>$ClassReplacement$</Replacement>
+  </Parameter>
+  <Parameter>
+    <Name>SuperClass</Name>
+    <Replacement>$SuperClassReplacement$</Replacement>
+  </Parameter>
+</Template>

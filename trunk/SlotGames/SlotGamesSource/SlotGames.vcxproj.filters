@@ -1,0 +1,950 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{e33a07bd-b197-4b3f-bacb-63c179f2a6f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{a9787722-aa29-4ed2-a65d-15ffc5bd16b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win">
+      <UniqueIdentifier>{020841b6-ecbb-4c84-b478-a8dfbe5b5ec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GreenTeaSource">
+      <UniqueIdentifier>{967aa9cf-0899-4775-bc2e-f29f0788b843}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GreenTeaSource\GTCommon">
+      <UniqueIdentifier>{3cc6e108-76be-40cf-a889-1efd34ba2418}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GreenTeaSource\GTLog">
+      <UniqueIdentifier>{b0fd3f98-6448-4e7b-8cf3-99f62ab5941d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameworkSource">
+      <UniqueIdentifier>{ba6120ff-3cb9-4386-9aef-ddb5110d6391}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameworkSource\BehaviourScript">
+      <UniqueIdentifier>{c8935aad-9b2d-431a-bed3-58a2df536295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameworkSource\cocos2dx-wrap">
+      <UniqueIdentifier>{37da56c2-5656-4d62-8dbb-aeebcf7b54e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameworkSource\Common">
+      <UniqueIdentifier>{7a4b312a-4e2a-4ecf-8f41-2682c183747e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameworkSource\Map">
+      <UniqueIdentifier>{db58a962-476b-4812-adfc-d4c58058f76d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameworkSource\Sprite">
+      <UniqueIdentifier>{e3246836-b332-4101-9b2f-e00da295d82f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameworkSource\UI">
+      <UniqueIdentifier>{04442432-5274-4057-a1a4-7eddba4d0299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameworkSource\UIBehaviourScript">
+      <UniqueIdentifier>{517a215b-c22d-4e85-9bdd-decfb213c7e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SlotGame">
+      <UniqueIdentifier>{73a1cf97-6b3f-40a1-a8d2-d31636f4d50c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SlotGame\SlotGameBehavior">
+      <UniqueIdentifier>{f96be1fb-5a20-41e9-a9db-85f2beee5e22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SlotGame\UI">
+      <UniqueIdentifier>{9b5310fb-b87e-4e6e-bbfe-f98e8604b46c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{ecbc5c70-7e51-4886-98bf-186b309e6cb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\SlotGame">
+      <UniqueIdentifier>{82447233-f351-4d5c-bc32-e8e8b5b15adf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="test\TestManager.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="main\AppDelegate.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="main\GameFrame.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenTeaSource\GTLog\GTLogConsole.cpp">
+      <Filter>GreenTeaSource\GTLog</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenTeaSource\GTLog\GTLogManager.cpp">
+      <Filter>GreenTeaSource\GTLog</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenTeaSource\GTLog\GTLogTextFile.cpp">
+      <Filter>GreenTeaSource\GTLog</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenTeaSource\GTBehaviour.cpp">
+      <Filter>GreenTeaSource</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenTeaSource\GTBehaviourClassManager.cpp">
+      <Filter>GreenTeaSource</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenTeaSource\GTGameObject.cpp">
+      <Filter>GreenTeaSource</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenTeaSource\GTGameObjectCollider.cpp">
+      <Filter>GreenTeaSource</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenTeaSource\GTHashTable.cpp">
+      <Filter>GreenTeaSource</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenTeaSource\GTNew.cpp">
+      <Filter>GreenTeaSource</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenTeaSource\GTObject.cpp">
+      <Filter>GreenTeaSource</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenTeaSource\GTPathFinding.cpp">
+      <Filter>GreenTeaSource</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenTeaSource\GTPoint2.cpp">
+      <Filter>GreenTeaSource</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenTeaSource\GTRect.cpp">
+      <Filter>GreenTeaSource</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenTeaSource\GTScript.cpp">
+      <Filter>GreenTeaSource</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenTeaSource\GTSize.cpp">
+      <Filter>GreenTeaSource</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenTeaSource\GTStaticCallback.cpp">
+      <Filter>GreenTeaSource</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenTeaSource\GTString.cpp">
+      <Filter>GreenTeaSource</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenTeaSource\GTStringUtil.cpp">
+      <Filter>GreenTeaSource</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenTeaSource\GTTreeNode.cpp">
+      <Filter>GreenTeaSource</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenTeaSource\GTVector2.cpp">
+      <Filter>GreenTeaSource</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenTeaSource\GTVector3.cpp">
+      <Filter>GreenTeaSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\win\WinMain.cpp">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\cocos2dx-wrap\Cocos2dxGeneral.cpp">
+      <Filter>FrameworkSource\cocos2dx-wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\cocos2dx-wrap\FileUtilCocos2dx.cpp">
+      <Filter>FrameworkSource\cocos2dx-wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\cocos2dx-wrap\GameMainScene.cpp">
+      <Filter>FrameworkSource\cocos2dx-wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\cocos2dx-wrap\GameObjectCreation.cpp">
+      <Filter>FrameworkSource\cocos2dx-wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\cocos2dx-wrap\GSpriteAnimationClipCocos2dx.cpp">
+      <Filter>FrameworkSource\cocos2dx-wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\cocos2dx-wrap\GSpriteAnimationCocos2dx.cpp">
+      <Filter>FrameworkSource\cocos2dx-wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\cocos2dx-wrap\GSpriteCocos2dx.cpp">
+      <Filter>FrameworkSource\cocos2dx-wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\cocos2dx-wrap\LogObjectCocos2dx.cpp">
+      <Filter>FrameworkSource\cocos2dx-wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\cocos2dx-wrap\ResourceManager.cpp">
+      <Filter>FrameworkSource\cocos2dx-wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\cocos2dx-wrap\SpriteAtlasCocos2dx.cpp">
+      <Filter>FrameworkSource\cocos2dx-wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\cocos2dx-wrap\TextureAtlasCocos2dx.cpp">
+      <Filter>FrameworkSource\cocos2dx-wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\cocos2dx-wrap\TiledMapCocos2dx.cpp">
+      <Filter>FrameworkSource\cocos2dx-wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\cocos2dx-wrap\TiledMapLayerCocos2dx.cpp">
+      <Filter>FrameworkSource\cocos2dx-wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\cocos2dx-wrap\TiledMapObjectGroupCocos2dx.cpp">
+      <Filter>FrameworkSource\cocos2dx-wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\cocos2dx-wrap\UILabelBMFontCocos2dx.cpp">
+      <Filter>FrameworkSource\cocos2dx-wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\Common\AudioManager.cpp">
+      <Filter>FrameworkSource\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\Common\EventNameManager.cpp">
+      <Filter>FrameworkSource\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\Common\FXManager.cpp">
+      <Filter>FrameworkSource\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\Common\GameGeneral.cpp">
+      <Filter>FrameworkSource\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\Common\GOSCommon.cpp">
+      <Filter>FrameworkSource\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\Common\GOSys.cpp">
+      <Filter>FrameworkSource\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\Common\LocalizationManager.cpp">
+      <Filter>FrameworkSource\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\Common\MapManager.cpp">
+      <Filter>FrameworkSource\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\Common\SceneLayer.cpp">
+      <Filter>FrameworkSource\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\Common\SceneManager.cpp">
+      <Filter>FrameworkSource\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\Common\ScenePathFinding.cpp">
+      <Filter>FrameworkSource\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\Common\ScreenManager.cpp">
+      <Filter>FrameworkSource\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\Common\SpriteAtlas.cpp">
+      <Filter>FrameworkSource\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\Common\SystemManager.cpp">
+      <Filter>FrameworkSource\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\Common\TagManager.cpp">
+      <Filter>FrameworkSource\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\Common\TextureAtlas.cpp">
+      <Filter>FrameworkSource\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\Common\TimeManager.cpp">
+      <Filter>FrameworkSource\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\Map\TiledMap.cpp">
+      <Filter>FrameworkSource\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\Map\TiledMapLayer.cpp">
+      <Filter>FrameworkSource\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\Map\TiledMapObjectGroup.cpp">
+      <Filter>FrameworkSource\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\Sprite\GSprite.cpp">
+      <Filter>FrameworkSource\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\Sprite\GSpriteAnimation.cpp">
+      <Filter>FrameworkSource\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\Sprite\GSpriteAnimationClip.cpp">
+      <Filter>FrameworkSource\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\UI\FontManager.cpp">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\UI\UIButton.cpp">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\UI\UICheckBox.cpp">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\UI\UIFont.cpp">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\UI\UIFrame.cpp">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\UI\UILabel.cpp">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\UI\UILabelBMFont.cpp">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\UI\UILabelSmoothChange.cpp">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\UI\UIManager.cpp">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\UI\UIPicture.cpp">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\UI\UIProgressBar.cpp">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\UI\UIProgressBarBiCombined.cpp">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\UI\UIProgressBarSmoothChange.cpp">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\UI\UIScrollBar.cpp">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\UI\UISkin.cpp">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\UI\UISkinPiece.cpp">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\UI\UISpriteSet.cpp">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\UI\UIWidget.cpp">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\UI\UIWidgetClassManager.cpp">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\UI\UIWidgetScript.cpp">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\UI\UIWidgetScriptManager.cpp">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\UIBehaviourScript\UIBSClassName.cpp">
+      <Filter>FrameworkSource\UIBehaviourScript</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\UIBehaviourScript\UIBSGameSetting.cpp">
+      <Filter>FrameworkSource\UIBehaviourScript</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\UIBehaviourScript\UIBSLabelSmoothValueChange.cpp">
+      <Filter>FrameworkSource\UIBehaviourScript</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\UIBehaviourScript\UIBSProgressBarSmoothChange.cpp">
+      <Filter>FrameworkSource\UIBehaviourScript</Filter>
+    </ClCompile>
+    <ClCompile Include="SlotGame\SlotItem.cpp">
+      <Filter>SlotGame</Filter>
+    </ClCompile>
+    <ClCompile Include="SlotGame\UI\UIButtonReveal.cpp">
+      <Filter>SlotGame\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SlotGame\UI\UIInfoPanelManager.cpp">
+      <Filter>SlotGame\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SlotGame\SlotGameBehavior\BSIconLoader.cpp">
+      <Filter>SlotGame\SlotGameBehavior</Filter>
+    </ClCompile>
+    <ClCompile Include="SlotGame\SlotGameBehavior\BSReelColumn.cpp">
+      <Filter>SlotGame\SlotGameBehavior</Filter>
+    </ClCompile>
+    <ClCompile Include="SlotGame\SlotGameBehavior\BSSlotsContainer.cpp">
+      <Filter>SlotGame\SlotGameBehavior</Filter>
+    </ClCompile>
+    <ClCompile Include="SlotGame\SlotGameBehavior\BSTweenerTest.cpp">
+      <Filter>SlotGame\SlotGameBehavior</Filter>
+    </ClCompile>
+    <ClCompile Include="SlotGame\SlotGameBehavior\BSWinlineLoader.cpp">
+      <Filter>SlotGame\SlotGameBehavior</Filter>
+    </ClCompile>
+    <ClCompile Include="test\UIButtonTest.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="SlotGame\SlotGameBehavior\BSRespin.cpp">
+      <Filter>SlotGame\SlotGameBehavior</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenTeaSource\GTPropertyFile.cpp">
+      <Filter>GreenTeaSource</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenTeaSource\GTConfigManager.cpp">
+      <Filter>GreenTeaSource</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenTeaSource\GTGameObjectManager.cpp">
+      <Filter>GreenTeaSource</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenTeaSource\GTInputManager.cpp">
+      <Filter>GreenTeaSource</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenTeaSource\GTTweener2D.cpp">
+      <Filter>GreenTeaSource</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenTeaSource\GTTweenInterpolation.cpp">
+      <Filter>GreenTeaSource</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\BehaviourScript\BSClassName.cpp">
+      <Filter>FrameworkSource\BehaviourScript</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\BehaviourScript\BSDebugGameObject.cpp">
+      <Filter>FrameworkSource\BehaviourScript</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\BehaviourScript\BSGameObjectGeneral.cpp">
+      <Filter>FrameworkSource\BehaviourScript</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\BehaviourScript\BSGameObjectGeneralV2.cpp">
+      <Filter>FrameworkSource\BehaviourScript</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\BehaviourScript\BSMapSprite.cpp">
+      <Filter>FrameworkSource\BehaviourScript</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\BehaviourScript\BSScreenSprite.cpp">
+      <Filter>FrameworkSource\BehaviourScript</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\BehaviourScript\BSSprite.cpp">
+      <Filter>FrameworkSource\BehaviourScript</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\BehaviourScript\BSStaticSprite.cpp">
+      <Filter>FrameworkSource\BehaviourScript</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\BehaviourScript\BSTweener2D.cpp">
+      <Filter>FrameworkSource\BehaviourScript</Filter>
+    </ClCompile>
+    <ClCompile Include="SlotGame\TicketGenerator.cpp">
+      <Filter>SlotGame</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenTeaSource\GTUtil.cpp">
+      <Filter>GreenTeaSource</Filter>
+    </ClCompile>
+    <ClCompile Include="SlotGame\TicketParser.cpp">
+      <Filter>SlotGame</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\BehaviourScript\BSSpriteBase.cpp">
+      <Filter>FrameworkSource\BehaviourScript</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenTeaSource\GTDynamicBuffer.cpp">
+      <Filter>GreenTeaSource</Filter>
+    </ClCompile>
+    <ClCompile Include="SlotGame\WinlineAlgorithm.cpp">
+      <Filter>SlotGame</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenTeaSource\GTEventManager.cpp">
+      <Filter>GreenTeaSource</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenTeaSource\GTCommandManager.cpp">
+      <Filter>GreenTeaSource</Filter>
+    </ClCompile>
+    <ClCompile Include="SlotGame\UI\UIButtonInfobar.cpp">
+      <Filter>SlotGame\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\UI\UILabelValueTweener.cpp">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SlotGame\Player.cpp">
+      <Filter>SlotGame</Filter>
+    </ClCompile>
+    <ClCompile Include="SlotGame\SlotGameManager.cpp">
+      <Filter>SlotGame</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\UI\UIAnimation.cpp">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\UI\UIWidgetSprite.cpp">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SlotGame\SlotGameBehavior\BSMainEntry.cpp">
+      <Filter>SlotGame\SlotGameBehavior</Filter>
+    </ClCompile>
+    <ClCompile Include="SlotGame\Freespin.cpp">
+      <Filter>SlotGame</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\UI\UIWidgetEvent.cpp">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SlotGame\Winline.cpp">
+      <Filter>SlotGame</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameworkSource\cocos2dx-wrap\LogObjectCocos2dxFile.cpp">
+      <Filter>FrameworkSource\cocos2dx-wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenTeaSource\GTEvent.cpp">
+      <Filter>GreenTeaSource</Filter>
+    </ClCompile>
+    <ClCompile Include="SlotGame\ReelAnimation.cpp">
+      <Filter>SlotGame</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="test\TestManager.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="main\AppDelegate.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\AppMacros.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\GameFrame.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTCommon\BaseDef.h">
+      <Filter>GreenTeaSource\GTCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTCommon\FileUtil.h">
+      <Filter>GreenTeaSource\GTCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTCommon\LinkList.h">
+      <Filter>GreenTeaSource\GTCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTLog\GTLogConsole.h">
+      <Filter>GreenTeaSource\GTLog</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTLog\GTLogManager.h">
+      <Filter>GreenTeaSource\GTLog</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTLog\GTLogObject.h">
+      <Filter>GreenTeaSource\GTLog</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTLog\GTLogTextFile.h">
+      <Filter>GreenTeaSource\GTLog</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTArray.h">
+      <Filter>GreenTeaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTBaseDef.h">
+      <Filter>GreenTeaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTBasicBehaviour.h">
+      <Filter>GreenTeaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTBehaviour.h">
+      <Filter>GreenTeaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTBehaviourClassManager.h">
+      <Filter>GreenTeaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTClassAutoInstance.h">
+      <Filter>GreenTeaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTClassAutoInstanceManager.h">
+      <Filter>GreenTeaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTDictionary.h">
+      <Filter>GreenTeaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTGameObject.h">
+      <Filter>GreenTeaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTGameObjectCollider.h">
+      <Filter>GreenTeaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTGreenTea.h">
+      <Filter>GreenTeaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTHashTable.h">
+      <Filter>GreenTeaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTList.h">
+      <Filter>GreenTeaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTNew.h">
+      <Filter>GreenTeaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTNewLinkList.h">
+      <Filter>GreenTeaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTObject.h">
+      <Filter>GreenTeaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTPathFinding.h">
+      <Filter>GreenTeaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTPoint2.h">
+      <Filter>GreenTeaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTRect.h">
+      <Filter>GreenTeaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTScript.h">
+      <Filter>GreenTeaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTSingleton.h">
+      <Filter>GreenTeaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTSize.h">
+      <Filter>GreenTeaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTStaticCallback.h">
+      <Filter>GreenTeaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTString.h">
+      <Filter>GreenTeaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTStringUtil.h">
+      <Filter>GreenTeaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTTreeNode.h">
+      <Filter>GreenTeaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTVector2.h">
+      <Filter>GreenTeaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTVector3.h">
+      <Filter>GreenTeaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\win\WinMain.h">
+      <Filter>win</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTAlgorithm.h">
+      <Filter>GreenTeaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\cocos2dx-wrap\Cocos2dxGeneral.h">
+      <Filter>FrameworkSource\cocos2dx-wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\cocos2dx-wrap\GameMainScene.h">
+      <Filter>FrameworkSource\cocos2dx-wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\cocos2dx-wrap\GameObjectCreationCocos2dx.h">
+      <Filter>FrameworkSource\cocos2dx-wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\cocos2dx-wrap\GSpriteAnimationClipCocos2dx.h">
+      <Filter>FrameworkSource\cocos2dx-wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\cocos2dx-wrap\GSpriteAnimationCocos2dx.h">
+      <Filter>FrameworkSource\cocos2dx-wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\cocos2dx-wrap\GSpriteCocos2dx.h">
+      <Filter>FrameworkSource\cocos2dx-wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\cocos2dx-wrap\LogObjectCocos2dx.h">
+      <Filter>FrameworkSource\cocos2dx-wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\cocos2dx-wrap\ResourceManager.h">
+      <Filter>FrameworkSource\cocos2dx-wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\cocos2dx-wrap\SpriteAtlasCocos2dx.h">
+      <Filter>FrameworkSource\cocos2dx-wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\cocos2dx-wrap\TextureAtlasCocos2dx.h">
+      <Filter>FrameworkSource\cocos2dx-wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\cocos2dx-wrap\TiledMapCocos2dx.h">
+      <Filter>FrameworkSource\cocos2dx-wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\cocos2dx-wrap\TiledMapLayerCocos2dx.h">
+      <Filter>FrameworkSource\cocos2dx-wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\cocos2dx-wrap\TiledMapObjectGroupCocos2dx.h">
+      <Filter>FrameworkSource\cocos2dx-wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\cocos2dx-wrap\UILabelBMFontCocos2dx.h">
+      <Filter>FrameworkSource\cocos2dx-wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\Common\AudioManager.h">
+      <Filter>FrameworkSource\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\Common\EventNameManager.h">
+      <Filter>FrameworkSource\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\Common\FXManager.h">
+      <Filter>FrameworkSource\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\Common\GameDef.h">
+      <Filter>FrameworkSource\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\Common\GameGeneral.h">
+      <Filter>FrameworkSource\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\Common\GameObjectCreation.h">
+      <Filter>FrameworkSource\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\Common\GOS.h">
+      <Filter>FrameworkSource\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\Common\GOSys.h">
+      <Filter>FrameworkSource\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\Common\ITexture2D.h">
+      <Filter>FrameworkSource\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\Common\LocalizationManager.h">
+      <Filter>FrameworkSource\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\Common\MapManager.h">
+      <Filter>FrameworkSource\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\Common\SceneLayer.h">
+      <Filter>FrameworkSource\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\Common\SceneManager.h">
+      <Filter>FrameworkSource\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\Common\ScenePathFinding.h">
+      <Filter>FrameworkSource\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\Common\ScreenManager.h">
+      <Filter>FrameworkSource\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\Common\SpriteAtlas.h">
+      <Filter>FrameworkSource\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\Common\SystemManager.h">
+      <Filter>FrameworkSource\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\Common\TagManager.h">
+      <Filter>FrameworkSource\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\Common\TextureAtlas.h">
+      <Filter>FrameworkSource\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\Common\TimeManager.h">
+      <Filter>FrameworkSource\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\Map\TiledMap.h">
+      <Filter>FrameworkSource\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\Map\TiledMapLayer.h">
+      <Filter>FrameworkSource\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\Map\TiledMapObjectGroup.h">
+      <Filter>FrameworkSource\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\Sprite\GSprite.h">
+      <Filter>FrameworkSource\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\Sprite\GSpriteAnimation.h">
+      <Filter>FrameworkSource\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\Sprite\GSpriteAnimationClip.h">
+      <Filter>FrameworkSource\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\UI\FontManager.h">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\UI\UIBaseDef.h">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\UI\UIButton.h">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\UI\UICheckBox.h">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\UI\UIFont.h">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\UI\UIFrame.h">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\UI\UILabel.h">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\UI\UILabelBMFont.h">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\UI\UILabelSmoothChange.h">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\UI\UIManager.h">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\UI\UIPicture.h">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\UI\UIProgressBar.h">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\UI\UIProgressBarBiCombined.h">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\UI\UIProgressBarSmoothChange.h">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\UI\UIScrollBar.h">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\UI\UISkin.h">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\UI\UISkinPiece.h">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\UI\UISpriteSet.h">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\UI\UIWidget.h">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\UI\UIWidgetClassManager.h">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\UI\UIWidgetScript.h">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\UI\UIWidgetScriptManager.h">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\UIBehaviourScript\UIBSClassName.h">
+      <Filter>FrameworkSource\UIBehaviourScript</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\UIBehaviourScript\UIBSGameSetting.h">
+      <Filter>FrameworkSource\UIBehaviourScript</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\UIBehaviourScript\UIBSLabelSmoothValueChange.h">
+      <Filter>FrameworkSource\UIBehaviourScript</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\UIBehaviourScript\UIBSProgressBarSmoothChange.h">
+      <Filter>FrameworkSource\UIBehaviourScript</Filter>
+    </ClInclude>
+    <ClInclude Include="SlotGame\SlotItem.h">
+      <Filter>SlotGame</Filter>
+    </ClInclude>
+    <ClInclude Include="SlotGame\UI\UIButtonReveal.h">
+      <Filter>SlotGame\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SlotGame\UI\UIInfoPanelManager.h">
+      <Filter>SlotGame\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SlotGame\SlotGameBehavior\BSIconLoader.h">
+      <Filter>SlotGame\SlotGameBehavior</Filter>
+    </ClInclude>
+    <ClInclude Include="SlotGame\SlotGameBehavior\BSReelColumn.h">
+      <Filter>SlotGame\SlotGameBehavior</Filter>
+    </ClInclude>
+    <ClInclude Include="SlotGame\SlotGameBehavior\BSSlotsContainer.h">
+      <Filter>SlotGame\SlotGameBehavior</Filter>
+    </ClInclude>
+    <ClInclude Include="SlotGame\SlotGameBehavior\BSTweenerTest.h">
+      <Filter>SlotGame\SlotGameBehavior</Filter>
+    </ClInclude>
+    <ClInclude Include="SlotGame\SlotGameBehavior\BSWinlineLoader.h">
+      <Filter>SlotGame\SlotGameBehavior</Filter>
+    </ClInclude>
+    <ClInclude Include="test\UIButtonTest.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="SlotGame\SlotGameBehavior\BSRespin.h">
+      <Filter>SlotGame\SlotGameBehavior</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTFileUtil.h">
+      <Filter>GreenTeaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTPropertyFile.h">
+      <Filter>GreenTeaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTConfigManager.h">
+      <Filter>GreenTeaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTGameObjectManager.h">
+      <Filter>GreenTeaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTInputManager.h">
+      <Filter>GreenTeaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTTweener2D.h">
+      <Filter>GreenTeaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTTweenInterpolation.h">
+      <Filter>GreenTeaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\BehaviourScript\BSClassName.h">
+      <Filter>FrameworkSource\BehaviourScript</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\BehaviourScript\BSDebugGameObject.h">
+      <Filter>FrameworkSource\BehaviourScript</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\BehaviourScript\BSGameObjectGeneral.h">
+      <Filter>FrameworkSource\BehaviourScript</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\BehaviourScript\BSGameObjectGeneralV2.h">
+      <Filter>FrameworkSource\BehaviourScript</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\BehaviourScript\BSMapSprite.h">
+      <Filter>FrameworkSource\BehaviourScript</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\BehaviourScript\BSScreenSprite.h">
+      <Filter>FrameworkSource\BehaviourScript</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\BehaviourScript\BSSprite.h">
+      <Filter>FrameworkSource\BehaviourScript</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\BehaviourScript\BSStaticSprite.h">
+      <Filter>FrameworkSource\BehaviourScript</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\BehaviourScript\BSTweener2D.h">
+      <Filter>FrameworkSource\BehaviourScript</Filter>
+    </ClInclude>
+    <ClInclude Include="SlotGame\TicketGenerator.h">
+      <Filter>SlotGame</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTUtil.h">
+      <Filter>GreenTeaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="SlotGame\TicketParser.h">
+      <Filter>SlotGame</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\BehaviourScript\BSSpriteBase.h">
+      <Filter>FrameworkSource\BehaviourScript</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTDynamicBuffer.h">
+      <Filter>GreenTeaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="SlotGame\WinlineAlgorithm.h">
+      <Filter>SlotGame</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTEventManager.h">
+      <Filter>GreenTeaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTCommandManager.h">
+      <Filter>GreenTeaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="SlotGame\UI\UIButtonInfobar.h">
+      <Filter>SlotGame\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SlotGame\UI\UIDef.h">
+      <Filter>SlotGame\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\UI\UILabelValueTweener.h">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SlotGame\Player.h">
+      <Filter>SlotGame</Filter>
+    </ClInclude>
+    <ClInclude Include="SlotGame\SlotGameManager.h">
+      <Filter>SlotGame</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\UI\UIAnimation.h">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\UI\UIWidgetSprite.h">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SlotGame\SlotGameBehavior\BSMainEntry.h">
+      <Filter>SlotGame\SlotGameBehavior</Filter>
+    </ClInclude>
+    <ClInclude Include="SlotGame\Freespin.h">
+      <Filter>SlotGame</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\UI\UIWidgetEvent.h">
+      <Filter>FrameworkSource\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SlotGame\Winline.h">
+      <Filter>SlotGame</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameworkSource\cocos2dx-wrap\LogObjectCocos2dxFile.h">
+      <Filter>FrameworkSource\cocos2dx-wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenTeaSource\GTEvent.h">
+      <Filter>GreenTeaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="SlotGame\ReelAnimation.h">
+      <Filter>SlotGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\bin\Resources\SlotGame\IconLoader.property">
+      <Filter>Resource\SlotGame</Filter>
+    </None>
+    <None Include="..\bin\Resources\SlotGame\ReelsColumn.property">
+      <Filter>Resource\SlotGame</Filter>
+    </None>
+    <None Include="..\bin\Resources\SlotGame\ReelsContainer.property">
+      <Filter>Resource\SlotGame</Filter>
+    </None>
+    <None Include="..\bin\Resources\SlotGame\WinlineLoader.property">
+      <Filter>Resource\SlotGame</Filter>
+    </None>
+    <None Include="..\bin\Resources\SlotGame\Respin.property">
+      <Filter>Resource\SlotGame</Filter>
+    </None>
+  </ItemGroup>
+</Project>

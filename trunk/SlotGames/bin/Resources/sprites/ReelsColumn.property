@@ -1,0 +1,47 @@
+Property
+{
+	Behaviour
+	{
+		Script = BSGameObjectGeneralV2
+		Script = BSReelColumn
+		{
+			reelSpeed = 1			
+			rowCount = 5
+			rowDirection = true
+		}
+		
+	}
+	Children
+	{
+		GameObject = ReelIcon0
+		{
+			Position = 0 70
+			PropertyName = sprites/SlotGame/baoxiang.property
+			Visible = False
+		}
+		GameObject = ReelIcon1
+		{
+			Position = 0 0
+			PropertyName = sprites/SlotGame/HuangGaiRun.property
+			Visible = True
+		}		
+		GameObject = ReelIcon2
+		{
+			Position = 0 -70
+			PropertyName = sprites/SlotGame/JiaXuRun.property
+			Visible = True
+		}
+		GameObject = ReelIcon3
+		{
+			Position = 0 -140
+			PropertyName = sprites/SlotGame/Mortar.property
+			Visible = True
+		}
+		GameObject = ReelIcon4
+		{
+			Position = 0 -210
+			PropertyName = sprites/SlotGame/Marine.property
+			Visible = False
+		}
+	}
+}

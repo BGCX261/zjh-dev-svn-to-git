@@ -1,0 +1,13 @@
+Sprite
+{
+	AssetName = Sprites/icon06_anim
+	Animation
+	{		
+		FrameSet = normal
+		{
+			FPS = 10
+			StartFrame = 0
+			FrameCount = 4
+		}
+	}
+}

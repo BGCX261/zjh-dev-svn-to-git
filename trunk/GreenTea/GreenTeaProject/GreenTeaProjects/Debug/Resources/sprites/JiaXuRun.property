@@ -1,0 +1,17 @@
+Property
+{
+	Behaviour
+	{
+		Script = BSGameObjectGeneral
+		Script = BSSprite
+		{
+			Sprite = sprites/JiaXuRun.sprite
+			DefaultAnimation = 2
+		}
+		Script = BSPathFinding
+		Script = BSSpriteMovement
+		{
+			Speed = 1
+		}
+	}
+}

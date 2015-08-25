@@ -1,0 +1,23 @@
+GameObjectSprite
+{
+	Sprite = sprites/weapon-02-zz1.sprite
+	//DefaultAnimation = 0
+	//DefaultAnimationPlayMode = Loop	
+	Behaviour
+	{
+		Script = BSGameObjectGeneral
+		{
+			Collision = 25 25
+		}
+	}
+	Children
+	{
+		/*
+		GameObjectSprite = DbgCollisionIndicator
+		{
+			PropertyName = sprites/DbgCollisionIndicator.property
+			Visible = True
+		}
+		*/
+	}
+}

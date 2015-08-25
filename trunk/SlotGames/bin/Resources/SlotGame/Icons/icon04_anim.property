@@ -1,0 +1,13 @@
+Property
+{
+	Behaviour
+	{
+		Script = BSGameObjectGeneralV2
+		Script = BSSprite
+		{
+			Sprite = SlotGame/Icons/icon04_anim.sprite
+			DefaultAnimation = 0
+			DefaultAnimationPlayMode = Loop
+		}		
+	}
+}

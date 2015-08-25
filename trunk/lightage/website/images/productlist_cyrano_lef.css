@@ -1,0 +1,27 @@
+DIV .productlist_cyrano_lef {
+	BORDER-BOTTOM: #ebebeb 0px solid; BORDER-LEFT: #ebebeb 0px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: 14px; PADDING-RIGHT: 0px; BORDER-TOP: #ebebeb 0px solid; BORDER-RIGHT: #ebebeb 0px solid; PADDING-TOP: 0px
+}
+DIV#demo {
+	WIDTH: 460px; COLOR: #ff0000; OVERFLOW: hidden
+}
+DIV.productlist_cyrano_lef DIV.fang {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; MARGIN: 0px 13px 0px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DIV.productlist_cyrano_lef DIV.picFit {
+	OVERFLOW: hidden
+}
+DIV.productlist_cyrano_lef DIV.title {
+	TEXT-ALIGN: center; WHITE-SPACE: nowrap; OVERFLOW: hidden
+}
+DIV.productlist_cyrano_lef A:link {
+	FONT: 12px/25px arial,simsun; COLOR: #999999; TEXT-DECORATION: none
+}
+DIV.productlist_cyrano_lef A:visited {
+	FONT: 12px/25px arial,simsun; COLOR: #999999; TEXT-DECORATION: none
+}
+DIV.productlist_cyrano_lef A:active {
+	FONT: 12px/25px arial,simsun; COLOR: #999999; TEXT-DECORATION: none
+}
+DIV.productlist_cyrano_lef A:hover {
+	FONT: 12px/25px arial,simsun; COLOR: #ff0000; TEXT-DECORATION: underline
+}

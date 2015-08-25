@@ -1,0 +1,49 @@
+UILayout
+{
+	UIFrame = "InfobarUI"
+	{
+		Skin = ui/infobar/infobar.uiskin
+		Font = fonts/ComicScansMS_20_Normal_Black.fnt
+		Position = 568 40 // Center
+		Size = 1130 60
+		Visible = 1
+		EventType = Children
+		Children
+		{
+			UIButtonReveal = buttonSpin
+			{
+				Position = 482 0 // Center
+				Size = 73 72
+				PieceEnabled = RevealEnable
+				PiecePressed = RevealHilight
+				PieceDisabled = RevealDisable
+				Id = 100
+				EventType = All
+				Visible = True
+				Behaviour
+				{
+				}
+				Children
+				{
+				}
+			}
+			UIButtonReveal = buttonEntryLevel
+			{
+				Position = 382 0 // Center
+				Size = 73 58
+				PieceEnabled = EntryLevelEnable
+				PiecePressed = EntryLevelHilight
+				PieceDisabled = EntryLevelDisable
+				Id = 101
+				EventType = All
+				Visible = True
+				Behaviour
+				{
+				}
+				Children
+				{
+				}
+			}			
+		}
+	}
+}

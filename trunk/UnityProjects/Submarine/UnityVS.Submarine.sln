@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.0
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.Submarine.CSharp", "UnityVS.Submarine.CSharp.csproj", "{FFD11D96-8DE3-B498-36BD-D26105D56CB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.Submarine.CSharp.Editor", "UnityVS.Submarine.CSharp.Editor.csproj", "{AC89F2AD-214E-9D05-7DE3-E9850349B986}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFD11D96-8DE3-B498-36BD-D26105D56CB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFD11D96-8DE3-B498-36BD-D26105D56CB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFD11D96-8DE3-B498-36BD-D26105D56CB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFD11D96-8DE3-B498-36BD-D26105D56CB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC89F2AD-214E-9D05-7DE3-E9850349B986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC89F2AD-214E-9D05-7DE3-E9850349B986}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC89F2AD-214E-9D05-7DE3-E9850349B986}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC89F2AD-214E-9D05-7DE3-E9850349B986}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

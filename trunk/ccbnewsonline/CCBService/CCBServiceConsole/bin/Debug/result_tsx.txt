@@ -1,0 +1,20 @@
+<tbody>
+</tbody>
+
+<tr>
+<td class="first"><b><a href="/q?s=CXA-B.TO">CXA-B.TO</a></b></td>
+<td class="second name">CONS HCI CL B</td>
+<td class="last_trade"><b><span id="yfs_l10_cxa-b.to">2.38</span></b> <nobr><span id="yfs_t10_cxa-b.to">3:57PM EST</span></nobr></td>
+<td><span id="yfs_c10_cxa-b.to"><img width="10" height="14" style="margin-right:-2px;" border="0" src="http://l.yimg.com/os/mit/media/m/base/images/transparent-1093278.png" class="pos_arrow" alt="Up"> <b style="color:#008800;">0.43</b></span><span id="yfs_p20_cxa-b.to"><b style="color:#008800;"> (22.05%)</b></span></td>
+<td><span id="yfs_v00_cxa-b.to">200</span></td>
+<td class="last"><a href="/q/bc?s=CXA-B.TO">Chart</a>, <a href="/q/pr?s=CXA-B.TO">Profile</a>, <a href="/q?s=CXA-B.TO">More</a></td>
+</tr>
+
+<tr>
+<td class="first"><b><a href="/q?s=DWI.TO">DWI.TO</a></b></td>
+<td class="second name">DRAGONWAVE INC.</td>
+<td class="last_trade"><b><span id="yfs_l10_dwi.to">2.00</span></b> <nobr><span id="yfs_t10_dwi.to">3:59PM EST</span></nobr></td>
+<td><span id="yfs_c10_dwi.to"><img width="10" height="14" style="margin-right:-2px;" border="0" src="http://l.yimg.com/os/mit/media/m/base/images/transparent-1093278.png" class="pos_arrow" alt="Up"> <b style="color:#008800;">0.26</b></span><span id="yfs_p20_dwi.to"><b style="color:#008800;"> (14.94%)</b></span></td>
+<td><span id="yfs_v00_dwi.to">556,431</span></td>
+<td class="last"><a href="/q/bc?s=DWI.TO">Chart</a>, <a href="/q/pr?s=DWI.TO">Profile</a>, <a href="/q?s=DWI.TO">More</a></td>
+</tr>

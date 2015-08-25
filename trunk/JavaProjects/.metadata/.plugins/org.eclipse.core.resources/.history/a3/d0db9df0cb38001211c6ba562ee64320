@@ -1,0 +1,49 @@
+package main;
+
+import java.io.*;
+import java.sql.*;
+import MSSQL.*; 
+
+public class MainEntry
+{
+	public static void main(String arg[]) throws InterruptedException
+	{
+		//System.out.print("MainEntry.main");
+		
+		try
+		{
+			String sqlQuery = "SELECT [ID],[CardNum],[CardPin],[TimeBalance] FROM [RebuyInternetTimeDB].[dbo].[CardTable]";
+			
+			SqlConnection sqlConnection = new SqlConnection();
+			if(0 != sqlConnection.OpenConnection())
+			{
+				ResultSet rs = sqlConnection.ExecuteQuery(sqlQuery);
+				if(null != rs)
+				{
+					ResultSetMetaData rsmd = rs.getMetaData();
+					int nColumnCount = rsmd.getColumnCount();
+					System.out.println("nColumnCount = " + nColumnCount);
+					for(int i=1; i<=nColumnCount; i++)
+					{
+						System.out.println();
+						System.out.print(rsmd.getColumnName(i));
+					}
+					
+					while(rs.next())
+					{
+						System.out.println();
+						for(int i=0; i<nColumnCount; i++)
+						{
+							
+						}
+					}
+				}
+				sqlConnection.CloseConnection();				
+			}			
+		}
+		catch(Exception e)
+		{
+			System.out.println(e.getMessage());
+		}
+	}
+}

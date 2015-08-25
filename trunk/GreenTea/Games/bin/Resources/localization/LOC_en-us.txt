@@ -1,0 +1,10 @@
+﻿Localization = English
+{
+	LOC_HP = HP
+	LOC_SP = SP
+	LOC_Money = Money
+	LOC_Experience = Experience
+	LOC_ExperienceShort = Exp
+	LOC_Level = Level
+	LOC_LevelShort = Lv
+}

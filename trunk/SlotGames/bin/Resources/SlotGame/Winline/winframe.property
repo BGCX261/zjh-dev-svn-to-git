@@ -1,0 +1,13 @@
+Property
+{
+	Behaviour
+	{
+		Script = BSGameObjectGeneralV2
+		Script = BSSprite
+		{
+			Sprite = SlotGame/Winline/winframe.sprite
+			DefaultAnimation = 0
+			DefaultAnimationPlayMode = Loop
+		}		
+	}
+}

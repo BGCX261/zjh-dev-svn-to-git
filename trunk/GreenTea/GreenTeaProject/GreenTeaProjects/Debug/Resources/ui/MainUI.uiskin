@@ -1,0 +1,52 @@
+UISkin = MainUI
+{
+	Texture = ui/MainUI.png
+	Piece
+    {
+        Piece = Button_Green
+        {
+			Position = 2 21
+            Size = 114 44
+		}		
+		Piece = Button_Red
+        {
+			Position = 394 2
+            Size = 114 44
+		}
+		Piece = Money
+        {
+			Position = 118 21
+            Size = 38 32
+		}
+		Piece = Slider_Bg
+        {
+			Position = 2 2
+            Size = 209 17
+		}
+		Piece = Slider_Blue
+        {
+			Position = 213 20
+            Size = 179 7
+		}
+		Piece = Slider_Red
+        {
+			Position = 213 2
+            Size = 179 7
+		}
+		Piece = Slider_Black
+        {
+			Position = 213 11
+            Size = 179 7
+		}
+		Piece = Star
+        {
+			Position = 178 21
+            Size = 18 16
+		}
+		Piece = Star_Blank
+        {
+			Position = 158 21
+            Size = 18 16
+		}
+	}
+}

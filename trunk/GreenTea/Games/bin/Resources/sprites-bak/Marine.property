@@ -1,0 +1,44 @@
+Property
+{	
+	Behaviour
+	{
+		Script = BSGameObjectGeneral
+		{
+			Collision = 32 32
+		}
+		Script = BSMapSprite
+		{
+			Sprite = sprites/Marine.sprite
+			DefaultAnimation = 0
+			DefaultAnimationPlayMode = Once
+		}
+		Script = BSUnitMarine
+		{
+			PairValue = Life 100
+			PairValue = LifeMax 100
+			PairValue = Attack 5
+			PairValue = AttackSpeed 210
+			PairValue = Armor 300
+			PairValue = AttackRange 3
+			PairValue = MovementSpeed 500
+			PairValue = Experience 600
+			PairValue = Money 700
+			PairValue = Level 1
+			PairValue = SkillPoint 900
+			PairValue = SkillPointMax 900
+		}
+	}
+	Children
+	{
+		GameObject = Weapon
+		{
+			PropertyName = sprites/weapon_arrow.property
+			Visible = False
+		}
+		GameObject = DbgCollisionIndicator
+		{
+			PropertyName = sprites/DbgCollisionIndicator.property
+			Visible = True
+		}
+	}
+}

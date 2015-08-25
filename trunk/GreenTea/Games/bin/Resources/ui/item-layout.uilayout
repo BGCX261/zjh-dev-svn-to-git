@@ -1,0 +1,68 @@
+UILayout
+{
+	UIFrame = ItemLayout
+	{
+		Skin = ui/item-layout.uiskin
+		Font = fonts/font-test-20.fnt
+		Position = 1090 320
+		Size = 50 640
+		Visible = 1
+		EventType = Children
+		ZOrder = 90
+		Id = 1200
+		Children
+		{
+			UIButton = btnItem1
+			{
+				Position = 0 0
+				Size = 50 50
+				PieceEnabled = "Item1Enable"
+				PiecePressed = "Item1Hilight"
+				PieceDisabled = "Item1Disabled"
+				EventType = All
+				Visible = True
+				Id = 1201
+				Behaviour
+				{
+				}
+				Children
+				{
+				}
+			}			
+			UIButton = btnItem2
+			{
+				Position = 0 -70
+				Size = 50 50
+				PieceEnabled = "Item2Enable"
+				PiecePressed = "Item2Hilight"
+				PieceDisabled = "Item2Disabled"
+				EventType = All
+				Visible = True
+				Id = 1202
+				Behaviour
+				{
+				}
+				Children
+				{
+				}
+			}
+			UIButton = btnItem3
+			{
+				Position = 0 -140
+				Size = 50 50
+				PieceEnabled = "Item3Enable"
+				PiecePressed = "Item3Hilight"
+				PieceDisabled = "Item3Disabled"
+				EventType = All
+				Visible = True
+				Id = 1203
+				Behaviour
+				{
+				}
+				Children
+				{
+				}
+			}
+		}
+	}
+}

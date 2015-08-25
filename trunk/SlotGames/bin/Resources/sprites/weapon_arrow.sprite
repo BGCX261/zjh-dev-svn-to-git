@@ -1,0 +1,15 @@
+Sprite
+{
+	Image = sprites/weapon.png
+	Plist = sprites/weapon.plist
+	Animation
+	{		
+		Clip = Normal
+		{
+			DelayTime = 0.25
+			Prefix = arrow_
+			StartFrame = 1
+			EndFrame = 1
+		}
+	}	
+}

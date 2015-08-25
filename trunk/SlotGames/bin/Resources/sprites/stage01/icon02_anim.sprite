@@ -1,0 +1,22 @@
+Sprite
+{
+	Image = sprites/stage01/icon02_anim.png
+	Plist = sprites/stage01/icon02_anim.plist
+	Animation
+	{		
+		Clip = static
+		{
+			DelayTime = 0.20
+			Prefix = icon02_anim_
+			StartFrame = 1
+			EndFrame = 1
+		}
+		Clip = win
+		{
+			DelayTime = 0.20
+			Prefix = icon02_anim_
+			StartFrame = 1
+			EndFrame = 7
+		}
+	}
+}

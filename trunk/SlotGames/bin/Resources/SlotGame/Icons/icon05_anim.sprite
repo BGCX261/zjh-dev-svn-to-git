@@ -1,0 +1,22 @@
+Sprite
+{
+	Image = SlotGame/Icons/icon05_anim.png
+	Plist = SlotGame/Icons/icon05_anim.plist
+	Animation
+	{		
+		Clip = static
+		{
+			DelayTime = 0.20
+			Prefix = icon05_anim_
+			StartFrame = 1
+			EndFrame = 1
+		}
+		Clip = win
+		{
+			DelayTime = 0.1
+			Prefix = icon05_anim_
+			StartFrame = 1
+			EndFrame = 14
+		}
+	}
+}

@@ -1,0 +1,15 @@
+Sprite
+{
+	Image = SlotGame/Freespin/freespin_Congrats.png
+	Plist = SlotGame/Freespin/freespin_Congrats.plist
+	Animation
+	{		
+		Clip = static
+		{
+			DelayTime = 0.20
+			Prefix = Zebra_msg_congrats_EXCELLENT_
+			StartFrame = 1
+			EndFrame = 15
+		}
+	}
+}

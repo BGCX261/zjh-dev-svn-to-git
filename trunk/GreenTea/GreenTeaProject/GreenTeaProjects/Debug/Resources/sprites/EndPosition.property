@@ -1,0 +1,27 @@
+Property
+{	
+	Behaviour
+	{
+		Script = BSGameObjectGeneral
+		{
+			Collision = 16 16
+		}
+		Script = BSEndPosition
+		/*
+		Script = BSSprite
+		{
+			Sprite = sprites/Marine.sprite
+			DefaultAnimation = 0
+			DefaultAnimationPlayMode = Once
+		}
+		*/
+	}
+	Children
+	{
+		GameObject = DbgCollisionIndicator
+		{
+			PropertyName = sprites/DbgCollisionIndicator.property
+			Visible = True
+		}
+	}
+}

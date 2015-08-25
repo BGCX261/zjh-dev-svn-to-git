@@ -1,0 +1,40 @@
+﻿<Config>
+	<Stocks>
+		<Stock url="http://ca.finance.yahoo.com/q?s=ABG.V" symbol="ABG.V" source="yahoo" market="cmpsite-cn-tsx" chsname="AMG生物能源集团" />
+		<Stock url="http://ca.finance.yahoo.com/q?s=CAN.V" symbol="CAN.V" source="yahoo" market="cmpsite-cn-tsx" chsname="CanAsia财务有限公司" />
+		<Stock url="http://ca.finance.yahoo.com/q?s=GLG.TO" symbol="GLG.TO" source="yahoo" market="cmpsite-cn-tsx" chsname="GLG生命科技集团" />		
+		<Stock url="http://ca.finance.yahoo.com/q?s=IRI.V" symbol="IRI.V" source="yahoo" market="cmpsite-cn-tsx" chsname="埃玛资源有限公司" />
+		<Stock url="http://ca.finance.yahoo.com/q?s=AE-A.V" symbol="AE-A.V" source="yahoo" market="cmpsite-cn-tsx" chsname="安泰瑞能源有限公司" />
+		<Stock url="http://ca.finance.yahoo.com/q?s=BFC.V" symbol="BFC.V" source="yahoo" market="cmpsite-cn-tsx" chsname="贝加尔林业有限公司" />
+		<Stock url="http://ca.finance.yahoo.com/q?s=BOY.TO" symbol="BOY.TO" source="yahoo" market="cmpsite-cn-tsx" chsname="博元建设集团有限公司" />
+		<Stock url="http://ca.finance.yahoo.com/q?s=CFY.V" symbol="CFY.V" source="yahoo" market="cmpsite-cn-tsx" chsname="长丰能源有限公司" />
+		<Stock url="http://ca.finance.yahoo.com/q?s=PEH.V" symbol="PEH.V" source="yahoo" market="cmpsite-cn-tsx" chsname="超准能源控股有限公司" />
+		<Stock url="http://ca.finance.yahoo.com/q?s=DNX.V" symbol="DNX.V" source="yahoo" market="cmpsite-cn-tsx" chsname="丹尼克斯电力股份有限公司" />
+		<Stock url="http://ca.finance.yahoo.com/q?s=MGW.V" symbol="MGW.V" source="yahoo" market="cmpsite-cn-tsx" chsname="枫桦绿色能源有限公司" />
+		<Stock url="http://ca.finance.yahoo.com/q?s=GMN.V" symbol="GMN.V" source="yahoo" market="cmpsite-cn-tsx" chsname="戈壁矿务有限公司" />
+		<Stock url="http://ca.finance.yahoo.com/q?s=HF.TO" symbol="HF.TO" source="yahoo" market="cmpsite-cn-tsx" chsname="汉枫常绿有限公司" />
+		<Stock url="http://ca.finance.yahoo.com/q?s=HE.TO" symbol="HE.TO" source="yahoo" market="cmpsite-cn-tsx" chsname="汉维能源服务集团公司" />
+		<Stock url="http://ca.finance.yahoo.com/q?s=HUA.V" symbol="HUA.V" source="yahoo" market="cmpsite-cn-tsx" chsname="华兴机械有限公司" />
+		<Stock url="http://ca.finance.yahoo.com/q?s=KYU.V" symbol="KYU.V" source="yahoo" market="cmpsite-cn-tsx" chsname="凯越国际有限公司" />
+		<Stock url="http://ca.finance.yahoo.com/q?s=GRE.V" symbol="GRE.V" source="yahoo" market="cmpsite-cn-tsx" chsname="绿星农业有限公司" />
+		<Stock url="http://ca.finance.yahoo.com/q?s=BMW.V" symbol="BMW.V" source="yahoo" market="cmpsite-cn-tsx" chsname="玛威尔国际集团有限公司" />
+		<Stock url="http://ca.finance.yahoo.com/q?s=MGO.TO" symbol="MGO.TO" source="yahoo" market="cmpsite-cn-tsx" chsname="米高集团" />
+		<Stock url="http://ca.finance.yahoo.com/q?s=MMM.TO" symbol="MMM.TO" source="yahoo" market="cmpsite-cn-tsx" chsname="明科金矿集团有限公司" />
+		<Stock url="http://ca.finance.yahoo.com/q?s=MSV.TO" symbol="MSV.TO" source="yahoo" market="cmpsite-cn-tsx" chsname="明科银矿集团有限公司" />
+		<Stock url="http://ca.finance.yahoo.com/q?s=SQG.V" symbol="SQG.V" source="yahoo" market="cmpsite-cn-tsx" chsname="Spackman股权投资集团有限公司" />
+		<Stock url="http://ca.finance.yahoo.com/q?s=TTL-P.V" symbol="TTL-P.V" source="yahoo" market="cmpsite-cn-tsx" chsname="Triox有限公司" />
+		<Stock url="http://ca.finance.yahoo.com/q?s=SWN.V" symbol="SWN.V" source="yahoo" market="cmpsite-cn-tsx" chsname="塞尔温资源有限公司" />
+		<Stock url="http://ca.finance.yahoo.com/q?s=QRL-P.V" symbol="QRL-P.V" source="yahoo" market="cmpsite-cn-tsx" chsname="四重奏资源有限公司" />
+		<Stock url="http://ca.finance.yahoo.com/q?s=SVM.TO" symbol="SVM.TO" source="yahoo" market="cmpsite-cn-tsx" chsname="希尔威金属矿业有限公司" />
+		<Stock url="http://ca.finance.yahoo.com/q?s=SYL.V" symbol="SYL.V" source="yahoo" market="cmpsite-cn-tsx" chsname="希姆斯电梯控股有限公司" />
+		<Stock url="http://ca.finance.yahoo.com/q?s=MCG.V" symbol="MCG.V" source="yahoo" market="cmpsite-cn-tsx" chsname="亚布力阳光度假村控股有限公司" />
+		<Stock url="http://ca.finance.yahoo.com/q?s=APX.V" symbol="APX.V" source="yahoo" market="cmpsite-cn-tsx" chsname="亚洲包装集团有限公司" />
+		<Stock url="http://ca.finance.yahoo.com/q?s=ABC.TO" symbol="ABC.TO" source="yahoo" market="cmpsite-cn-tsx" chsname="亚洲生物化工集团有限公司" />
+		<Stock url="http://ca.finance.yahoo.com/q?s=NOW.V" symbol="NOW.V" source="yahoo" market="cmpsite-cn-tsx" chsname="亚洲现代资源股份公司" />
+		<Stock url="http://ca.finance.yahoo.com/q?s=SAI.V" symbol="SAI.V" source="yahoo" market="cmpsite-cn-tsx" chsname="阳光农科有限公司" />
+		<Stock url="http://ca.finance.yahoo.com/q?s=YSC-P.V" symbol="YSC-P.V" source="yahoo" market="cmpsite-cn-tsx" chsname="永昇资本有限公司" />
+		<Stock url="http://ca.finance.yahoo.com/q?s=GPW.V" symbol="GPW.V" source="yahoo" market="cmpsite-cn-tsx" chsname="裕程物流集团有限公司" />
+		<Stock url="http://ca.finance.yahoo.com/q?s=CNW.V" symbol="CNW.V" source="yahoo" market="cmpsite-cn-tsx" chsname="中国风能国际有限公司" />
+		<Stock url="http://ca.finance.yahoo.com/q?s=CGG.TO" symbol="CGG.TO" source="yahoo" market="cmpsite-cn-tsx" chsname="中国黄金国际资源有限公司" />
+	</Stocks>
+</Config>

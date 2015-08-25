@@ -1,0 +1,27 @@
+<?php
+@include("../../inc/header.php");
+
+/*
+		SoftName : EmpireBak
+		Author   : wm_chief
+		Copyright: Powered by www.phome.net
+*/
+
+E_D("DROP TABLE IF EXISTS `phomelightgx_enewspubvar`;");
+E_C("CREATE TABLE `phomelightgx_enewspubvar` (
+  `varid` smallint(6) NOT NULL AUTO_INCREMENT,
+  `myvar` varchar(60) NOT NULL DEFAULT '',
+  `varname` varchar(20) NOT NULL DEFAULT '',
+  `varvalue` text NOT NULL,
+  `varsay` varchar(255) NOT NULL DEFAULT '',
+  `myorder` smallint(6) NOT NULL DEFAULT '0',
+  `classid` smallint(6) NOT NULL DEFAULT '0',
+  `tocache` tinyint(1) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`varid`),
+  UNIQUE KEY `varname` (`varname`),
+  KEY `classid` (`classid`),
+  KEY `tocache` (`tocache`)
+) ENGINE=MyISAM DEFAULT CHARSET=gbk");
+
+@include("../../inc/footer.php");
+?>

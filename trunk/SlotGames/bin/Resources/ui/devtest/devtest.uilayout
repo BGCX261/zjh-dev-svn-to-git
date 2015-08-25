@@ -1,0 +1,122 @@
+UILayout
+{
+	UIFrame = DevTestUI
+	{
+		Skin = ui/MainUI.uiskin
+		Font = fonts/ComicScansMS_20_Normal_Black.fnt
+		Position = 568 606
+		Size = 1130 60
+		PieceEnabled = Button_Red
+		Id = 1000
+		Visible = 1
+		EventType = Children
+		ZOrder = 50
+		Children
+		{
+			UIButtonTest = buttonTest1
+			{
+				Position = -488 0 // Center
+				Size = 73 44
+				PieceEnabled = Button_Green
+				PiecePressed = Button_Red
+				PieceDisabled = Button_Red
+				Id = 1001
+				EventType = All
+				Visible = True
+				Behaviour
+				{
+				}
+				Children
+				{
+					UILabel = labelTest1
+					{
+						Position = 0 0
+						Size = 50 50
+						EventType = None
+						Text = Test1
+						Visible = True
+						Id = 1002
+					}
+				}
+			}
+			UIButtonTest = buttonTest2
+			{
+				Position = -408 0 // Center
+				Size = 73 44
+				PieceEnabled = Button_Green
+				PiecePressed = Button_Red
+				PieceDisabled = Button_Red
+				Id = 1003
+				EventType = All
+				Visible = True
+				Behaviour
+				{
+				}
+				Children
+				{
+					UILabel = labelTest2
+					{
+						Position = 0 0
+						Size = 50 50
+						EventType = None
+						Text = Test2
+						Visible = True
+						Id = 1004
+					}
+				}
+			}
+			UIButton = buttonTest3
+			{
+				Position = -328 0 // Center
+				Size = 73 44
+				PieceEnabled = Button_Green
+				PiecePressed = Button_Red
+				PieceDisabled = Button_Red
+				Id = 1005
+				EventType = All
+				Visible = True
+				Behaviour
+				{
+				}
+				Children
+				{
+					UILabel = labelTest3
+					{
+						Position = 0 0
+						Size = 50 50
+						EventType = None
+						Text = Test3
+						Visible = True
+						Id = 1006
+					}
+				}
+			}
+			UIButton = buttonTest4
+			{
+				Position = -248 0 // Center
+				Size = 73 44
+				PieceEnabled = Button_Green
+				PiecePressed = Button_Red
+				PieceDisabled = Button_Red
+				Id = 1007
+				EventType = All
+				Visible = True
+				Behaviour
+				{
+				}
+				Children
+				{
+					UILabel = labelTest4
+					{
+						Position = 0 0
+						Size = 50 50
+						EventType = None
+						Text = Test4
+						Visible = True
+						Id = 1008
+					}
+				}
+			}
+		}
+	}
+}

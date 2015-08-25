@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Stage06_map_editor" tilewidth="32" tileheight="32">
+  <image source="Stage06_map_editor.png" width="960" height="640"/>
+ </tileset>
+ <tileset firstgid="601" name="obstacle_layer_marks" tilewidth="32" tileheight="32">
+  <image source="obstacle_layer_marks.png" width="256" height="256"/>
+ </tileset>
+ <layer name="GroundLayer" width="30" height="20">
+  <properties>
+   <property name="PropertyName" value="maps/Stage06_map_editor.property"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACxXVg7IYBgAAwRfbtm3btm3baGzbtm3btm2zQRsn3c7cfsMFCggICEwQghKM4IQgJKEITRjCEo7wRCAikYhMFKISjejEICaxiE0c4hKP+CQgIYlITBKSkozkpCAlqUhNGtKSjvRkICOZyEwWspKN7OQgJ7nITR7yko/8FKAghShMEYpSjOKUoCSlKE0ZylKO8lSgIpWoTBWqUo3q1KAmtahNHepSj/o0oCGNaEwTmtKM5rSgJa1oTRva0o72dKAjnehMF7rSje78RQ960ove9KEv/ejPAAYyiMEMYSjDGM4IRjKK0YxhLOMYzwQmMonJTGEq05jODGYyi9nMYS7zmM8CFrKIxSxhKctYzgpWsorVrGEt61jPBjayic1sYSvb2M4OdrKL3exhL/vYzwEOcojDHOEoxzjOCU5yitOc4SznOM8FLnKJy1zhKte4zg1ucovb3OEu97jPAx7yiMc84SnPeM4LXvKK17zhLe94z9984COf+Mw//MsXvvKN7/zgJ7/4zR8CAonABCEowQhOCEISitCEISzhCE8EIhKJyEQhKtGITgxiEovYxCEu8YhPAhKSiMQkISnJSE4KUpKK1KQhLelITwYykonMZCEr2chODnKSi9zkIS/5yE8BClKIwhShKMUoTglKUorSlKEs5ShPBSpSicpUoSrVqE4NalKL2tShLvWoTwMa0ojGNKEpzWhOC1rSita0oS3taE8HOtKJznShK93ozl/0oCe96E0f+tKP/gxgIIMYzBCGMozhjGAkoxjNGMYyjvFMYCKTmMwUpjKN6cxgJrOYzRzmMo/5LGAhi1jMEpayjOWsYCWrWM0a1rKO9WxgI5vYzBa2so3t7GAnu9jNHvayj/0c4CCHOMwRjnKM45zgJKc4zRnOco7zXOAil7jMFa5yjevc4Ca3uM0d7nKP+zzgIY94zBOe8oznvOAlr3jNG97yjvf8zQc+8onP/MO/fOEr3/jOD37yi9/84f/xByIwQQhKMIITgpCEIjRhCEs4whOBiEQiMlGISjSiE4OYxCI2cYhLPOKTgIQkIjFJSEoykpOClKQiNWlISzrSk4GMZCIzWchKNrKTg5zkIjd5yEs+8lOAghSiMEUoSjGKU4KSlKI0ZShLOcpTgYpUojJVqEo1qlODmvwHOY6quGAJAAA=
+  </data>
+ </layer>
+ <layer name="ObstacleLayer" width="30" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAVRTNgxPezFJ4bLXZS6kRh7SdU/0u0lNn5IiT96pMHBZi++MBsIALOXFvFLjL3EypGSnkftHfz24ktrxNQL1K4zRgF5AABL3hXBYAkAAA==
+  </data>
+ </layer>
+ <objectgroup name="ObjectLayer" width="30" height="20">
+  <object name="MainPlayer" type="MainPlayer" x="162" y="364" width="22" height="18">
+   <properties>
+    <property name="PropertyName" value="sprites/MainPlayer.property"/>
+   </properties>
+  </object>
+  <object name="JiaXuRun_001" type="JiaXuRun" x="228" y="519" width="22" height="18">
+   <properties>
+    <property name="PropertyName" value="sprites/HuangGaiRun.property"/>
+   </properties>
+  </object>
+  <object name="HuoPen_001" type="HuoPen" x="230" y="456" width="22" height="18">
+   <properties>
+    <property name="PropertyName" value="sprites/HuoPen.property"/>
+   </properties>
+  </object>
+  <object name="StartPosition" type="HelperObject" x="15" y="353" width="22" height="18"/>
+  <object name="EndPosition" type="HelperObject" x="878" y="287" width="22" height="18">
+   <properties>
+    <property name="PropertyName" value="sprites/EndPosition.property"/>
+   </properties>
+  </object>
+  <object name="Marine_01" type="Marine" x="134" y="262" width="22" height="18">
+   <properties>
+    <property name="PropertyName" value="sprites/Marine.property"/>
+   </properties>
+  </object>
+  <object name="Mortar_01" type="Mortar" x="107" y="524" width="22" height="18">
+   <properties>
+    <property name="PropertyName" value="sprites/Mortar.property"/>
+   </properties>
+  </object>
+  <object name="BaoXiang_001" type="BaoXiang" x="275" y="411" width="22" height="18">
+   <properties>
+    <property name="PropertyName" value="sprites/baoxiang.property"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

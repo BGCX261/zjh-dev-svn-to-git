@@ -1,0 +1,54 @@
+UILayout
+{
+	UICanvas = "CanvasLayout1"
+	{
+		Skin = UI/uiskin1.uiskin
+		Font = fonts/ComicScansMS_20_Normal_Black.fnt
+		Position = 240 290 0
+		Size = 480 60
+		Visible = 1
+		EventType = Children
+		Children
+		{
+			UIImage = panel
+			{
+				Position = -203 -103 0
+				Size = 256 256
+				PieceEnabled = panel
+				EventType = All
+				Visible = True
+				AnchorPoint = 0 0
+				Color = 255 255 255
+				Children
+				{
+					UIButton = btnItem
+					{
+						Position = 0 0 0
+						Size = 114 44
+						PieceEnabled = Button_Green
+						PiecePressed = Button_Red
+						PieceDisabled = Button_Red
+						EventType = All
+						Visible = True
+						Font = "BabelSans"
+						FontSize = 20
+						Text = "Leadboard"
+					}
+					UIButton = btnOption
+					{
+						Position = 0 -50 0
+						Size = 114 44
+						PieceEnabled = Button_Green
+						PiecePressed = Button_Red
+						PieceDisabled = Button_Red
+						EventType = All
+						Visible = True
+						Font = "BabelSans"
+						FontSize = 20
+						Text = "OPTION"
+					}
+				}
+			}			
+		}
+	}
+}

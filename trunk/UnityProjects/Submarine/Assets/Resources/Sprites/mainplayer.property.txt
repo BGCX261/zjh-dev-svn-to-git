@@ -1,0 +1,35 @@
+Property
+{
+	Sprite = Sprites/mainplayer.sprite	
+	Scale = 1.0 1.0
+	SortingOrder = 2
+	Layer = 3
+	Script
+	{
+		Script = MainPlayerScript
+		{
+			Life = 50
+			LifeMax = 50
+			Attack = 10
+			AttackSpeed = 1
+			AttackRange = 3
+			Armor = 1			
+			MovementSpeed = 80
+			Experience = 10
+			ExperienceForNextLevel = 40
+			Money = 700
+			Level = 1
+			SkillPoint = 60
+			SkillPointMax = 60
+			MoveLeftLimit = 36
+			MoveRightLimit = 1100
+			DefaultDirection = 0
+			FloatingEnable = True
+			FloatingSpeed = 4
+			FloatingMax = 2
+		}
+	}
+	Children
+	{
+	}
+}

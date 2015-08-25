@@ -1,0 +1,10 @@
+GameObjectSprite = spriteHuopen
+{
+	Sprite = sprites/huopen.sprite
+	DefaultAnimation = 0
+	DefaultAnimationPlayMode = Loop
+	Behaviour
+	{
+		Script = BSGameObjectGeneral
+	}
+}

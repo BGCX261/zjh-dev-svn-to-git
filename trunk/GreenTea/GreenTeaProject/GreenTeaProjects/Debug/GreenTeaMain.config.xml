@@ -1,0 +1,7 @@
+<Config>
+	<Screen Width="480" Height="320"/>
+	<Assembly>
+		<Assembly Tag="engine" Name="GreenTeaEngine.dll"/>
+		<Assembly Tag="client" Name="GreenTeaEngineTest.dll"/>
+	<Assembly>	
+</Config>

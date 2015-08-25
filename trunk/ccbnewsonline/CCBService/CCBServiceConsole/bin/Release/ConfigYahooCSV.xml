@@ -1,0 +1,63 @@
+﻿<Config>
+	<Delete>
+		<stype stype="wi-euro" />
+		<stype stype="wi-asia" />
+		<stype stype="energy" />
+		<stype stype="metals" />
+		<stype stype="grain" />		
+		<stype stype="currency" />
+	</Delete>
+	<CSVS>
+		<!-- euro stock market -->
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=%5EFTSE&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="^FTSE" stype="wi-euro" name="FTSE 100" fieldIndex="0,1,2,3,4,5,6,7,8" extraField="name" />
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=FPXAA.PR&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="FPXAA.PR" stype="wi-euro" name="PX Index" fieldIndex="0,1,2,3,4,5,6,7,8" extraField="name" />
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=MICEXINDEXCF.ME&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="MICEXINDEXCF.ME" stype="wi-euro" name="MICEX Index" fieldIndex="0,1,2,3,4,5,6,7,8" extraField="name" />
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=GD.AT&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="GD.AT" stype="wi-euro" name="Athex Composite Share Price Index" fieldIndex="0,1,2,3,4,5,6,7,8" extraField="name" />
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=%5EATX&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="^ATX" stype="wi-euro" name="ATX" fieldIndex="0,1,2,3,4,5,6,7,8" extraField="name" />
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=%5EBFX&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="^BFX" stype="wi-euro" name="BEL-20" fieldIndex="0,1,2,3,4,5,6,7,8" extraField="name" />
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=%5EFCHI&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="^FCHI" stype="wi-euro" name="CAC 40" fieldIndex="0,1,2,3,4,5,6,7,8" extraField="name" />
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=%5EGDAXI&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="^GDAXI" stype="wi-euro" name="DAX" fieldIndex="0,1,2,3,4,5,6,7,8" extraField="name" />
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=%5EOSEAX&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="^OSEAX" stype="wi-euro" name="OSE All Share" fieldIndex="0,1,2,3,4,5,6,7,8" extraField="name" />
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=%5EOMXSPI&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="^OMXSPI" stype="wi-euro" name="Stockholm General" fieldIndex="0,1,2,3,4,5,6,7,8" extraField="name" />
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=%5ESSMI&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="^SSMI" stype="wi-euro" name="Swiss Market" fieldIndex="0,1,2,3,4,5,6,7,8" extraField="name" />
+		<!-- asia stock market -->
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=%5EKLSE&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="^KLSE" stype="wi-asia" name="KLSE Composite" fieldIndex="0,1,2,3,4,5,6,7,8" extraField="name" />
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=%5ESTI&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="^STI" stype="wi-asia" name="Straits Times" fieldIndex="0,1,2,3,4,5,6,7,8" extraField="name" />
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=%5ETWII&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="^TWII" stype="wi-asia" name="Taiwan Weighted" fieldIndex="0,1,2,3,4,5,6,7,8" extraField="name" />
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=%5EAORD&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="^AORD" stype="wi-asia" name="All Ordinaries" fieldIndex="0,1,2,3,4,5,6,7,8" extraField="name" />
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=000001.SS&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="^SSEC" stype="wi-asia" name="Shanghai Composite" fieldIndex="0,1,2,3,4,5,6,7,8" extraField="name" />
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=%5EHSI&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="^HSI" stype="wi-asia" name="Hang Seng" fieldIndex="0,1,2,3,4,5,6,7,8" extraField="name" />
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=%5EBSESN&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="^BSESN" stype="wi-asia" name="BSE 30" fieldIndex="0,1,2,3,4,5,6,7,8" extraField="name" />
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=%5EJKSE&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="^JKSE" stype="wi-asia" name="Jakarta Composite" fieldIndex="0,1,2,3,4,5,6,7,8" extraField="name" />
+		<!-- energy -->
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=CLK14.NYM&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="CLK14.NYM" stype="energy" name="Crude Oil" fieldIndex="0,1,2,3,4" extraField="name" />
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=HOK14.NYM&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="HOK14.NYM" stype="energy" name="Heating Oil" fieldIndex="0,1,2,3,4" extraField="name" />
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=NGK14.NYM&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="NGK14.NYM" stype="energy" name="Natural Gas" fieldIndex="0,1,2,3,4" extraField="name" />
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=RBJ14.NYM&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="RBJ14.NYM" stype="energy" name="RBOB Gasoline" fieldIndex="0,1,2,3,4" extraField="name" />
+		<!-- metals -->
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=HGH14.CMX&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="HGH14.CMX" stype="metals" name="Copper" fieldIndex="0,1,2,3,4" extraField="name" />
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=ZGJ14.CBT&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="ZGJ14.CBT" stype="metals" name="Gold 100 oz" fieldIndex="0,1,2,3,4" extraField="name" />
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=GCH14.CMX&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="GCH14.CMX" stype="metals" name="Gold" fieldIndex="0,1,2,3,4" extraField="name" />
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=PAM14.NYM&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="PAM14.NYM" stype="metals" name="Palladium" fieldIndex="0,1,2,3,4" extraField="name" />
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=PLJ14.NYM&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="PLJ14.NYM" stype="metals" name="Platinum" fieldIndex="0,1,2,3,4" extraField="name" />
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=ZIH14.CBT&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="ZIH14.CBT" stype="metals" name="Silver 5000 oz" fieldIndex="0,1,2,3,4" extraField="name" />
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=SIH14.CMX&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="SIH14.CMX" stype="metals" name="Silver" fieldIndex="0,1,2,3,4" extraField="name" />
+		<!-- grain -->
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=CK14.CBT&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="CK14.CBT" stype="grain" name="Corn" fieldIndex="0,1,2,3,4" extraField="name" />
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=KWK14.CBT&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="KWK14.CBT" stype="grain" name="future for KW" fieldIndex="0,1,2,3,4" extraField="name" />
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=ON14.CBT&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="ON14.CBT" stype="grain" name="Oats Jul 14" fieldIndex="0,1,2,3,4" extraField="name" />
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=RRN14.CBT&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="RRN14.CBT" stype="grain" name="Rough Rice" fieldIndex="0,1,2,3,4" extraField="name" />
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=SMK14.CBT&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="SMK14.CBT" stype="grain" name="Soybean Meal" fieldIndex="0,1,2,3,4" extraField="name" />
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=BOK14.CBT&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="BOK14.CBT" stype="grain" name="Soybean Oil" fieldIndex="0,1,2,3,4" extraField="name" />
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=SK14.CBT&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="SK14.CBT" stype="grain" name="Soybeans" fieldIndex="0,1,2,3,4" extraField="name" />		
+		<!-- currency -->
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=EURUSD=X&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="EURUSD=X" stype="currency" name="EUR/USD" fieldIndex="0,1,2,3,4" extraField="name" />
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=AUDUSD=X&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="AUDUSD=X" stype="currency" name="AUD/USD" fieldIndex="0,1,2,3,4" extraField="name" />
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=GBPUSD=X&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="GBPUSD=X" stype="currency" name="GBP/USD" fieldIndex="0,1,2,3,4" extraField="name" />
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=USDJPY=X&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="USDJPY=X" stype="currency" name="USD/JPY" fieldIndex="0,1,2,3,4" extraField="name" />
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=EURJPY=X&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="EURJPY=X" stype="currency" name="EUR/JPY" fieldIndex="0,1,2,3,4" extraField="name" />
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=EURGBP=X&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="EURGBP=X" stype="currency" name="EUR/GBP" fieldIndex="0,1,2,3,4" extraField="name" />
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=USDCAD=X&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="USDCAD=X" stype="currency" name="USD/CAD" fieldIndex="0,1,2,3,4" extraField="name" />
+		<CSV url="http://download.finance.yahoo.com/d/quotes.csv?s=USDCHF=X&amp;f=sl1d1t1c1ohgv&amp;e=.csv" symbol="USDCHF=X" stype="currency" name="USD/CHF" fieldIndex="0,1,2,3,4" extraField="name" />
+	</CSVS>
+</Config>

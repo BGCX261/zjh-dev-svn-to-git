@@ -1,0 +1,191 @@
+UILayout
+{
+	UIFrame = InfobarUI
+	{
+		Skin = SlotGame/UI/infobar.uiskin
+		Font = SlotGame/fonts/BitmapFont28.fnt
+		Position = 568 40 // Center
+		Size = 1130 60
+		Visible = 1
+		EventType = Children
+		Id = 90
+		ZOrder = 50
+		Children
+		{
+			UIButtonInfobar = btnShow
+			{
+				Position = 482 0 // Center
+				Size = 91 45
+				PieceEnabled = ShowEnable
+				PiecePressed = ShowHilight
+				PieceDisabled = ShowDisable
+				Id = 100
+				EventType = All
+				Visible = True
+				Behaviour
+				{
+				}
+				Children
+				{
+				}
+			}
+			UIButtonInfobar = btnChangeGame
+			{
+				Position = 382 0 // Center
+				Size = 83 45
+				PieceEnabled = ChangeGameEnable
+				PiecePressed = ChangeGameHilight
+				PieceDisabled = ChangeGameDisable
+				Id = 101
+				EventType = All
+				Visible = True
+				Behaviour
+				{
+				}
+				Children
+				{
+				}
+			}
+			UIButtonInfobar = btnEntryLevel
+			{
+				Position = 282 0 // Center
+				Size = 83 45
+				PieceEnabled = EntryLevelEnable
+				PiecePressed = EntryLevelHilight
+				PieceDisabled = EntryLevelDisable
+				Id = 102
+				EventType = All
+				Visible = True
+				Behaviour
+				{
+				}
+				Children
+				{
+				}
+			}
+			UIButtonInfobar = btnMaxEntry
+			{
+				Position = 182 0 // Center
+				Size = 83 45
+				PieceEnabled = MaxEntryEnable
+				PiecePressed = MaxEntryHilight
+				PieceDisabled = MaxEntryDisable
+				Id = 103
+				EventType = All
+				Visible = True
+				Behaviour
+				{
+				}
+				Children
+				{
+					UIAnimation = aniMaxEntry
+					{
+						Position = 0 0
+						Size = 50 50
+						Id = 1005
+						EventType = None
+						Visible = False
+						AnchorPoint = 0.5 0.5
+						ZOrder = 50
+						Sprite = SlotGame/Winline/winframe.sprite
+						DefaultAnimation = 0
+						DefaultAnimationPlayMode = None
+					}
+				}
+			}
+			UIPicture = picWin
+			{
+				Position = -5 -20
+				Size = 138 39
+				PieceEnabled = InfoWin
+				Id = 104
+				EventType = All
+				Visible = True
+				AnchorPoint = 0 0
+				Children
+				{
+					UILabelValueTweener = labelWin
+					{
+						Position = 70 15
+						Size = 50 50
+						Id = 105
+						EventType = None
+						Text = 0
+						Visible = True
+						AnchorPoint = 0.5 0.5
+						CustomizedValue
+						{
+							PairValue = MinValue 0
+							PairValue = MaxValue 100
+							PairValue = Interval 0.05
+							PairValue = StepValue 1
+							PairValue = Duration 2000
+						}
+					}
+				}
+			}
+			UIPicture = picWinPoints
+			{
+				Position = -145 -20
+				Size = 138 39
+				PieceEnabled = InfoWinPoints
+				Id = 106
+				EventType = All
+				Visible = True
+				AnchorPoint = 0 0
+				Children
+				{
+					UILabelValueTweener = labelWinPoints
+					{
+						Position = 70 15
+						Size = 50 50
+						Id = 107
+						EventType = None
+						Text = 0
+						Visible = True
+						AnchorPoint = 0.5 0.5
+						CustomizedValue
+						{
+							PairValue = MinValue 0
+							PairValue = MaxValue 100
+							PairValue = Interval 0.05
+							PairValue = StepValue 1
+							PairValue = Duration 2000
+						}
+					}
+				}
+			}
+			UIPicture = picEntryLevel
+			{
+				Position = -285 -20
+				Size = 138 39
+				PieceEnabled = InfoEntryLevel
+				Id = 108
+				EventType = All
+				Visible = True
+				AnchorPoint = 0 0
+				Children
+				{
+					UILabelValueTweener = labelEntryLevel
+					{
+						Position = 70 15
+						Size = 50 50
+						Id = 109
+						EventType = None
+						Text = 0
+						Visible = True
+						AnchorPoint = 0.5 0.5
+						CustomizedValue
+						{
+							PairValue = MinValue 0
+							PairValue = MaxValue 100
+							PairValue = Interval 0.05
+							PairValue = StepValue 1
+							PairValue = Duration 2000
+						}
+					}
+				}
+			}			
+		}
+	}
+}

@@ -1,0 +1,15 @@
+GameObjectSprite = sprites/weapon-02-bullet3.sprite
+{
+	Image = sprites/weapon-02.png
+	Plist = sprites/weapon-02.plist
+	Animation
+	{		
+		Clip = Normal
+		{
+			DelayTime = 0.25
+			Prefix = weapon-bullet
+			StartFrame = 3
+			EndFrame = 3
+		}
+	}	
+}

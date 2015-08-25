@@ -1,0 +1,14 @@
+Sprite
+{
+	AssetName = Sprites/test-red
+	Anchor = 0 0
+	Animation
+	{		
+		FrameSet = default
+		{
+			FPS = 1
+			StartFrame = 0
+			FrameCount = 1
+		}
+	}
+}

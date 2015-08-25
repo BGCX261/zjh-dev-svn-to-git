@@ -1,0 +1,91 @@
+UILayout
+{
+	UIFrame = "SampleTest"
+	{
+		Skin = ui/SampleTest.uiskin
+		Font = fonts/ComicScansMS_20_Normal_Black.fnt
+		Position = 240 290
+		Size = 480 60
+		Visible = 1
+		EventType = Children
+		Children
+		{
+			UIButton = Button_1
+			{
+				Position = -210 0
+				Size = 50 50
+				PieceEnabled = "Button HomeZone: Enabled"
+				PiecePressed = "Button HomeZone: Pressed"
+				PieceDisabled = "Button HomeZone: Disabled"
+				EventType = All
+				Visible = True
+				Behaviour
+				{
+				}
+			}
+			UIButton = Button_2
+			{
+				Position = -150 0
+				Size = 50 50
+				PieceEnabled = "Button SpringZone: Enabled"
+				PiecePressed = "Button SpringZone: Pressed"
+				PieceDisabled = "Button SpringZone: Disabled"
+				EventType = All
+				Visible = True
+				Behaviour
+				{
+				}
+			}
+			UIButton = Button_3
+			{
+				Position = -40 0
+				Size = 160 50
+				PieceEnabled = "Button Green: Enabled"
+				PiecePressed = "Button Green: Pressed"
+				PieceDisabled = "Button Green: Disabled"
+				EventType = All
+				Visible = True
+				Behaviour
+				{
+					Script = UIBSGameSetting
+				}
+				Children
+				{
+					UILabel = LabelName_0003
+					{					
+						Position = 0 0
+						Size = 50 50
+						EventType = None
+						Text = Settings
+						Visible = True
+					}
+				}
+			}
+			UIButton = Button_4
+			{
+				Position = 130 0
+				Size = 160 50
+				PieceEnabled = "Button Red: Enabled"
+				PiecePressed = "Button Red: Pressed"
+				PieceDisabled = "Button Red: Disabled"
+				EventType = All
+				Visible = True
+				Behaviour
+				{					
+				}
+				Children
+				{
+					UILabel = LabelName_0004
+					{
+						Font = fonts/bitmapFontChinese.fnt
+						Position = 0 0
+						Size = 50 50
+						EventType = None
+						Text = 中国
+						Visible = True
+					}
+				}
+			}
+		}
+	}
+}

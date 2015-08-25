@@ -1,0 +1,9 @@
+Property
+{
+	100 = sprites/weapon-02-bullet1.property
+	101 = sprites/weapon-02-bullet2.property
+	102 = sprites/weapon-02-bullet3.property
+	103 = sprites/weapon-02-bullet4.property
+	104 = sprites/weapon-02-zz1.property
+	105 = sprites/weapon-02-zz2.property
+}

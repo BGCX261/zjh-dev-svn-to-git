@@ -1,0 +1,12 @@
+GameObjectSprite
+{
+	Sprite = sprites/DbgCollisionIndicator.sprite
+	Behaviour
+	{
+		Script = BSGameObjectGeneral
+		{			
+			PairValue = FollowParent True
+		}
+		Script = BSDebugGameObject
+	}
+}

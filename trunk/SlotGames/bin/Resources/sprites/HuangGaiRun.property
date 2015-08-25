@@ -1,0 +1,21 @@
+Property
+{
+	Behaviour
+	{
+		Script = BSGameObjectGeneral
+		Script = BSSprite
+		{
+			Sprite = sprites/HuangGaiRun.sprite
+			DefaultAnimation = 0
+			DefaultAnimationPlayMode = Loop
+		}
+		Script = BSPathFinding
+		Script = BSSpriteMovement
+		{
+			Speed = 1
+		}
+	}
+	Children
+	{
+	}
+}

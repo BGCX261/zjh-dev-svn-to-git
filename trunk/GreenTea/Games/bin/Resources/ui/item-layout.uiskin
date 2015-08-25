@@ -1,0 +1,69 @@
+UISkin = item-layout
+{
+	Texture = ui/item-layout.png
+	Piece
+    {
+        Piece = "Item1Enable"
+        {
+           Border = 3
+           Position = 2 2
+           Size = 45 45
+        }
+
+        Piece = "Item1Hilight"
+        {
+           Border = 45
+           Position = 49 2
+           Size = 45 45
+        }
+		 
+		Piece = "Item1Disabled"
+        {
+           Border = 45
+           Position = 2 49
+           Size = 45 45
+        }		
+		
+		Piece = "Item2Enable"
+        {
+           Border = 3
+           Position = 49 49
+           Size = 45 45
+        }
+
+        Piece = "Item2Hilight"
+        {
+           Border = 45
+           Position = 2 96
+           Size = 45 45
+        }
+		 
+		Piece = "Item2Disabled"
+        {
+           Border = 45
+           Position = 49 96
+           Size = 45 45
+        }		
+		
+		Piece = "Item3Enable"
+        {
+           Border = 3
+           Position = 2 143
+           Size = 45 45
+        }
+
+        Piece = "Item3Hilight"
+        {
+           Border = 45
+           Position = 47 143
+           Size = 45 45
+        }
+		 
+		Piece = "Item3Disabled"
+        {
+           Border = 45
+           Position = 2 190
+           Size = 45 45
+        }
+	}
+}

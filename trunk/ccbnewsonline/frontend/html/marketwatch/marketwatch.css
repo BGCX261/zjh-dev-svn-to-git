@@ -1,0 +1,68 @@
+﻿@charset "utf-8";
+
+.qmCompanyName {
+	font-size: 17px;
+	padding-right : 15px;
+	font-weight: bold;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.qmCompanyExchange {
+		font-size: 13px;
+		font-weight: normal;
+		padding-top: 5px;
+		font-weight: bold;
+}
+.qmCompanyLogo {
+		padding-bottom: 5px;
+}
+#page-head ul li.last {
+	border-right : 0px;
+	padding-right : 0px;
+}
+
+.mkTableTitleName {
+	font-size: 14px;
+	padding-right : 15px;
+	font-weight: bold;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.mkTableContent {
+	font-size: 12px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+table {
+	font-size: 12px;
+	font-family: verdana,helvetica,arial,sans-serif;
+}
+
+table.summary_reference tr:nth-child(2n+1) {
+	background-color: rgb(246, 244, 240);
+}
+table.summary_reference tr:nth-child(2n) {
+	background-color: rgb(255, 255, 255);
+}
+table.summary_reference tr.fixzebra {
+	background-color: rgb(246, 244, 240);
+}
+table.summary_reference th {
+	padding: 3px; border: 1px solid rgb(85, 85, 85); border-image: none; text-align: left; color: rgb(255, 255, 255); vertical-align: top; background-color: rgb(85, 85, 85);
+}
+table.summary_reference th a:link {
+	color: rgb(255, 255, 255);
+}
+table.summary_reference th a:visited {
+	color: rgb(255, 255, 255);
+}
+table.summary_reference th a:hover {
+	color: rgb(238, 135, 42);
+}
+table.summary_reference th a:active {
+	color: rgb(238, 135, 42);
+}
+table.summary_reference td {
+	padding: 7px 5px; border: 1px solid rgb(212, 212, 212); border-image: none; vertical-align: top;
+}
+table.summary_reference td.example_code {
+	vertical-align: bottom;
+}

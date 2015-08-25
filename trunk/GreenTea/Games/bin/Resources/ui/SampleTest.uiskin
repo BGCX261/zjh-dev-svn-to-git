@@ -1,0 +1,2154 @@
+UISkin = SampleTest
+{
+	Texture = ui/SampleTest.png
+	Piece
+    {
+        Piece = "Panel BGPanelFade"
+         {
+            Border = 3
+            Position = 675 675
+            Size = 10 10
+         }
+
+         Piece = "Panel ChatBubbleNPC"
+         {
+            Border = 45
+            Position = 334 509.0009765625
+            Size = 95 94.9990234375
+         }
+
+         Piece = "Panel NotificationPopup"
+         {
+            Border = 15
+            Position = 701 629
+            Size = 33 59
+         }
+
+         Piece = "Panel PictureFrame"
+         {
+            Border = 34
+            Position = 872 532
+            Size = 82 82
+         }
+
+         Piece = "Button HomeZone: Enabled"
+         {
+            Border = 0
+            Position = 973 240.00048828125
+            Size = 50 49.99951171875
+         }
+
+         Piece = "Button SpringZone: Enabled"
+         {
+            Border = 0
+            Position = 922 240
+            Size = 50 50
+         }
+
+         Piece = "Panel ToolTip"
+         {
+            Border = 10
+            Position = 788 763
+            Size = 22 22
+         }
+
+         Piece = "Button DoneDressing: Enabled"
+         {
+            Border = 0
+            Position = 5 576
+            Size = 135 63
+         }
+
+         Piece = "Panel WhiteInset"
+         {
+            Border = 24
+            Position = 283 448
+            Size = 50 50
+         }
+
+         Piece = "Panel BlueCutout"
+         {
+            Border = 61
+            Position = 152 449
+            Size = 130 130
+         }
+
+         Piece = "Panel BlueCutoutScroll"
+         {
+            Border = 74
+            Position = 0 421
+            Size = 150 150
+         }
+
+         Piece = "Panel MenuTpRow"
+         {
+            Border = 13
+            Position = 714 861
+            Size = 28 28
+         }
+
+         Piece = "Panel MenuBmRow"
+         {
+            Border = 13
+            Position = 714 832
+            Size = 28 28
+         }
+
+         Piece = "Panel MenuRow"
+         {
+            Border = 14
+            Position = 712 801
+            Size = 30 30
+         }
+
+         Piece = "Panel MenuBmRowR"
+         {
+            Border = 13
+            Position = 714 890
+            Size = 28 28
+         }
+
+         Piece = "Panel MenuBSelect"
+         {
+            Border = 13
+            Position = 744 832
+            Size = 28 28
+         }
+
+         Piece = "Panel MenuTSelect"
+         {
+            Border = 13
+            Position = 744 861
+            Size = 28 28
+         }
+
+         Piece = "Panel MenuSelect"
+         {
+            Border = 14
+            Position = 743 801
+            Size = 30 30
+         }
+
+         Piece = "Panel MenuBSelectR"
+         {
+            Border = 13
+            Position = 744 890
+            Size = 28 28
+         }
+
+         Piece = "Panel CounterOrange"
+         {
+            Border = 13
+            Position = 719 381
+            Size = 34 34
+         }
+
+         Piece = "Panel CounterRed"
+         {
+            Border = 13
+            Position = 682 381
+            Size = 34 34
+         }
+
+         Piece = "Panel CounterGreen"
+         {
+            Border = 13
+            Position = 644 381
+            Size = 34 34
+         }
+
+         Piece = "Button News: Enabled"
+         {
+            Border = 0
+            Position = 0 942
+            Size = 40.0004081726074 40
+         }
+
+         Piece = "Button News: Highlighted"
+         {
+            Border = 0
+            Position = 40 942
+            Size = 40.0004043579102 40
+         }
+
+         Piece = "Button News: Pressed"
+         {
+            Border = 0
+            Position = 80 942
+            Size = 40 40
+         }
+
+         Piece = "Button News: Disabled"
+         {
+            Border = 0
+            Position = 120 942
+            Size = 40.0001831054688 40
+         }
+
+         Piece = "Panel Green001"
+         {
+            Border = 17
+            Position = 449 545
+            Size = 35.0009765625 35
+         }
+
+         Piece = "Panel Blue002"
+         {
+            Border = 15
+            Position = 415.00048828125 475
+            Size = 31 31
+         }
+
+         Piece = "Panel Blue001"
+         {
+            Border = 17
+            Position = 449 473
+            Size = 35.0009765625 35
+         }
+
+         Piece = "Panel TitleCapsule"
+         {
+            Border = 40
+            Position = 485 299
+            Size = 82 82
+         }
+
+         Piece = "Button Orange: Enabled"
+         {
+            Scale9 = true
+            Border = 11
+            Position = 0 716
+            Size = 34 34
+         }
+
+         Piece = "Button Orange: Highlighted"
+         {
+            Scale9 = true
+            Border = 11
+            Position = 35 716
+            Size = 34 34
+         }
+
+         Piece = "Button Orange: Pressed"
+         {
+            Scale9 = true
+            Border = 11
+            Position = 70 716
+            Size = 34 34
+         }
+
+         Piece = "Button Orange: Disabled"
+         {
+            Scale9 = true
+            Border = 11
+            Position = 105 716
+            Size = 34 34
+         }
+
+         Piece = "Button GreenSmall: Enabled"
+         {
+            Border = 0
+            Position = 531 907
+            Size = 54 28
+         }
+
+         Piece = "Button GreenSmall: Highlighted"
+         {
+            Border = 0
+            Position = 531 936
+            Size = 54 28
+         }
+
+         Piece = "Button GreenSmall: Pressed"
+         {
+            Border = 0
+            Position = 531 965
+            Size = 54 28
+         }
+
+         Piece = "Button GreenSmall: Disabled"
+         {
+            Border = 0
+            Position = 531 994
+            Size = 54 28
+         }
+
+         Piece = "Button Green: "
+         {
+            Scale9 = true
+            Border = 11
+            Position = 75 650.998046875
+            Size = 23.998046875 23.9970703125
+         }
+
+         Piece = "Button Green: Enabled"
+         {
+            Scale9 = true
+            Border = 11
+            Position = 0 681
+            Size = 34 34
+         }
+
+         Piece = "Button Green: Highlighted"
+         {
+            Scale9 = true
+            Border = 11
+            Position = 35 681
+            Size = 34 34
+         }
+
+         Piece = "Button Green: Pressed"
+         {
+            Scale9 = true
+            Border = 11
+            Position = 70 681
+            Size = 34 34
+         }
+
+         Piece = "Button Green: Disabled"
+         {
+            Scale9 = true
+            Border = 11
+            Position = 105 681
+            Size = 34 34
+         }
+
+         Piece = "Button Red: Enabled"
+         {
+            Scale9 = true
+            Border = 11
+            Position = 0 646
+            Size = 34 34
+         }
+
+         Piece = "Button Red: Highlighted"
+         {
+            Scale9 = true
+            Border = 11
+            Position = 35 646
+            Size = 34 34
+         }
+
+         Piece = "Button Red: Pressed"
+         {
+            Scale9 = true
+            Border = 11
+            Position = 70 646
+            Size = 34 34
+         }
+
+         Piece = "Button Red: Disabled"
+         {
+            Scale9 = true
+            Border = 11
+            Position = 105 646
+            Size = 34 34
+         }
+
+         Piece = "Button Rotate: Enabled"
+         {
+            Border = 0
+            Position = 918.998291015625 668
+            Size = 50.001220703125 50
+         }
+
+         Piece = "Button Rotate: Highlighted"
+         {
+            Border = 0
+            Position = 918.998291015625 617
+            Size = 50.001220703125 50
+         }
+
+         Piece = "Button PickUp: Enabled"
+         {
+            Border = 0
+            Position = 971 668
+            Size = 50 50
+         }
+
+         Piece = "Button PickUp: Highlighted"
+         {
+            Border = 0
+            Position = 971 617
+            Size = 50 50
+         }
+
+         Piece = "Button Move: Enabled"
+         {
+            Border = 0
+            Position = 866.999694824219 668
+            Size = 50.0004272460938 50
+         }
+
+         Piece = "Button Move: Highlighted"
+         {
+            Border = 0
+            Position = 866.999694824219 617
+            Size = 50.0004272460938 50
+         }
+
+         Piece = "Panel ScrollTrackClean"
+         {
+            Border = 11
+            Position = 762 764
+            Size = 24 24
+         }
+
+         Piece = "Panel ScrollBarFrame"
+         {
+            Border = 17
+            Position = 984 720
+            Size = 37 43
+         }
+
+         Piece = "Panel DD"
+         {
+            Border = 20
+            Position = 811 623
+            Size = 42 42
+         }
+
+         Piece = "Panel DDRound"
+         {
+            Border = 21
+            Position = 932 764
+            Size = 44 44
+         }
+
+         Piece = "Panel DD Field"
+         {
+            Border = 21
+            Position = 887 764
+            Size = 44 44
+         }
+
+         Piece = "Panel DDFlat"
+         {
+            Border = 21
+            Position = 977 764
+            Size = 44 44
+         }
+
+         Piece = "Panel TextField"
+         {
+            Border = 20
+            Position = 811 579
+            Size = 42 42
+         }
+
+         Piece = "Button SendChat: Enabled"
+         {
+            Border = 0
+            Position = 140 598
+            Size = 33.970703125 33.970703125
+         }
+
+         Piece = "Button SendChat: Highlighted"
+         {
+            Border = 0
+            Position = 175 598
+            Size = 33.970703125 33.970703125
+         }
+
+         Piece = "Button SendChat: Pressed"
+         {
+            Border = 0
+            Position = 210 598
+            Size = 33.970703125 33.970703125
+         }
+
+         Piece = "Button SendChat: Disabled"
+         {
+            Border = 0
+            Position = 245 598
+            Size = 33.970703125 33.970703125
+         }
+
+         Piece = "Button DropUp: Enabled"
+         {
+            Border = 0
+            Position = 140.00048828125 708
+            Size = 34 34
+         }
+
+         Piece = "Button DropUp: Highlighted"
+         {
+            Border = 0
+            Position = 175 708
+            Size = 34 34
+         }
+
+         Piece = "Button DropUp: Pressed"
+         {
+            Border = 0
+            Position = 210 708
+            Size = 34 34
+         }
+
+         Piece = "Button DropUp: Disabled"
+         {
+            Border = 0
+            Position = 245 708
+            Size = 34 34
+         }
+
+         Piece = "Button DropDown: Enabled"
+         {
+            Border = 0
+            Position = 140.00048828125 671
+            Size = 34 34
+         }
+
+         Piece = "Button DropDown: Highlighted"
+         {
+            Border = 0
+            Position = 175 671
+            Size = 34 34
+         }
+
+         Piece = "Button DropDown: Pressed"
+         {
+            Border = 0
+            Position = 210 671
+            Size = 33.970703125 33.970703125
+         }
+
+         Piece = "Button DropDown: Disabled"
+         {
+            Border = 0
+            Position = 245 671
+            Size = 33.970703125 33.970703125
+         }
+
+         Piece = "Button Search: Enabled"
+         {
+            Border = 0
+            Position = 140.12060546875 635
+            Size = 34 34
+         }
+
+         Piece = "Button Search: Highlighted"
+         {
+            Border = 0
+            Position = 175.15087890625 635
+            Size = 33.99951171875 34
+         }
+
+         Piece = "Button Search: Pressed"
+         {
+            Border = 0
+            Position = 210.18115234375 635
+            Size = 34 34
+         }
+
+         Piece = "Button Search: Disabled"
+         {
+            Border = 0
+            Position = 245.21142578125 635
+            Size = 34 34
+         }
+
+         Piece = "Button SideScroll: Enabled"
+         {
+            Border = 0
+            Position = 490 384
+            Size = 37 26
+         }
+
+         Piece = "Button SideScroll: Highlighted"
+         {
+            Border = 0
+            Position = 528 385
+            Size = 37 26
+         }
+
+         Piece = "Button SideScroll: Pressed"
+         {
+            Border = 0
+            Position = 566 385
+            Size = 37 26
+         }
+
+         Piece = "Button SideScroll: Disabled"
+         {
+            Border = 0
+            Position = 604 385
+            Size = 37 26
+         }
+
+         Piece = "Button Scroll: Enabled"
+         {
+            Border = 0
+            Position = 94 751
+            Size = 26 37
+         }
+
+         Piece = "Button Scroll: Highlighted"
+         {
+            Border = 0
+            Position = 121 751
+            Size = 26 37
+         }
+
+         Piece = "Button Scroll: Pressed"
+         {
+            Border = 0
+            Position = 148 751
+            Size = 26 37
+         }
+
+         Piece = "Button Scroll: Disabled"
+         {
+            Border = 0
+            Position = 175 751
+            Size = 26 37
+         }
+
+         Piece = "Button Right: Enabled"
+         {
+            Border = 0
+            Position = 330 775
+            Size = 25 31
+         }
+
+         Piece = "Button Right: Highlighted"
+         {
+            Border = 0
+            Position = 356 775
+            Size = 25 31
+         }
+
+         Piece = "Button Right: Pressed"
+         {
+            Border = 0
+            Position = 382 775
+            Size = 25 31
+         }
+
+         Piece = "Button Right: Disabled"
+         {
+            Border = 0
+            Position = 408 775
+            Size = 25 31
+         }
+
+         Piece = "Button Left: Enabled"
+         {
+            Border = 0
+            Position = 330 743
+            Size = 25 31
+         }
+
+         Piece = "Button Left: Highlighted"
+         {
+            Border = 0
+            Position = 356 743
+            Size = 25 31
+         }
+
+         Piece = "Button Left: Pressed"
+         {
+            Border = 0
+            Position = 382 743
+            Size = 25 31
+         }
+
+         Piece = "Button Left: Disabled"
+         {
+            Border = 0
+            Position = 408 743
+            Size = 25 31
+         }
+
+         Piece = "Button ScrollDown: Enabled"
+         {
+            Border = 0
+            Position = 202 774
+            Size = 31 25
+         }
+
+         Piece = "Button ScrollDown: Highlighted"
+         {
+            Border = 0
+            Position = 234.00244140625 774
+            Size = 31 25
+         }
+
+         Piece = "Button ScrollDown: Pressed"
+         {
+            Border = 0
+            Position = 266.0009765625 774
+            Size = 31 25
+         }
+
+         Piece = "Button ScrollDown: Disabled"
+         {
+            Border = 0
+            Position = 298 774
+            Size = 31 25
+         }
+
+         Piece = "Button ScrollUp: Enabled"
+         {
+            Border = 0
+            Position = 202 748
+            Size = 31 25
+         }
+
+         Piece = "Button ScrollUp: Highlighted"
+         {
+            Border = 0
+            Position = 234 748
+            Size = 31 25
+         }
+
+         Piece = "Button ScrollUp: Pressed"
+         {
+            Border = 0
+            Position = 266 748
+            Size = 31 25
+         }
+
+         Piece = "Button ScrollUp: Disabled"
+         {
+            Border = 0
+            Position = 298 748
+            Size = 31 25
+         }
+
+         Piece = "Panel ScrollTrack"
+         {
+            Border = 12
+            Position = 928 503
+            Size = 26 26
+         }
+
+         Piece = "Button FriendsList: Enabled"
+         {
+            Border = 0
+            Position = 872 299
+            Size = 50.0001220703125 50
+         }
+
+         Piece = "Button InviteTask: Enabled"
+         {
+            Border = 0
+            Position = 974 401
+            Size = 50.000732421875 50
+         }
+
+         Piece = "Button VisitProfile: Enabled"
+         {
+            Border = 0
+            Position = 922.999877929688 452
+            Size = 50.0004272460938 50
+         }
+
+         Piece = "Button Gift: Enabled"
+         {
+            Border = 0
+            Position = 923 401
+            Size = 50 50.005859375
+         }
+
+         Piece = "Button InviteToHome: Enabled"
+         {
+            Border = 0
+            Position = 330 722
+            Size = 20.0006103515625 20
+         }
+
+         Piece = "Button InviteToHome: Highlighted"
+         {
+            Border = 0
+            Position = 351 722
+            Size = 20.0006103515625 20
+         }
+
+         Piece = "Button InviteToHome: Pressed"
+         {
+            Border = 0
+            Position = 371.999847412109 722
+            Size = 20.0007934570313 20
+         }
+
+         Piece = "Button InviteToHome: Disabled"
+         {
+            Border = 0
+            Position = 393 722
+            Size = 20 20
+         }
+
+         Piece = "Button VisitHome: Enabled"
+         {
+            Border = 0
+            Position = 974 350
+            Size = 50 50
+         }
+
+         Piece = "Button Report: Enabled"
+         {
+            Border = 0
+            Position = 922.999694824219 350
+            Size = 50.0003051757813 50
+         }
+
+         Piece = "Button RemoveUser: Enabled"
+         {
+            Border = 0
+            Position = 872 452
+            Size = 50.0001831054688 50
+         }
+
+         Piece = "Button BlockUser: Enabled"
+         {
+            Border = 0
+            Position = 872 401
+            Size = 50.0001831054688 50
+         }
+
+         Piece = "Button ReportUser: Enabled"
+         {
+            Border = 0
+            Position = 872 350
+            Size = 50.0001831054688 50
+         }
+
+         Piece = "Button FriendRecent: Enabled"
+         {
+            Border = 0
+            Position = 974 452
+            Size = 50 50
+         }
+
+         Piece = "Button FriendChat: Enabled"
+         {
+            Border = 0
+            Position = 923 299
+            Size = 50 50.00048828125
+         }
+
+         Piece = "Button FriendSearch: Enabled"
+         {
+            Border = 0
+            Position = 974 299
+            Size = 50.0006103515625 50
+         }
+
+         Piece = "Panel CounterInset"
+         {
+            Border = 10
+            Position = 39 753
+            Size = 21 21
+         }
+
+         Piece = "Panel SideTab"
+         {
+            Border = 30
+            Position = 316 301
+            Size = 73 73
+         }
+
+         Piece = "Panel WhiteInlay"
+         {
+            Border = 25
+            Position = 74 330
+            Size = 90 90
+         }
+
+         Piece = "Panel WhiteInlayMask"
+         {
+            Border = 25
+            Position = 391 298
+            Size = 90 90
+         }
+
+         Piece = "Panel ChatBubble"
+         {
+            Border = 33
+            Position = 0 328
+            Size = 72.0009765625 72
+         }
+
+         Piece = "Panel Blue"
+         {
+            Border = 57
+            Position = 165.052734375 297
+            Size = 150 150
+         }
+
+         Piece = "Panel TTButton"
+         {
+            Border = 5
+            Position = 396 445
+            Size = 28 28
+         }
+
+         Piece = "Panel PanelButton"
+         {
+            Border = 6
+            Position = 66 297
+            Size = 29 29
+         }
+
+         Piece = "Button MembersOnly: Highlighted"
+         {
+            Border = 0
+            Position = 71.9998245239258 847
+            Size = 71.9996871948242 63
+         }
+
+         Piece = "Button MembersOnly: Disabled"
+         {
+            Border = 0
+            Position = 215.999816894531 847
+            Size = 71.9996948242188 63
+         }
+
+         Piece = "Button MembersOnly: Pressed"
+         {
+            Border = 0
+            Position = 144 847
+            Size = 72 63
+         }
+
+         Piece = "Button MembersOnly: Enabled"
+         {
+            Border = 0
+            Position = -0.00017840674263 847
+            Size = 71.9996901254926 63
+         }
+
+         Piece = "Button PgIndicator: Pressed"
+         {
+            Border = 0
+            Position = 809 299
+            Size = 30 30
+         }
+
+         Piece = "Button PgIndicator: Highlighted"
+         {
+            Border = 0
+            Position = 779 299
+            Size = 30 30
+         }
+
+         Piece = "Button PgIndicator: Enabled"
+         {
+            Border = 0
+            Position = 749 299
+            Size = 30 30
+         }
+
+         Piece = "Button PgIndicator: Disabled"
+         {
+            Border = 0
+            Position = 839 299
+            Size = 30 30
+         }
+
+         Piece = "Panel Pagination"
+         {
+            Border = 10
+            Position = 95 801.0009765625
+            Size = 52 37.9990234375
+         }
+
+         Piece = "Button AcceptTask: Enabled"
+         {
+            Border = 0
+            Position = 740 255
+            Size = 35 35
+         }
+
+         Piece = "Button DenyTask: Enabled"
+         {
+            Border = 0
+            Position = 848 255
+            Size = 35 35
+         }
+
+         Piece = "Button Announcements: Enabled"
+         {
+            Border = 0
+            Position = 752 0
+            Size = 50 50
+         }
+
+         Piece = "Panel DockMiddle"
+         {
+            Border = 30
+            Position = 405 110
+            Size = 120 132
+         }
+
+         Piece = "Panel Empty"
+         {
+            Border = 5
+            Position = 681 298
+            Size = 12 12
+         }
+
+         Piece = "Panel GradientHorz"
+         {
+            Border = 5
+            Position = 660 298
+            Size = 20 20
+         }
+
+         Piece = "Panel UserTextArea"
+         {
+            Border = 10
+            Position = 633 298
+            Size = 25 24
+         }
+
+         Piece = "Panel ChatBubbleSm"
+         {
+            Border = 56
+            Position = 334 605
+            Size = 113 114
+         }
+
+         Piece = "Button Mute: Enabled"
+         {
+            Border = 0
+            Position = 956 121
+            Size = 40 40
+         }
+
+         Piece = "Button HighVolume: Enabled"
+         {
+            Border = 0
+            Position = 956 80
+            Size = 40 40
+         }
+
+         Piece = "Icon Highlight"
+         {
+            Border = 0
+            Position = 589 901
+            Size = 120 120
+         }
+
+         Piece = "Icon AWLogo"
+         {
+            Border = 0
+            Position = 516 704
+            Size = 200 82
+         }
+
+         Piece = "Icon NumberFrameLocked"
+         {
+            Border = 0
+            Position = 979.5625 868.25
+            Size = 35 35
+         }
+
+         Piece = "Icon GeneralNotification"
+         {
+            Border = 0
+            Position = 318 807
+            Size = 30 30
+         }
+
+         Piece = "Icon StarBullet"
+         {
+            Border = 0
+            Position = 456 634
+            Size = 40 40
+         }
+
+         Piece = "Icon GrabDisabled"
+         {
+            Border = 0
+            Position = 285 803
+            Size = 32.0002746582031 32
+         }
+
+         Piece = "Icon OpenDisabled"
+         {
+            Border = 0
+            Position = 244 803
+            Size = 40 40
+         }
+
+         Piece = "Icon PickUpOver"
+         {
+            Border = 0
+            Position = 289 880
+            Size = 40 40
+         }
+
+         Piece = "Icon BtnBlueBg"
+         {
+            Border = 0
+            Position = 907 720
+            Size = 37 42
+         }
+
+         Piece = "Icon BtnBg"
+         {
+            Border = 0
+            Position = 946 720
+            Size = 37 42
+         }
+
+         Piece = "Icon Task"
+         {
+            Border = 0
+            Position = 935 867
+            Size = 38.3662109375 35.7099609375
+         }
+
+         Piece = "Icon Slot"
+         {
+            Border = 0
+            Position = 776 812
+            Size = 246.005859375 48
+         }
+
+         Piece = "Icon NumberFrame"
+         {
+            Border = 0
+            Position = 814 933
+            Size = 46 46
+         }
+
+         Piece = "Icon RPPortraitFrame"
+         {
+            Border = 0
+            Position = 789 866
+            Size = 65 65
+         }
+
+         Piece = "Icon Rainbow"
+         {
+            Border = 0
+            Position = 866.33984375 920.001953125
+            Size = 141.66015625 19.998046875
+         }
+
+         Piece = "Icon GreenBar"
+         {
+            Border = 0
+            Position = 866.33984375 947.001953125
+            Size = 141.66015625 19.998046875
+         }
+
+         Piece = "Icon Info"
+         {
+            Border = 0
+            Position = 886 867
+            Size = 46.619140625 35.177734375
+         }
+
+         Piece = "Icon GoalCompleteCheck"
+         {
+            Border = 0
+            Position = 436 779
+            Size = 70 76
+         }
+
+         Piece = "Icon TitleCapsuleCounter"
+         {
+            Border = 0
+            Position = 568 346
+            Size = 215 32
+         }
+
+         Piece = "Icon ChatPointerRight"
+         {
+            Border = 0
+            Position = 500 932
+            Size = 26 21
+         }
+
+         Piece = "Icon ChatPointerLeft"
+         {
+            Border = 0
+            Position = 500 910
+            Size = 26 21
+         }
+
+         Piece = "Icon Selected"
+         {
+            Border = 0
+            Position = 718 299
+            Size = 30 30
+         }
+
+         Piece = "Icon PaginationRight"
+         {
+            Border = 0
+            Position = 148 801
+            Size = 94 41
+         }
+
+         Piece = "Icon PaginationLeft"
+         {
+            Border = 0
+            Position = 0 801
+            Size = 94 41
+         }
+
+         Piece = "Icon SettingsSliderTrack"
+         {
+            Border = 0
+            Position = 490 419
+            Size = 198 26
+         }
+
+         Piece = "Icon NumberCounter"
+         {
+            Border = 0
+            Position = 0 753
+            Size = 38 21
+         }
+
+         Piece = "Icon ButtonGreenLg"
+         {
+            Border = 0
+            Position = 486 448
+            Size = 250 53
+         }
+
+         Piece = "Icon ButtonGreen"
+         {
+            Border = 0
+            Position = 486 502
+            Size = 250 35
+         }
+
+         Piece = "Icon ButtonOrange"
+         {
+            Border = 0
+            Position = 486 536
+            Size = 250 35
+         }
+
+         Piece = "Icon ButtonOrangeLg"
+         {
+            Border = 0
+            Position = 486 572
+            Size = 250 53
+         }
+
+         Piece = "Icon CapchaPlaceholder"
+         {
+            Border = 0
+            Position = 317 392
+            Size = 172 52
+         }
+
+         Piece = "Icon RegistrationRing"
+         {
+            Border = 0
+            Position = 362 857
+            Size = 102 102
+         }
+
+         Piece = "Icon Checkbox"
+         {
+            Border = 0
+            Position = 658 323
+            Size = 20 20
+         }
+
+         Piece = "Icon incorrect"
+         {
+            Border = 0
+            Position = 575.232421875 630.4296875
+            Size = 35 35
+         }
+
+         Piece = "Icon questionmark"
+         {
+            Border = 0
+            Position = 501.732421875 630.4296875
+            Size = 35 35
+         }
+
+         Piece = "Icon checkmark"
+         {
+            Border = 0
+            Position = 538.482421875 630.4296875
+            Size = 35 35
+         }
+
+         Piece = "Icon OfflineStatus"
+         {
+            Border = 0
+            Position = 378.039459228516 833.3271484375
+            Size = 23.960693359375 20.6728515625
+         }
+
+         Piece = "Icon OnlineStatus"
+         {
+            Border = 0
+            Position = 405.039459228516 833.3271484375
+            Size = 23.9606628417969 20.6728515625
+         }
+
+         Piece = "Icon NPC"
+         {
+            Border = 0
+            Position = 741 445
+            Size = 128 128
+         }
+
+         Piece = "Icon RingGreen"
+         {
+            Border = 0
+            Position = 789 357
+            Size = 80 80
+         }
+
+         Piece = "Icon CursorPickUpOver"
+         {
+            Border = 0
+            Position = 0 910
+            Size = 32 32
+         }
+
+         Piece = "Icon CursorPickupClick"
+         {
+            Border = 0
+            Position = 32 910
+            Size = 32 32
+         }
+
+         Piece = "Icon FriendsListNotification"
+         {
+            Border = 0
+            Position = 679.3994140625 851
+            Size = 24.2001953125 24.2001953125
+         }
+
+         Piece = "Icon CursorRotateOver"
+         {
+            Border = 0
+            Position = 160 910
+            Size = 32.0000610351563 32
+         }
+
+         Piece = "Icon CursorRotateClick"
+         {
+            Border = 0
+            Position = 127.999946594238 910
+            Size = 32.0000534057617 32
+         }
+
+         Piece = "Icon CursorMoveOver"
+         {
+            Border = 0
+            Position = 95.9999160766602 910
+            Size = 32.0000839233398 32
+         }
+
+         Piece = "Icon CursorMoveClick"
+         {
+            Border = 0
+            Position = 63.9999160766602 910
+            Size = 32.0000839233398 32
+         }
+
+         Piece = "Icon TTRight"
+         {
+            Border = 0
+            Position = 438 445
+            Size = 37 28
+         }
+
+         Piece = "Icon TTLeft"
+         {
+            Border = 0
+            Position = 339 445
+            Size = 37 28
+         }
+
+         Piece = "Icon BBRight"
+         {
+            Border = 0
+            Position = 108 297
+            Size = 37 29
+         }
+
+         Piece = "Icon BBLeft"
+         {
+            Border = 0
+            Position = 9 297
+            Size = 37 29
+         }
+
+         Piece = "Icon RPIcon"
+         {
+            Border = 0
+            Position = 160 942
+            Size = 36.0001220703125 36
+         }
+
+         Piece = "Icon Stop"
+         {
+            Border = 0
+            Position = 81 982
+            Size = 40 40
+         }
+
+         Piece = "Icon PressOver"
+         {
+            Border = 0
+            Position = 450 960
+            Size = 31 34
+         }
+
+         Piece = "Icon PressClick"
+         {
+            Border = 0
+            Position = 418.999847412109 960
+            Size = 31.0001525878906 34
+         }
+
+         Piece = "Icon MysteryGift"
+         {
+            Border = 0
+            Position = 136 992
+            Size = 30 30
+         }
+
+         Piece = "Icon MoneyShine"
+         {
+            Border = 0
+            Position = 560 254
+            Size = 100 24
+         }
+
+         Piece = "Icon MoneyContainer"
+         {
+            Border = 0
+            Position = 526 188
+            Size = 151 40
+         }
+
+         Piece = "Icon EnergyContainer"
+         {
+            Border = 0
+            Position = 526 147
+            Size = 124 40
+         }
+
+         Piece = "Icon ExperienceBar"
+         {
+            Border = 0
+            Position = 604 231
+            Size = 69 22
+         }
+
+         Piece = "Icon ExperienceShine"
+         {
+            Border = 0
+            Position = 661 273
+            Size = 69 22
+         }
+
+         Piece = "Icon EnergyShine"
+         {
+            Border = 0
+            Position = 661 254
+            Size = 77 18
+         }
+
+         Piece = "Icon EnergyBar"
+         {
+            Border = 0
+            Position = 526 231
+            Size = 77 18
+         }
+
+         Piece = "Icon ExperienceContainer"
+         {
+            Border = 0
+            Position = 526 106
+            Size = 140 40
+         }
+
+         Piece = "Icon XP_Shine"
+         {
+            Border = 0
+            Position = 651 150
+            Size = 24 24
+         }
+
+         Piece = "Icon OpenClick"
+         {
+            Border = 0
+            Position = 241 920
+            Size = 40 40
+         }
+
+         Piece = "Icon OpenOver"
+         {
+            Border = 0
+            Position = 201 920
+            Size = 40 40
+         }
+
+         Piece = "Icon GrabClick"
+         {
+            Border = 0
+            Position = 386.999816894531 960
+            Size = 32.0003051757813 32
+         }
+
+         Piece = "Icon GrabOver"
+         {
+            Border = 0
+            Position = 355 960
+            Size = 32.0002746582031 32
+         }
+
+         Piece = "Icon CursorClick"
+         {
+            Border = 0
+            Position = 261 960
+            Size = 30 30
+         }
+
+         Piece = "Icon Cursor"
+         {
+            Border = 0
+            Position = 201 960
+            Size = 30 30
+         }
+
+         Piece = "Icon CursorOver"
+         {
+            Border = 0
+            Position = 231 960
+            Size = 30 30
+         }
+
+         Piece = "Icon MoveClick"
+         {
+            Border = 0
+            Position = 322.999847412109 960
+            Size = 32.0001525878906 32
+         }
+
+         Piece = "Icon MoveOver"
+         {
+            Border = 0
+            Position = 290.999847412109 960
+            Size = 32.0001525878906 32
+         }
+
+         Piece = "Icon DockPatternLeft"
+         {
+            Border = 0
+            Position = 455 0
+            Size = 145.63671875 105
+         }
+
+         Piece = "Icon DockPatternRight"
+         {
+            Border = 0
+            Position = 605 0
+            Size = 145.63671875 105
+         }
+
+         Piece = "Icon DockCapRight"
+         {
+            Border = 0
+            Position = 412.0244140625 0
+            Size = 41 106.9990234375
+         }
+
+         Piece = "Icon DockCapLeft"
+         {
+            Border = 0
+            Position = 370 0.0009765625
+            Size = 41 106.9990234375
+         }
+
+         Piece = "Icon GameSettings"
+         {
+            Border = 0
+            Position = -0.00009984977078 982
+            Size = 40.0000998497708 40
+         }
+
+         Piece = "Icon MiniMapNorth"
+         {
+            Border = 0
+            Position = 437 749
+            Size = 43 28
+         }
+
+         Piece = "Icon AWLogoOld"
+         {
+            Border = 0
+            Position = 435 743
+            Size = 200 82
+         }
+
+         Piece = "Icon LogIn"
+         {
+            Border = 0
+            Position = 321 920
+            Size = 40.0001525878906 40
+         }
+
+         Piece = "Icon BlinkTab"
+         {
+            Border = 0
+            Position = 646 830
+            Size = 53 20
+         }
+
+         Piece = "Icon OrangePointer"
+         {
+            Border = 0
+            Position = 504.40625 892
+            Size = 20 12
+         }
+
+         Piece = "Icon BluePointer"
+         {
+            Border = 0
+            Position = 506 985
+            Size = 20 11
+         }
+
+         Piece = "Icon XPIcon"
+         {
+            Border = 0
+            Position = 196.0546875 992
+            Size = 30.0000152587891 30
+         }
+
+         Piece = "Icon GCurrencySm"
+         {
+            Border = 0
+            Position = 482.046875 1004
+            Size = 20 19
+         }
+
+         Piece = "Icon GCurrency"
+         {
+            Border = 0
+            Position = 453.046875 995
+            Size = 28 26
+         }
+
+         Piece = "Icon AWCurrencySm"
+         {
+            Border = 0
+            Position = 482.046875 984
+            Size = 20 19
+         }
+
+         Piece = "Icon AWCurrency"
+         {
+            Border = 0
+            Position = 165.999786376953 992
+            Size = 30.0002136230469 30
+         }
+
+         Piece = "Icon Placeholder"
+         {
+            Border = 0
+            Position = 646 852
+            Size = 32 32
+         }
+
+         Piece = "Icon FriendRequestNotification"
+         {
+            Border = 0
+            Position = 288.146484375 992
+            Size = 32 32
+         }
+
+         Piece = "Icon SystemNotifications"
+         {
+            Border = 0
+            Position = 384.146484375 992
+            Size = 32.0002136230469 32
+         }
+
+         Piece = "Icon HomeRequestNotification"
+         {
+            Border = 0
+            Position = 352.146484375 992
+            Size = 32.000244140625 32
+         }
+
+         Piece = "Icon AcceptedRequestNotification"
+         {
+            Border = 0
+            Position = 320.146484375 992
+            Size = 32 32
+         }
+
+         Piece = "Icon DeniedRequestNotification"
+         {
+            Border = 0
+            Position = 256.146484375 992
+            Size = 32.0003051757813 32
+         }
+
+         Piece = "Icon Settings"
+         {
+            Border = 0
+            Position = 40 982
+            Size = 40 40
+         }
+
+         Piece = "Icon Logout"
+         {
+            Border = 0
+            Position = 281 920
+            Size = 40.0009765625 40
+         }
+
+         Piece = "Icon ExperienceIcon"
+         {
+            Border = 0
+            Position = 226.0546875 992
+            Size = 30 30
+         }
+
+         Piece = "Icon DockTop"
+         {
+            Border = 0
+            Position = 0 250
+            Size = 558 39.994140625
+         }
+
+         Piece = "Icon DockBottom"
+         {
+            Border = 0
+            Position = 0 139
+            Size = 340 40
+         }
+
+         Piece = "Icon DockMin"
+         {
+            Border = 0
+            Position = 0 180
+            Size = 404 38
+         }
+
+         Piece = "Icon PortraitFrame"
+         {
+            Border = 0
+            Position = 0 -0.00005194139885
+            Size = 182.999649047852 138.000051941399
+         }
+
+         Piece = "Icon MiniMapFrame"
+         {
+            Border = 0
+            Position = 183.99951171875 -0.00005194139885
+            Size = 183.00048828125 138.000051941399
+         }
+
+         Piece = "Button HelpGuide: Enabled"
+         {
+            Border = 0
+            Position = 752 102
+            Size = 50.0001220703125 50
+         }
+
+         Piece = "Button FlipCard: Enabled"
+         {
+            Border = 0
+            Position = 570 324
+            Size = 20 20
+         }
+
+         Piece = "Button FlipCard: Highlighted"
+         {
+            Border = 0
+            Position = 591 324
+            Size = 20 20
+         }
+
+         Piece = "Button FlipCard: Pressed"
+         {
+            Border = 0
+            Position = 612 324
+            Size = 20 20
+         }
+
+         Piece = "Button FlipCard: Disabled"
+         {
+            Border = 0
+            Position = 633 324
+            Size = 20 20
+         }
+
+         Piece = "Button ChatOnline: Enabled"
+         {
+            Border = 0
+            Position = 825 343
+            Size = 10 10
+         }
+
+         Piece = "Button ChatOnline: Highlighted"
+         {
+            Border = 0
+            Position = 836 343
+            Size = 10 10
+         }
+
+         Piece = "Button ChatOnline: Pressed"
+         {
+            Border = 0
+            Position = 847 343
+            Size = 10 10
+         }
+
+         Piece = "Button ChatOnline: Disabled"
+         {
+            Border = 0
+            Position = 858 343
+            Size = 10 10
+         }
+
+         Piece = "Button ChatDND: Enabled"
+         {
+            Border = 0
+            Position = 825 332
+            Size = 10 10
+         }
+
+         Piece = "Button ChatDND: Highlighted"
+         {
+            Border = 0
+            Position = 836 332
+            Size = 10 10
+         }
+
+         Piece = "Button ChatDND: Pressed"
+         {
+            Border = 0
+            Position = 847 332
+            Size = 10 10
+         }
+
+         Piece = "Button ChatDND: Disabled"
+         {
+            Border = 0
+            Position = 858 332
+            Size = 10 10
+         }
+
+         Piece = "Button XLg: Enabled"
+         {
+            Border = 0
+            Position = 774 579
+            Size = 35 35
+         }
+
+         Piece = "Button XLg: Highlighted"
+         {
+            Border = 0
+            Position = 774 615
+            Size = 35 35
+         }
+
+         Piece = "Button XLg: Pressed"
+         {
+            Border = 0
+            Position = 774 651
+            Size = 35 35
+         }
+
+         Piece = "Button XLg: Disabled"
+         {
+            Border = 0
+            Position = 774 687
+            Size = 35 35
+         }
+
+         Piece = "Button QuestionLg: Enabled"
+         {
+            Border = 0
+            Position = 738 723
+            Size = 35 35
+         }
+
+         Piece = "Button QuestionLg: Highlighted"
+         {
+            Border = 0
+            Position = 774 723
+            Size = 35 35
+         }
+
+         Piece = "Button CheckLg: Enabled"
+         {
+            Border = 0
+            Position = 738 579
+            Size = 35 35
+         }
+
+         Piece = "Button CheckLg: Highlighted"
+         {
+            Border = 0
+            Position = 738 615
+            Size = 35 35
+         }
+
+         Piece = "Button CheckLg: Pressed"
+         {
+            Border = 0
+            Position = 738 651
+            Size = 35 35
+         }
+
+         Piece = "Button CheckLg: Disabled"
+         {
+            Border = 0
+            Position = 738 687
+            Size = 35 35
+         }
+
+         Piece = "Button SelectChat: Enabled"
+         {
+            Border = 0
+            Position = 936 204
+            Size = 30 30
+         }
+
+         Piece = "Button BigPlus: Enabled"
+         {
+            Border = 0
+            Position = 884 255
+            Size = 35 35
+         }
+
+         Piece = "Button RoundLeft: Enabled"
+         {
+            Border = 0
+            Position = 776 255
+            Size = 35 35
+         }
+
+         Piece = "Button RoundRight: Enabled"
+         {
+            Border = 0
+            Position = 812 255
+            Size = 35 35
+         }
+
+         Piece = "Button DockRight: Enabled"
+         {
+            Border = 0
+            Position = 955.99951171875 40
+            Size = 28.00048828125 39
+         }
+
+         Piece = "Button DockRight: Disabled"
+         {
+            Border = 0
+            Position = 984.99951171875 40
+            Size = 28.00048828125 39
+         }
+
+         Piece = "Button DockLeft: Enabled"
+         {
+            Border = 0
+            Position = 956 0
+            Size = 28.00048828125 39
+         }
+
+         Piece = "Button DockLeft: Disabled"
+         {
+            Border = 0
+            Position = 985 0
+            Size = 28.00048828125 39
+         }
+
+         Piece = "Button SliderIndicator: Enabled"
+         {
+            Border = 0
+            Position = 715 986
+            Size = 76 36
+         }
+
+         Piece = "Button SliderIndicator: Highlighted"
+         {
+            Border = 0
+            Position = 792 986
+            Size = 76 36
+         }
+
+         Piece = "Button SliderIndicator: Pressed"
+         {
+            Border = 0
+            Position = 869 986
+            Size = 76 36
+         }
+
+         Piece = "Button SliderIndicator: Disabled"
+         {
+            Border = 0
+            Position = 946 986
+            Size = 76 36
+         }
+
+         Piece = "Panel Orange PageCounter"
+         {
+            Border = 7
+            Position = 500.40625 863
+            Size = 28 28
+         }
+
+         Piece = "Panel PageCounter"
+         {
+            Border = 7
+            Position = 499 957
+            Size = 27 27
+         }
+
+         Piece = "Button FrameMinimizedLeft: Enabled"
+         {
+            Border = 0
+            Position = 905.1103515625 204
+            Size = 30 30
+         }
+
+         Piece = "Button FrameMinimizedRight: Enabled"
+         {
+            Border = 0
+            Position = 967 204
+            Size = 30 30
+         }
+
+         Piece = "Button Journal: Enabled"
+         {
+            Border = 0
+            Position = 752.000061035156 153
+            Size = 49.9999389648438 50
+         }
+
+         Piece = "Button GeneralNotification: Enabled"
+         {
+            Border = 0
+            Position = 905 153
+            Size = 50 50
+         }
+
+         Piece = "Button Inventory: Enabled"
+         {
+            Border = 0
+            Position = 751.999755859375 204
+            Size = 49.9995727539063 50
+         }
+
+         Piece = "Button InstantStore: Enabled"
+         {
+            Border = 0
+            Position = 803 0
+            Size = 50 49.99951171875
+         }
+
+         Piece = "Button WorldMap: Enabled"
+         {
+            Border = 0
+            Position = 803 51
+            Size = 50 49.99951171875
+         }
+
+         Piece = "Button ChatHistory: Enabled"
+         {
+            Border = 0
+            Position = 905 102
+            Size = 50.0001831054688 50
+         }
+
+         Piece = "Button Settings: Enabled"
+         {
+            Border = 0
+            Position = 803 102
+            Size = 50 50
+         }
+
+         Piece = "Button FriendList: Enabled"
+         {
+            Border = 0
+            Position = 803 153
+            Size = 50 50
+         }
+
+         Piece = "Button LogOut: Enabled"
+         {
+            Border = 0
+            Position = 803 204
+            Size = 50.0001831054688 49.99951171875
+         }
+
+         Piece = "Button RPTracker: Enabled"
+         {
+            Border = 0
+            Position = 974 503
+            Size = 50 50
+         }
+
+         Piece = "Button Portrait: Enabled"
+         {
+            Border = 0
+            Position = 853.999694824219 204
+            Size = 50.0003051757813 49.99951171875
+         }
+
+         Piece = "Button PetFilter: Enabled"
+         {
+            Border = 0
+            Position = 853.999633789063 51
+            Size = 50.0003662109375 50
+         }
+
+         Piece = "Button MiniMap: Enabled"
+         {
+            Border = 0
+            Position = 905 0
+            Size = 50.000244140625 50
+         }
+
+         Piece = "Button Emotes: Enabled"
+         {
+            Border = 0
+            Position = 905 51
+            Size = 49.9990234375 49.99951171875
+         }
+
+         Piece = "Button MazeFilter: Enabled"
+         {
+            Border = 0
+            Position = 854 0
+            Size = 50 50
+         }
+
+         Piece = "Button QuickChat: Enabled"
+         {
+            Border = 0
+            Position = 853.999877929688 153
+            Size = 50.0001220703125 49.99951171875
+         }
+
+         Piece = "Button HouseFilter: Enabled"
+         {
+            Border = 0
+            Position = 854 102
+            Size = 50 50
+         }
+
+         Piece = "Button AddMission: Enabled"
+         {
+            Border = 0
+            Position = 752.000061035156 51
+            Size = 49.9999389648438 50
+         }
+      }
+}

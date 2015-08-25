@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="8" height="8" tilewidth="142" tileheight="80">
+ <tileset firstgid="1" name="stage-test-01" tilewidth="142" tileheight="80">
+  <image source="stage-test-01.png" width="1136" height="640"/>
+ </tileset>
+ <layer name="GroundLayer" width="8" height="8">
+  <data encoding="base64" compression="zlib">
+   eJwNwwVSAgEAAMCjOwQJ6ZKQBun8/6vYndlQEARhI0aNGTdh0pRpM2bNmbdg0S9Llv22YtWadX9s2LRl245de/YdOHTkr2MnTp3559yFS1eu3bh1595/Dx49efbi1Zt3Hz59+fYDzB4IIQ==
+  </data>
+ </layer>
+ <objectgroup name="ObjectLayer" width="8" height="8">
+  <object name="dophin-01" type="GameObjectSprite" x="251" y="364" width="39" height="38">
+   <properties>
+    <property name="PropertyName" value="sprites/dophin-01.property"/>
+   </properties>
+  </object>
+  <object name="black-shark-01" type="GameObjectSprite" x="605" y="489" width="36" height="33">
+   <properties>
+    <property name="PropertyName" value="sprites/black-shark-01.property"/>
+   </properties>
+  </object>
+  <object name="enemy-01" type="GameObjectSprite" x="841" y="145" width="29" height="25">
+   <properties>
+    <property name="PropertyName" value="sprites/enemy-01.property"/>
+   </properties>
+  </object>
+  <object name="enemy-02" type="GameObjectSprite" x="246" y="561" width="28" height="28">
+   <properties>
+    <property name="PropertyName" value="sprites/enemy-02.property"/>
+   </properties>
+  </object>
+  <object name="main-player" x="428" y="241" width="28" height="27">
+   <properties>
+    <property name="PropertyName" value="sprites/main-player.property"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

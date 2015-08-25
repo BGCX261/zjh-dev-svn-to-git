@@ -1,0 +1,308 @@
+UILayout
+{
+	UIFrame = MainUIFrame
+	{
+		Skin = ui/MainUI.uiskin
+		Font = fonts/AW_Bold16.fnt
+		Position = 240 290
+		Size = 480 60
+		Id = 10
+		Visible = 1
+		EventType = Children
+		Children
+		{
+			// HP
+			UILabel = Label_HPText
+			{
+				Position = -225 2
+				Size = 50 50
+				EventType = None
+				Text = HP
+				Visible = True
+				AnchorPoint = 0 0
+			}
+			UIPicture = UIPictureBlack_HP
+			{
+				Position = -205 9
+				Size = 60 7
+				PieceEnabled = Slider_Black
+				EventType = All
+				Visible = True
+				AnchorPoint = 0 0
+			}
+			UILabelSmoothChange = Label_HPValue
+			{
+				Position = -145 7
+				Size = 50 50
+				EventType = None
+				Text = 123
+				Visible = True
+				AnchorPoint = 1 0
+				CustomizedValue
+				{
+					PairValue = MinValue 0
+					PairValue = MaxValue 0
+					PairValue = Interval 0.05
+					PairValue = StepValue 1
+				}
+			}
+			UIProgressBarBiCombined = ProgressBar_HP			
+			{
+				Position = -205 9
+				Size = 60 7
+				EventType = All
+				Visible = True
+				AnchorPoint = 0 0
+				Children
+				{					
+					UIProgressBarSmoothChange = SecondProgressBar
+					{
+						Position = 0 0
+						Size = 60 7
+						PieceEnabled = Slider_Red
+						EventType = All
+						Visible = True
+						AnchorPoint = 0 0
+						CustomizedValue
+						{
+							PairValue = MinValue 0
+							PairValue = MaxValue 100
+							PairValue = Interval 0.02
+							PairValue = StepValue 1
+						}
+					}
+					UIProgressBar = FirstProgressBar
+					{
+						Position = 0 0
+						Size = 60 7
+						PieceEnabled = Slider_Blue
+						EventType = All
+						Visible = True
+						AnchorPoint = 0 0
+					}
+				}
+				Behaviour
+				{
+				}
+			}
+			// SP
+			UILabel = Label_SPText
+			{
+				Position = -130 2
+				Size = 50 50
+				EventType = None
+				Text = SP
+				Visible = True
+				AnchorPoint = 0 0
+			}
+			UIPicture = UIPictureBlack_SP
+			{
+				Position = -115 9
+				Size = 60 7
+				PieceEnabled = Slider_Black
+				EventType = All
+				Visible = True
+				AnchorPoint = 0 0
+			}
+			UILabelSmoothChange = Label_SPValue
+			{
+				Position = -55 7
+				Size = 50 50
+				EventType = None
+				Text = 78
+				Visible = True
+				AnchorPoint = 1 0
+				CustomizedValue
+				{
+					PairValue = MinValue 0
+					PairValue = MaxValue 0
+					PairValue = Interval 0.05
+					PairValue = StepValue 1
+				}
+			}
+			UIProgressBarBiCombined = ProgressBar_SP
+			{
+				Position = -115 9
+				Size = 60 7
+				EventType = All
+				Visible = True
+				AnchorPoint = 0 0
+				Children
+				{					
+					UIProgressBarSmoothChange = SecondProgressBar
+					{
+						Position = 0 0
+						Size = 60 7
+						PieceEnabled = Slider_Red
+						EventType = All
+						Visible = True
+						AnchorPoint = 0 0
+						CustomizedValue
+						{
+							PairValue = MinValue 0
+							PairValue = MaxValue 100
+							PairValue = Interval 0.02
+							PairValue = StepValue 1
+						}
+					}
+					UIProgressBar = FirstProgressBar
+					{
+						Position = 0 0
+						Size = 60 7
+						PieceEnabled = Slider_Blue
+						EventType = All
+						Visible = True
+						AnchorPoint = 0 0
+					}
+				}
+			}
+			// Exp
+			UILabel = Label_ExpText
+			{
+				Position = -40 2
+				Size = 50 50
+				EventType = None
+				Text = Exp
+				Visible = True
+				AnchorPoint = 0 0
+			}
+			UIPicture = UIPictureBlack_Exp
+			{
+				Position = -23 9
+				Size = 60 7
+				PieceEnabled = Slider_Black
+				EventType = All
+				Visible = True
+				AnchorPoint = 0 0
+			}
+			UILabelSmoothChange = Label_ExpValue
+			{
+				Position = 40 7
+				Size = 50 50
+				EventType = None
+				Text = 1124
+				Visible = True
+				AnchorPoint = 1 0
+				CustomizedValue
+				{
+					PairValue = MinValue 0
+					PairValue = MaxValue 0
+					PairValue = Interval 0.05
+					PairValue = StepValue 1
+				}
+			}
+			UIProgressBarSmoothChange = ProgressBar_Exp
+			{
+				Position = -23 9
+				Size = 60 7
+				PieceEnabled = Slider_Blue
+				EventType = All
+				Visible = True
+				AnchorPoint = 0 0
+				CustomizedValue
+				{
+					PairValue = MinValue 0
+					PairValue = MaxValue 100
+					PairValue = Interval 0.02
+					PairValue = StepValue 1
+				}
+			}
+			// Level
+			UILabel = Label_LevelText
+			{
+				Position = 57 2
+				Size = 50 50
+				EventType = None
+				Text = Lv
+				Visible = True
+				AnchorPoint = 0 0
+			}
+			UILabel = Label_LevelValue
+			{
+				Position = 78 2
+				Size = 50 50
+				EventType = None
+				Text = 99
+				Visible = True
+				AnchorPoint = 0 0
+			}
+			// Money
+			UIPicture = Money_Icon
+			{
+				Position = 125 15
+				Size = 38 32
+				PieceEnabled = Money
+				EventType = None
+				Visible = True
+			}
+			UILabelSmoothChange = Label_MoneyValue
+			{
+				Position = 145 2
+				Size = 50 50
+				EventType = None
+				Text = 99999
+				Visible = True
+				AnchorPoint = 0 0
+				CustomizedValue
+				{
+					PairValue = MinValue 0
+					PairValue = MaxValue 0
+					PairValue = Interval 0.05
+					PairValue = StepValue 1
+				}
+			}
+			
+			UIButtonReveal = buttonSpin
+			{
+				Position = 130 0
+				Size = 60 30
+				PieceEnabled = Button_Green
+				PiecePressed = Button_Red
+				PieceDisabled = Button_Red
+				EventType = All
+				Visible = True
+				Behaviour
+				{
+					//Script = UIBSGameSetting
+				}
+				Children
+				{
+					UILabel = labelSpin
+					{
+						Position = 0 -3
+						Size = 50 50
+						EventType = None
+						Text = Spin
+						Visible = True
+					}
+				}
+			}
+			/*
+			UIButtonReveal = buttonExit
+			{
+				Position = 200 0
+				Size = 60 30
+				PieceEnabled = Button_Green
+				PiecePressed = Button_Red
+				PieceDisabled = Button_Red
+				EventType = All
+				Visible = True
+				Behaviour
+				{
+				}
+				Children
+				{
+					UILabel = labelExit
+					{
+						Position = 0 -3
+						Size = 50 50
+						EventType = None
+						Text = Exit
+						Visible = True
+					}
+				}
+			}
+			*/
+		}
+	}
+}

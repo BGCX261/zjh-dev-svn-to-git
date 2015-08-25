@@ -1,0 +1,36 @@
+Sprite
+{
+	Image = sprites/JiaXuRun.png
+	Plist = sprites/JiaXuRun.plist
+	Animation
+	{		
+		Clip = RunDown
+		{
+			DelayTime = 0.25
+			Prefix = JiaXu_run_down_
+			StartFrame = 1
+			EndFrame = 4
+		}
+		Clip = RunLeft
+		{
+			DelayTime = 0.25
+			Prefix = JiaXu_run_left_
+			StartFrame = 1
+			EndFrame = 4
+		}
+		Clip = RunRight
+		{
+			DelayTime = 0.25
+			Prefix = JiaXu_run_right_
+			StartFrame = 1
+			EndFrame = 4
+		}
+		Clip = RunUp
+		{
+			DelayTime = 0.25
+			Prefix = JiaXu_run_up_
+			StartFrame = 1
+			EndFrame = 4
+		}
+	}
+}

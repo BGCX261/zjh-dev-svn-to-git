@@ -1,0 +1,15 @@
+Sprite
+{
+	Image = sprites/huopen.png
+	Plist = sprites/huopen.plist
+	Animation
+	{		
+		Clip = Normal
+		{
+			DelayTime = 0.25
+			Prefix = huopen_
+			StartFrame = 1
+			EndFrame = 5
+		}
+	}
+}

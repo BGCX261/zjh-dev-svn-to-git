@@ -1,0 +1,36 @@
+Sprite
+{
+	Image = sprites/HuangGaiRun.png
+	Plist = sprites/HuangGaiRun.plist
+	Animation
+	{		
+		Clip = RunDown
+		{
+			DelayTime = 0.25
+			Prefix = HuangGai_run_down_
+			StartFrame = 1
+			EndFrame = 4
+		}
+		Clip = RunLeft
+		{
+			DelayTime = 0.25
+			Prefix = HuangGai_run_left_
+			StartFrame = 1
+			EndFrame = 4
+		}
+		Clip = RunRight
+		{
+			DelayTime = 0.25
+			Prefix = HuangGai_run_right_
+			StartFrame = 1
+			EndFrame = 4
+		}
+		Clip = RunUp
+		{
+			DelayTime = 0.25
+			Prefix = HuangGai_run_up_
+			StartFrame = 1
+			EndFrame = 4
+		}
+	}
+}

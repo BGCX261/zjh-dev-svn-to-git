@@ -1,0 +1,22 @@
+GameObjectSprite
+{
+	Image = sprites/black-shark-01.png
+	Plist = sprites/black-shark-01.plist
+	Animation
+	{		
+		Clip = MoveRight
+		{
+			DelayTime = 0.20
+			Prefix = black-shark-01_
+			StartFrame = 1
+			EndFrame = 1
+		}
+		Clip = MoveLeft
+		{
+			DelayTime = 0.20
+			Prefix = black-shark-01_
+			StartFrame = 2
+			EndFrame = 2
+		}
+	}
+}

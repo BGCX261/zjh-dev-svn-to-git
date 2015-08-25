@@ -1,0 +1,36 @@
+
+
+/* 默认幻灯片 */
+
+.phototop {OVERFLOW: hidden; WIDTH: 290px;POSITION: relative; HEIGHT: 300px;}
+.phototop .slider {POSITION: absolute;line-height:22px;}
+.phototop .slider ul{ list-style:none; margin:0px; padding:0px;}
+.phototop .slider ul li{ list-style:none; height:300px;}
+.phototop .slider IMG {DISPLAY: block; WIDTH: 290px; HEIGHT: 260px;}
+.phototop .slider .sider_txt{padding-left:10px; padding-right:10px; padding-top:10px; width:282px; line-height:22px;}
+.phototop .num {RIGHT: 0px; POSITION: absolute; TOP:244px; _TOP:244px;}
+.phototop .num LI {FONT-SIZE: 9px; BACKGROUND: #000000; FLOAT: left; OVERFLOW: hidden; WIDTH: 20px; CURSOR: pointer; COLOR: #ffffff; LINE-HEIGHT: 16px; HEIGHT: 16px; TEXT-ALIGN: center;}
+.phototop .num LI.on {BACKGROUND: #ff0000;}
+
+
+.phototop2 {OVERFLOW: hidden; WIDTH: 290px;POSITION: relative; HEIGHT: 230px;background:#E0EBF4;}
+.phototop2 .slider {POSITION: absolute;line-height:22px;}
+.phototop2 .slider ul{ list-style:none; margin:0px; padding:0px;}
+.phototop2 .slider ul li{ list-style:none; height:230px;}
+.phototop2 .slider IMG {DISPLAY: block; WIDTH: 290px; HEIGHT: 200px;}
+.phototop2 .slider .sider_txt{padding-left:10px; padding-right:10px; padding-top:10px; width:282px; line-height:15px;}
+.phototop2 .num {RIGHT: 0px; POSITION: absolute; TOP:184px; _TOP:184px;}
+.phototop2 .num LI {FONT-SIZE: 9px; BACKGROUND: #000000; FLOAT: left; OVERFLOW: hidden; WIDTH: 20px; CURSOR: pointer; COLOR: #ffffff; LINE-HEIGHT: 16px; HEIGHT: 16px; TEXT-ALIGN: center;}
+.phototop2 .num LI.on {BACKGROUND: #ff0000;}
+
+
+.phototop3 {OVERFLOW: hidden; WIDTH: 400px;POSITION: relative; HEIGHT: 295px;background:#E0EBF4;}
+.phototop3 .slider {POSITION: absolute;line-height:22px;}
+.phototop3 .slider ul{ list-style:none; margin:0px; padding:0px;}
+.phototop3 .slider ul li{ list-style:none; height:295px;}
+.phototop3 .slider IMG {DISPLAY: block; WIDTH: 400px; HEIGHT: 265px;}
+.phototop3 .slider .sider_txt{padding-left:10px; padding-right:10px; padding-top:5px; width:282px; line-height:22px;}
+.phototop3 .num {RIGHT: 0px; POSITION: absolute; TOP:244px; _TOP:244px;}
+.phototop3 .num LI {FONT-SIZE: 9px; BACKGROUND: #000000; FLOAT: left; OVERFLOW: hidden; WIDTH: 20px; CURSOR: pointer; COLOR: #ffffff; LINE-HEIGHT: 16px; HEIGHT: 16px; TEXT-ALIGN: center;}
+.phototop3 .num LI.on {BACKGROUND: #ff0000;}
+

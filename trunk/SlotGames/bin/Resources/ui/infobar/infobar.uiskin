@@ -1,0 +1,37 @@
+UISkin = SkinInfobarUI
+{
+	Texture = ui/infobar/infobar.png
+	Piece
+    {
+		Piece = EntryLevelEnable
+        {
+			Position = 77 62
+            Size = 73 58
+		}
+		Piece = EntryLevelHilight
+        {
+			Position = 152 2
+            Size = 73 58
+		}
+        Piece = EntryLevelDisable
+        {
+			Position = 77 2
+            Size = 73 58
+		}
+		Piece = RevealEnable
+        {
+			Position = 2 2
+            Size = 73 74
+		}
+		Piece = RevealHilight
+        {
+			Position = 2 154
+            Size = 73 74
+		}
+		Piece = RevealDisable
+        {
+			Position = 2 78
+            Size = 73 74
+		}
+	}
+}

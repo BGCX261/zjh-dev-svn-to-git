@@ -1,0 +1,30 @@
+Property
+{
+	Name = Respin
+	Position = 0 0
+	
+	Behaviour
+	{
+		Script = BSRespin
+		{
+			Position = 0 0
+			Visible = False			
+		}
+	}
+
+	Children
+	{
+		GameObject = lockAnimation
+		{
+			Position = 300 300
+			PropertyName = SlotGame/Respin/lock_anim.property
+			Visible = True
+		}
+		GameObject = lock_highlight_Animation
+		{
+			Position = 300 300
+			PropertyName = SlotGame/Respin/lock_highlight_anim.property
+			Visible = False
+		}
+	}
+}

@@ -1,0 +1,112 @@
+UISkin = MainInfobarUI
+{
+	Texture = SlotGame/UI/infobar.png
+	Piece
+    {
+        Piece = ChangeGameHilight
+        {
+			Position = 87 425
+            Size = 83 45
+		}
+		Piece = ChangeGameDisable
+        {
+			Position = 87 378
+            Size = 83 45
+		}
+		Piece = ChangeGameEnable
+        {
+			Position = 2 454
+            Size = 83 45
+		}		
+		Piece = ClearAllHilight
+        {
+			Position = 2 407
+            Size = 83 45
+		}
+		Piece = ClearAllDisable
+        {
+			Position = 2 360
+            Size = 83 45
+		}
+		Piece = ClearAllEnable
+        {
+			Position = 2 313
+            Size = 83 45
+		}		
+		Piece = EntryLevelHilight
+        {
+			Position = 2 313
+            Size = 83 45
+		}
+		Piece = EntryLevelDisable
+        {
+			Position = 87 284
+            Size = 83 45
+		}
+		Piece = EntryLevelEnable
+        {
+			Position = 2 266
+            Size = 83 45
+		}						
+		Piece = MaxEntryHilight
+        {
+			Position = 87 237
+            Size = 83 45
+		}
+		Piece = MaxEntryDisable
+        {
+			Position = 2 219
+            Size = 83 45
+		}
+		Piece = MaxEntryEnable
+        {
+			Position = 95 190
+            Size = 83 45
+		}		
+		Piece = ShowHilight
+        {
+			Position = 2 172
+            Size = 91 45
+		}
+		Piece = ShowDisable
+        {
+			Position = 95 143
+            Size = 91 45
+		}
+		Piece = ShowEnable
+        {
+			Position = 2 125
+            Size = 91 45
+		}		
+		Piece = StopHilight
+        {
+			Position = 141 96
+            Size = 91 45
+		}
+		Piece = StopDisable
+        {
+			Position = 142 49
+            Size = 91 45
+		}
+		Piece = StopEnable
+        {
+			Position = 142 2
+            Size = 91 45
+		}		
+		Piece = InfoWin
+		{
+			Position = 2 43
+            Size = 138 39
+		}
+		Piece = InfoWinPoints
+		{
+			Position = 2 2
+            Size = 138 39
+		}
+		Piece = InfoEntryLevel
+		{
+			Position = 2 84
+            Size = 137 39
+		}
+	}
+}

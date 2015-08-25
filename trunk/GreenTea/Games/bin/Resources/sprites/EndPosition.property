@@ -1,0 +1,19 @@
+GameObject
+{	
+	Behaviour
+	{
+		Script = BSGameObjectGeneral
+		{
+			Collision = 16 16
+		}
+		Script = BSEndPosition
+	}
+	Children
+	{
+		GameObjectSprite = DbgCollisionIndicator
+		{
+			PropertyName = sprites/DbgCollisionIndicator.property
+			Visible = True
+		}
+	}
+}

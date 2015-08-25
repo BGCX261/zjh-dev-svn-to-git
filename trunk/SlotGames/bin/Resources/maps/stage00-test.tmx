@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="2" height="2" tilewidth="568" tileheight="320">
+ <tileset firstgid="1" name="stage01" tilewidth="568" tileheight="320">
+  <image source="stage01.png" width="1136" height="640"/>
+ </tileset>
+ <layer name="GroundLayer" width="2" height="2">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYAJiZiBmAWIAAGAACw==
+  </data>
+ </layer>
+ <objectgroup name="ObjectLayer" width="2" height="2">
+  <object name="GameObject1" type="GameObject" x="160" y="173" width="83" height="42">
+   <properties>
+    <property name="PropertyName" value="sprites/baoxiang-tweener.property"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

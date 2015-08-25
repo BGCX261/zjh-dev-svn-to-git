@@ -1,0 +1,22 @@
+GameObjectSprite = sprites/dophin-01.sprite
+{
+	Image = sprites/dophin-01.png
+	Plist = sprites/dophin-01.plist
+	Animation
+	{		
+		Clip = MoveRight
+		{
+			DelayTime = 0.20
+			Prefix = dophin-01_
+			StartFrame = 1
+			EndFrame = 1
+		}
+		Clip = MoveLeft
+		{
+			DelayTime = 0.20
+			Prefix = dophin-01_
+			StartFrame = 2
+			EndFrame = 2
+		}
+	}
+}

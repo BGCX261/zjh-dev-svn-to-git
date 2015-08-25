@@ -1,0 +1,14 @@
+Property
+{
+	ZOrder = 5
+	Behaviour
+	{
+		Script = BSGameObjectGeneral
+		Script = BSSprite
+		{
+			Sprite = sprites/baoxiang.sprite
+			DefaultAnimation = 0
+			DefaultAnimationPlayMode = Loop
+		}		
+	}
+}

@@ -1,0 +1,14 @@
+<Template>
+  <FileList>
+	<File>UIWidgetTemplate.h</File>
+	<File>UIWidgetTemplate.cpp</File>	
+  </FileList>
+  <Parameter>
+    <Name>#define</Name>
+    <Replacement>$DefineReplacement$</Replacement>
+  </Parameter>
+  <Parameter>
+    <Name>Class</Name>
+    <Replacement>$ClassReplacement$</Replacement>
+  </Parameter>
+</Template>

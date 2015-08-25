@@ -1,0 +1,5 @@
+package MSSQL;
+
+public class SqlConnection {
+
+}

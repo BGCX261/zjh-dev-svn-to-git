@@ -1,0 +1,22 @@
+GameObjectSprite
+{
+	Image = sprites/main-player.png
+	Plist = sprites/main-player.plist
+	Animation
+	{		
+		Clip = MoveRight
+		{
+			DelayTime = 0.20
+			Prefix = main-player-right_
+			StartFrame = 1
+			EndFrame = 1
+		}
+		Clip = MoveLeft
+		{
+			DelayTime = 0.20
+			Prefix = main-player-left_
+			StartFrame = 1
+			EndFrame = 1
+		}
+	}
+}

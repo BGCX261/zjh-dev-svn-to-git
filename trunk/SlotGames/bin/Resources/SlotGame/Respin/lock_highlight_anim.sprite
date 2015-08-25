@@ -1,0 +1,15 @@
+Sprite
+{
+	Image = SlotGame/Respin/lock_highlight_anim.png
+	Plist = SlotGame/Respin/lock_highlight_anim.plist
+	Animation
+	{		
+		Clip = lock_highlight
+		{
+			DelayTime = 0.1
+			Prefix = reel_lock_highlight_ani_
+			StartFrame = 1
+			EndFrame = 15
+		}
+	}
+}

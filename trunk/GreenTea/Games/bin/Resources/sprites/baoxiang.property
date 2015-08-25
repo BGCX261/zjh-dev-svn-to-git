@@ -1,0 +1,10 @@
+GameObjectSprite
+{
+	Sprite = sprites/baoxiang.sprite
+	DefaultAnimation = 0
+	DefaultAnimationPlayMode = Loop
+	Behaviour
+	{
+		Script = BSGameObjectGeneral
+	}
+}

@@ -1,0 +1,109 @@
+#include <stdint.h>
+#include "GTJSScriptEngine.h"
+#include "GTLog/GTLogManager.h"
+#include "GTJSScriptClassImp.h"
+
+static const int32 g_nRuntimeStackSize = 8 * 1024 * 1024;
+static const int32 g_nContextStackSize = 8192;
+
+void sc_finalize(JSFreeOp *freeOp, JSObject *obj)
+{
+    return;
+}
+
+static JSClass g_global_class =
+{
+    "global", JSCLASS_GLOBAL_FLAGS,
+    JS_PropertyStub, JS_PropertyStub, JS_PropertyStub, JS_StrictPropertyStub,
+    JS_EnumerateStub, JS_ResolveStub, JS_ConvertStub, sc_finalize,
+    JSCLASS_NO_OPTIONAL_MEMBERS
+};
+
+GTJSScriptEngine::GTJSScriptEngine() :
+	m_pJSRuntime(NULL),
+	m_pJSContext(NULL),
+	m_pJSGlobalObject(NULL)
+{
+}
+
+
+GTJSScriptEngine::~GTJSScriptEngine()
+{
+}
+
+
+// Register internal classes
+void GTJSScriptEngine::RegisterInternalClasses(void)
+{
+	// L
+	JSC_GTLogManager::jsCreateClass(m_pJSContext, m_pJSGlobalObject, "GTLogManager");
+	// V
+	JSC_GTVector2::jsCreateClass(m_pJSContext, m_pJSGlobalObject, "GTVector2");
+}
+
+
+bool GTJSScriptEngine::Initialize(void)
+{
+	m_pJSRuntime = JS_NewRuntime(g_nRuntimeStackSize);
+    m_pJSContext = JS_NewContext(m_pJSRuntime, g_nContextStackSize);
+	JS_SetOptions(m_pJSContext, JSOPTION_VAROBJFIX);
+    JS_SetVersion(m_pJSContext, JSVERSION_LATEST);
+    //JS_SetErrorReporter(m_JSContext, ScriptingCore::reportError);
+    m_pJSGlobalObject = JS_NewCompartmentAndGlobalObject(m_pJSContext, &g_global_class, NULL);
+    if (!JS_InitStandardClasses(m_pJSContext, m_pJSGlobalObject))
+	{
+		Destroy();		
+		GTLogManager::GetInstance()->LogError(CTEXT("Failed to call GTJSScriptEngine::Initialize"));
+		return false;
+    }
+
+	// Initialize internal classes
+	RegisterInternalClasses();
+
+	return true;
+}
+
+
+bool GTJSScriptEngine::Destroy(void)
+{
+	m_pJSGlobalObject = NULL;
+
+	if(m_pJSContext)
+	{
+		JS_DestroyContext(m_pJSContext);
+		m_pJSContext = NULL;
+	}
+
+	if(m_pJSRuntime)
+	{
+		JS_DestroyRuntime(m_pJSRuntime);
+		m_pJSRuntime = NULL;
+	}
+
+	JS_ShutDown();
+
+	return true;
+}
+
+
+bool GTJSScriptEngine::RunScript(const char* script)
+{
+	if(NULL == script)
+	{
+		return false;
+	}
+
+	jsval rval;
+    JSString *str;
+    JSBool ok;
+    const char *filename = "noname";
+    uint32_t lineno = 0;
+    ok = JS_EvaluateScript(m_pJSContext, m_pJSGlobalObject, script, strlen(script), filename, lineno, &rval);
+    if(ok == JS_FALSE)
+	{
+		GTLogManager::GetInstance()->LogFormatError(CTEXT("GTJSScriptEngine: Error evaluating script.\n"));
+    }
+    str = JS_ValueToString(m_pJSContext, rval);
+    
+	return (ok == JS_TRUE) ? true : false;
+}

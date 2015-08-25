@@ -1,0 +1,20 @@
+Sprite
+{
+	AssetName = Sprites/enemy-01
+	Anchor = 0.5 0.5
+	Animation
+	{		
+		FrameSet = MoveLeft
+		{
+			FPS = 4
+			StartFrame = 0
+			FrameCount = 2
+		}
+		FrameSet = MoveRight
+		{
+			FPS = 4
+			StartFrame = 2
+			FrameCount = 2
+		}
+	}
+}

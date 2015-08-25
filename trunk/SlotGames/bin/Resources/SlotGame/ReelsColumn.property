@@ -1,0 +1,48 @@
+Property
+{
+	Behaviour
+	{
+		Script = BSGameObjectGeneralV2
+		Script = BSReelColumn
+		{		
+			rowCount = 5			
+			rowDirection = true	
+			reelRollingDuration = 5	
+			reelRollingSteps = 18	
+			Winframe = SlotGame/Winline/winframe.property		
+		}	
+	}
+	Children
+	{		
+		GameObject = SlotItem0
+		{
+			Position = 180 630
+			//PropertyName = SlotGame/Icons/icon01_anim.property
+			Visible = True
+		}
+		GameObject = SlotItem1
+		{
+			Position = 180 490
+			//PropertyName = SlotGame/Icons/icon03_anim.property
+			Visible = True
+		}		
+		GameObject = SlotItem2
+		{
+			Position = 180 350
+			//PropertyName = SlotGame/Icons/icon04_anim.property
+			Visible = True
+		}
+		GameObject = SlotItem3
+		{
+			Position = 180 210
+			//PropertyName = SlotGame/Icons/icon06_anim.property
+			Visible = True
+		}
+		GameObject = SlotItem4
+		{
+			Position = 180 70
+			//PropertyName = SlotGame/Icons/icon09_anim.property
+			Visible = True
+		}
+	}
+}

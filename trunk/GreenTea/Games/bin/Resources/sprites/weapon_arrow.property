@@ -1,0 +1,22 @@
+GameObjectSprite
+{
+	Sprite = sprites/weapon_arrow.sprite
+	DefaultAnimation = 0
+	DefaultAnimationPlayMode = Loop	
+	Behaviour
+	{
+		Script = BSGameObjectGeneral
+		{
+			Collision = 25 5
+		}
+		Script = BSTweener2D
+	}
+	Children
+	{
+		GameObjectSprite = DbgCollisionIndicator
+		{
+			PropertyName = sprites/DbgCollisionIndicator.property
+			Visible = True
+		}
+	}
+}

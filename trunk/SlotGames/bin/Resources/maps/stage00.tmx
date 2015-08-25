@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="6" height="4" tilewidth="80" tileheight="80">
+ <tileset firstgid="1" name="stage00" tilewidth="80" tileheight="80">
+  <image source="stage00.png" width="480" height="320"/>
+ </tileset>
+ <layer name="GroundLayer" width="6" height="4">
+  <data encoding="base64" compression="zlib">
+   eJwNw4cNgDAMALCwyyxl/38ptuQqImobWzt7B5Ojk7OLq5vZ3eLh6eXt4+vnDykAAS0=
+  </data>
+ </layer>
+ <objectgroup name="ObjectLayer" width="6" height="4">
+  <object name="ReelsContainer" type="ReelsContainer" x="31" y="0" width="420" height="319">
+   <properties>
+    <property name="PropertyName" value="sprites/SlotGame/ReelsContainer.property"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

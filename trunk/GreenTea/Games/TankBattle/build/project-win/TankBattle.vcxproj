@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>TB</ProjectName>
+    <ProjectGuid>{E390B490-A46C-40C5-87A7-84393C8B6BF4}</ProjectGuid>
+    <RootNamespace>TankBattle</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\..\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\;..\..\..\..\cocos2dx\cocos2dx;..\..\..\..\cocos2dx\cocos2dx\include;..\..\..\..\cocos2dx\cocos2dx\kazmath\include;..\..\..\..\cocos2dx\cocos2dx\platform;..\..\..\..\cocos2dx\cocos2dx\platform\win32;..\..\..\..\cocos2dx\cocos2dx\platform\third_party;..\..\..\..\cocos2dx\cocos2dx\platform\third_party\win32;..\..\..\..\cocos2dx\cocos2dx\platform\third_party\win32\OGLES;..\..\..\..\cocos2dx\CocosDenshion\include;..\..\..\..\cocos2dx\scripting\javascript\spidermonkey-win32\include;..\..\main;..\..\common;..\..\GreenTea;..\..\main\BehaviourScript;..\..\third_party\vld\vld\include;..\..\..\..\GreenTeaSource;..\..\FrameworkSource;..\..\FrameworkSource\Common;..\..\GameSource;..\..\GameSource\BehaviourScript;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;libcocos2d.lib;libCocosDenshion.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>..\..\..\..\cocos2dx\Debug.win32;..\..\..\..\cocos2dx\js\spidermonkey-win32\lib;..\..\third_party\vld\vld\lib\win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>LIBC.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <ProgramDatabaseFile>$(TargetDir)$(TargetName).pdb</ProgramDatabaseFile>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>..\..\hge\hge\lib\vc\hge.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\GreenTeaSource\GTBehaviour.cpp" />
+    <ClCompile Include="..\..\..\..\GreenTeaSource\GTBehaviourClassManager.cpp" />
+    <ClCompile Include="..\..\..\..\GreenTeaSource\GTCommandManager.cpp" />
+    <ClCompile Include="..\..\..\..\GreenTeaSource\GTConfigManager.cpp" />
+    <ClCompile Include="..\..\..\..\GreenTeaSource\GTDynamicBuffer.cpp" />
+    <ClCompile Include="..\..\..\..\GreenTeaSource\GTEvent.cpp" />
+    <ClCompile Include="..\..\..\..\GreenTeaSource\GTEventManager.cpp" />
+    <ClCompile Include="..\..\..\..\GreenTeaSource\GTGameObject.cpp" />
+    <ClCompile Include="..\..\..\..\GreenTeaSource\GTGameObjectClassManager.cpp" />
+    <ClCompile Include="..\..\..\..\GreenTeaSource\GTGameObjectCollider.cpp" />
+    <ClCompile Include="..\..\..\..\GreenTeaSource\GTGameObjectManager.cpp" />
+    <ClCompile Include="..\..\..\..\GreenTeaSource\GTHashTable.cpp" />
+    <ClCompile Include="..\..\..\..\GreenTeaSource\GTInputManager.cpp" />
+    <ClCompile Include="..\..\..\..\GreenTeaSource\GTLog\GTLogConsole.cpp" />
+    <ClCompile Include="..\..\..\..\GreenTeaSource\GTLog\GTLogManager.cpp" />
+    <ClCompile Include="..\..\..\..\GreenTeaSource\GTLog\GTLogTextFile.cpp" />
+    <ClCompile Include="..\..\..\..\GreenTeaSource\GTNew.cpp" />
+    <ClCompile Include="..\..\..\..\GreenTeaSource\GTObject.cpp" />
+    <ClCompile Include="..\..\..\..\GreenTeaSource\GTPathFinding.cpp" />
+    <ClCompile Include="..\..\..\..\GreenTeaSource\GTPoint2.cpp" />
+    <ClCompile Include="..\..\..\..\GreenTeaSource\GTPropertyFile.cpp" />
+    <ClCompile Include="..\..\..\..\GreenTeaSource\GTRect.cpp" />
+    <ClCompile Include="..\..\..\..\GreenTeaSource\GTScript.cpp" />
+    <ClCompile Include="..\..\..\..\GreenTeaSource\GTSize.cpp" />
+    <ClCompile Include="..\..\..\..\GreenTeaSource\GTStaticCallback.cpp" />
+    <ClCompile Include="..\..\..\..\GreenTeaSource\GTString.cpp" />
+    <ClCompile Include="..\..\..\..\GreenTeaSource\GTStringUtil.cpp" />
+    <ClCompile Include="..\..\..\..\GreenTeaSource\GTTreeNode.cpp" />
+    <ClCompile Include="..\..\..\..\GreenTeaSource\GTTweener2D.cpp" />
+    <ClCompile Include="..\..\..\..\GreenTeaSource\GTTweenInterpolation.cpp" />
+    <ClCompile Include="..\..\..\..\GreenTeaSource\GTUtil.cpp" />
+    <ClCompile Include="..\..\..\..\GreenTeaSource\GTVector2.cpp" />
+    <ClCompile Include="..\..\..\..\GreenTeaSource\GTVector3.cpp" />
+    <ClCompile Include="..\..\..\win\WinMain.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\cocos2dx-wrap\Cocos2dxGeneral.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\cocos2dx-wrap\FileUtilCocos2dx.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\cocos2dx-wrap\GameMainScene.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\cocos2dx-wrap\GameObjectCreation.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\cocos2dx-wrap\GSpriteAnimationClipCocos2dx.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\cocos2dx-wrap\GSpriteAnimationCocos2dx.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\cocos2dx-wrap\GSpriteCocos2dx.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\cocos2dx-wrap\LogObjectCocos2dx.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\cocos2dx-wrap\LogObjectCocos2dxFile.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\cocos2dx-wrap\ResourceManager.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\cocos2dx-wrap\SpriteAtlasCocos2dx.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\cocos2dx-wrap\TextureAtlasCocos2dx.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\cocos2dx-wrap\TiledMapCocos2dx.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\cocos2dx-wrap\TiledMapLayerCocos2dx.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\cocos2dx-wrap\TiledMapObjectGroupCocos2dx.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\cocos2dx-wrap\UILabelBMFontCocos2dx.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\Common\AssetManager.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\Common\AudioManager.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\Common\EventNameManager.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\Common\FXManager.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\Common\GameGeneral.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\Common\GameObjectSprite.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\Common\GOSCommon.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\Common\GOSys.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\Common\LocalizationManager.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\Common\MapManager.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\Common\SceneLayer.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\Common\SceneManager.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\Common\ScenePathFinding.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\Common\ScreenManager.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\Common\SpriteAtlas.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\Common\SystemManager.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\Common\TagManager.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\Common\TextureAtlas.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\Common\TimeManager.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\Map\TiledMap.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\Map\TiledMapLayer.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\Map\TiledMapObjectGroup.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\Sprite\GSprite.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\Sprite\GSpriteAnimation.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\Sprite\GSpriteAnimationClip.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\UIBehaviourScript\UIBSClassName.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\UIBehaviourScript\UIBSGameSetting.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\UIBehaviourScript\UIBSLabelSmoothValueChange.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\UIBehaviourScript\UIBSProgressBarSmoothChange.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\UI\FontManager.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\UI\UIAnimation.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\UI\UIButton.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\UI\UICheckBox.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\UI\UIFont.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\UI\UIFrame.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\UI\UILabel.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\UI\UILabelBMFont.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\UI\UILabelSmoothChange.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\UI\UILabelValueTweener.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\UI\UIManager.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\UI\UIPicture.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\UI\UIProgressBar.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\UI\UIProgressBarBiCombined.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\UI\UIProgressBarSmoothChange.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\UI\UIScrollBar.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\UI\UISkin.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\UI\UISkinPiece.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\UI\UISpriteSet.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\UI\UIWidget.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\UI\UIWidgetClassManager.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\UI\UIWidgetEvent.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\UI\UIWidgetScript.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\UI\UIWidgetScriptManager.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\UI\UIWidgetSprite.cpp" />
+    <ClCompile Include="..\..\FrameworkSource\Win32\GOSWin.cpp" />
+    <ClCompile Include="..\..\GameSource\BehaviourScript\BSCharacter.cpp" />
+    <ClCompile Include="..\..\GameSource\BehaviourScript\BSCharacterNPC.cpp" />
+    <ClCompile Include="..\..\GameSource\BehaviourScript\BSCharacterPlayer.cpp" />
+    <ClCompile Include="..\..\GameSource\BehaviourScript\BSClassName.cpp" />
+    <ClCompile Include="..\..\GameSource\BehaviourScript\BSDebugGameObject.cpp" />
+    <ClCompile Include="..\..\GameSource\BehaviourScript\BSEndPosition.cpp" />
+    <ClCompile Include="..\..\GameSource\BehaviourScript\BSGameObjectGeneral.cpp" />
+    <ClCompile Include="..\..\GameSource\BehaviourScript\BSGameObjectGeneralV2.cpp" />
+    <ClCompile Include="..\..\GameSource\BehaviourScript\BSMainEntry.cpp" />
+    <ClCompile Include="..\..\GameSource\BehaviourScript\BSMapSprite.cpp" />
+    <ClCompile Include="..\..\GameSource\BehaviourScript\BSPathFinding.cpp" />
+    <ClCompile Include="..\..\GameSource\BehaviourScript\BSPlayerController.cpp" />
+    <ClCompile Include="..\..\GameSource\BehaviourScript\BSPlayerPlayingUI.cpp" />
+    <ClCompile Include="..\..\GameSource\BehaviourScript\BSScreenSprite.cpp" />
+    <ClCompile Include="..\..\GameSource\BehaviourScript\BSSprite.cpp" />
+    <ClCompile Include="..\..\GameSource\BehaviourScript\BSSpriteBase.cpp" />
+    <ClCompile Include="..\..\GameSource\BehaviourScript\BSSpriteMovement.cpp" />
+    <ClCompile Include="..\..\GameSource\BehaviourScript\BSStaticSprite.cpp" />
+    <ClCompile Include="..\..\GameSource\BehaviourScript\BSTweener2D.cpp" />
+    <ClCompile Include="..\..\GameSource\BehaviourScript\BSUnitBehaviour.cpp" />
+    <ClCompile Include="..\..\GameSource\BehaviourScript\BSUnitMarine.cpp" />
+    <ClCompile Include="..\..\GameSource\BehaviourScript\BSUnitMortar.cpp" />
+    <ClCompile Include="..\..\GameSource\BehaviourScript\BSWeapon.cpp" />
+    <ClCompile Include="..\..\GameSource\BehaviourScript\BSWeaponTimerBomb.cpp" />
+    <ClCompile Include="..\..\GameSource\GameClientManager.cpp" />
+    <ClCompile Include="..\..\GameSource\UI\UIButtonItem.cpp" />
+    <ClCompile Include="..\..\GameSource\WeaponCacheManager.cpp" />
+    <ClCompile Include="..\..\main\AppDelegate.cpp" />
+    <ClCompile Include="..\..\main\GameFrame.cpp" />
+    <ClCompile Include="..\..\test\TestManager.cpp" />
+    <ClCompile Include="..\..\test\UIButtonTest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTAlgorithm.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTArray.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTBaseDef.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTBasicBehaviour.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTBehaviour.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTBehaviourClassManager.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTClassAutoInstance.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTClassAutoInstanceManager.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTCommandManager.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTConfigManager.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTDictionary.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTDynamicBuffer.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTEvent.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTEventManager.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTFileUtil.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTGameObject.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTGameObjectClassManager.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTGameObjectCollider.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTGameObjectManager.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTGreenTea.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTHashTable.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTInputManager.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTList.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTLog\GTLogConsole.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTLog\GTLogManager.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTLog\GTLogObject.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTLog\GTLogTextFile.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTNew.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTNewLinkList.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTObject.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTPathFinding.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTPoint2.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTPropertyFile.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTRect.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTScript.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTSingleton.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTSize.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTStaticCallback.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTString.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTStringUtil.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTTreeNode.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTTweener2D.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTTweenInterpolation.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTUtil.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTVector2.h" />
+    <ClInclude Include="..\..\..\..\GreenTeaSource\GTVector3.h" />
+    <ClInclude Include="..\..\..\win\WinMain.h" />
+    <ClInclude Include="..\..\FrameworkSource\cocos2dx-wrap\Cocos2dxGeneral.h" />
+    <ClInclude Include="..\..\FrameworkSource\cocos2dx-wrap\GameMainScene.h" />
+    <ClInclude Include="..\..\FrameworkSource\cocos2dx-wrap\GameObjectCreationCocos2dx.h" />
+    <ClInclude Include="..\..\FrameworkSource\cocos2dx-wrap\GSpriteAnimationClipCocos2dx.h" />
+    <ClInclude Include="..\..\FrameworkSource\cocos2dx-wrap\GSpriteAnimationCocos2dx.h" />
+    <ClInclude Include="..\..\FrameworkSource\cocos2dx-wrap\GSpriteCocos2dx.h" />
+    <ClInclude Include="..\..\FrameworkSource\cocos2dx-wrap\LogObjectCocos2dx.h" />
+    <ClInclude Include="..\..\FrameworkSource\cocos2dx-wrap\LogObjectCocos2dxFile.h" />
+    <ClInclude Include="..\..\FrameworkSource\cocos2dx-wrap\ResourceManager.h" />
+    <ClInclude Include="..\..\FrameworkSource\cocos2dx-wrap\SpriteAtlasCocos2dx.h" />
+    <ClInclude Include="..\..\FrameworkSource\cocos2dx-wrap\TextureAtlasCocos2dx.h" />
+    <ClInclude Include="..\..\FrameworkSource\cocos2dx-wrap\TiledMapCocos2dx.h" />
+    <ClInclude Include="..\..\FrameworkSource\cocos2dx-wrap\TiledMapLayerCocos2dx.h" />
+    <ClInclude Include="..\..\FrameworkSource\cocos2dx-wrap\TiledMapObjectGroupCocos2dx.h" />
+    <ClInclude Include="..\..\FrameworkSource\cocos2dx-wrap\UILabelBMFontCocos2dx.h" />
+    <ClInclude Include="..\..\FrameworkSource\Common\AssetManager.h" />
+    <ClInclude Include="..\..\FrameworkSource\Common\AudioManager.h" />
+    <ClInclude Include="..\..\FrameworkSource\Common\EventNameManager.h" />
+    <ClInclude Include="..\..\FrameworkSource\Common\FXManager.h" />
+    <ClInclude Include="..\..\FrameworkSource\Common\GameDef.h" />
+    <ClInclude Include="..\..\FrameworkSource\Common\GameGeneral.h" />
+    <ClInclude Include="..\..\FrameworkSource\Common\GameObjectCreation.h" />
+    <ClInclude Include="..\..\FrameworkSource\Common\GameObjectSprite.h" />
+    <ClInclude Include="..\..\FrameworkSource\Common\GOS.h" />
+    <ClInclude Include="..\..\FrameworkSource\Common\GOSys.h" />
+    <ClInclude Include="..\..\FrameworkSource\Common\GRectangle.h" />
+    <ClInclude Include="..\..\FrameworkSource\Common\ITexture2D.h" />
+    <ClInclude Include="..\..\FrameworkSource\Common\LocalizationManager.h" />
+    <ClInclude Include="..\..\FrameworkSource\Common\MapManager.h" />
+    <ClInclude Include="..\..\FrameworkSource\Common\SceneLayer.h" />
+    <ClInclude Include="..\..\FrameworkSource\Common\SceneManager.h" />
+    <ClInclude Include="..\..\FrameworkSource\Common\ScenePathFinding.h" />
+    <ClInclude Include="..\..\FrameworkSource\Common\ScreenManager.h" />
+    <ClInclude Include="..\..\FrameworkSource\Common\SpriteAtlas.h" />
+    <ClInclude Include="..\..\FrameworkSource\Common\SystemManager.h" />
+    <ClInclude Include="..\..\FrameworkSource\Common\TagManager.h" />
+    <ClInclude Include="..\..\FrameworkSource\Common\TextureAtlas.h" />
+    <ClInclude Include="..\..\FrameworkSource\Common\TimeManager.h" />
+    <ClInclude Include="..\..\FrameworkSource\Map\TiledMap.h" />
+    <ClInclude Include="..\..\FrameworkSource\Map\TiledMapLayer.h" />
+    <ClInclude Include="..\..\FrameworkSource\Map\TiledMapObjectGroup.h" />
+    <ClInclude Include="..\..\FrameworkSource\Sprite\GSprite.h" />
+    <ClInclude Include="..\..\FrameworkSource\Sprite\GSpriteAnimation.h" />
+    <ClInclude Include="..\..\FrameworkSource\Sprite\GSpriteAnimationClip.h" />
+    <ClInclude Include="..\..\FrameworkSource\UIBehaviourScript\UIBSClassName.h" />
+    <ClInclude Include="..\..\FrameworkSource\UIBehaviourScript\UIBSGameSetting.h" />
+    <ClInclude Include="..\..\FrameworkSource\UIBehaviourScript\UIBSLabelSmoothValueChange.h" />
+    <ClInclude Include="..\..\FrameworkSource\UIBehaviourScript\UIBSProgressBarSmoothChange.h" />
+    <ClInclude Include="..\..\FrameworkSource\UI\FontManager.h" />
+    <ClInclude Include="..\..\FrameworkSource\UI\UIAnimation.h" />
+    <ClInclude Include="..\..\FrameworkSource\UI\UIBaseDef.h" />
+    <ClInclude Include="..\..\FrameworkSource\UI\UIButton.h" />
+    <ClInclude Include="..\..\FrameworkSource\UI\UICheckBox.h" />
+    <ClInclude Include="..\..\FrameworkSource\UI\UIFont.h" />
+    <ClInclude Include="..\..\FrameworkSource\UI\UIFrame.h" />
+    <ClInclude Include="..\..\FrameworkSource\UI\UILabel.h" />
+    <ClInclude Include="..\..\FrameworkSource\UI\UILabelBMFont.h" />
+    <ClInclude Include="..\..\FrameworkSource\UI\UILabelSmoothChange.h" />
+    <ClInclude Include="..\..\FrameworkSource\UI\UILabelValueTweener.h" />
+    <ClInclude Include="..\..\FrameworkSource\UI\UIManager.h" />
+    <ClInclude Include="..\..\FrameworkSource\UI\UIPicture.h" />
+    <ClInclude Include="..\..\FrameworkSource\UI\UIProgressBar.h" />
+    <ClInclude Include="..\..\FrameworkSource\UI\UIProgressBarBiCombined.h" />
+    <ClInclude Include="..\..\FrameworkSource\UI\UIProgressBarSmoothChange.h" />
+    <ClInclude Include="..\..\FrameworkSource\UI\UIScrollBar.h" />
+    <ClInclude Include="..\..\FrameworkSource\UI\UISkin.h" />
+    <ClInclude Include="..\..\FrameworkSource\UI\UISkinPiece.h" />
+    <ClInclude Include="..\..\FrameworkSource\UI\UISpriteSet.h" />
+    <ClInclude Include="..\..\FrameworkSource\UI\UIWidget.h" />
+    <ClInclude Include="..\..\FrameworkSource\UI\UIWidgetClassManager.h" />
+    <ClInclude Include="..\..\FrameworkSource\UI\UIWidgetEvent.h" />
+    <ClInclude Include="..\..\FrameworkSource\UI\UIWidgetScript.h" />
+    <ClInclude Include="..\..\FrameworkSource\UI\UIWidgetScriptManager.h" />
+    <ClInclude Include="..\..\FrameworkSource\UI\UIWidgetSprite.h" />
+    <ClInclude Include="..\..\GameSource\BehaviourScript\BSCharacter.h" />
+    <ClInclude Include="..\..\GameSource\BehaviourScript\BSCharacterNPC.h" />
+    <ClInclude Include="..\..\GameSource\BehaviourScript\BSCharacterPlayer.h" />
+    <ClInclude Include="..\..\GameSource\BehaviourScript\BSClassName.h" />
+    <ClInclude Include="..\..\GameSource\BehaviourScript\BSDebugGameObject.h" />
+    <ClInclude Include="..\..\GameSource\BehaviourScript\BSEndPosition.h" />
+    <ClInclude Include="..\..\GameSource\BehaviourScript\BSGameObjectGeneral.h" />
+    <ClInclude Include="..\..\GameSource\BehaviourScript\BSGameObjectGeneralV2.h" />
+    <ClInclude Include="..\..\GameSource\BehaviourScript\BSMainEntry.h" />
+    <ClInclude Include="..\..\GameSource\BehaviourScript\BSMapSprite.h" />
+    <ClInclude Include="..\..\GameSource\BehaviourScript\BSPathFinding.h" />
+    <ClInclude Include="..\..\GameSource\BehaviourScript\BSPlayerController.h" />
+    <ClInclude Include="..\..\GameSource\BehaviourScript\BSPlayerPlayingUI.h" />
+    <ClInclude Include="..\..\GameSource\BehaviourScript\BSScreenSprite.h" />
+    <ClInclude Include="..\..\GameSource\BehaviourScript\BSSprite.h" />
+    <ClInclude Include="..\..\GameSource\BehaviourScript\BSSpriteBase.h" />
+    <ClInclude Include="..\..\GameSource\BehaviourScript\BSSpriteMovement.h" />
+    <ClInclude Include="..\..\GameSource\BehaviourScript\BSStaticSprite.h" />
+    <ClInclude Include="..\..\GameSource\BehaviourScript\BSTweener2D.h" />
+    <ClInclude Include="..\..\GameSource\BehaviourScript\BSUnitBehaviour.h" />
+    <ClInclude Include="..\..\GameSource\BehaviourScript\BSUnitMarine.h" />
+    <ClInclude Include="..\..\GameSource\BehaviourScript\BSUnitMortar.h" />
+    <ClInclude Include="..\..\GameSource\BehaviourScript\BSWeapon.h" />
+    <ClInclude Include="..\..\GameSource\BehaviourScript\BSWeaponTimerBomb.h" />
+    <ClInclude Include="..\..\GameSource\GameClientManager.h" />
+    <ClInclude Include="..\..\GameSource\UI\UIButtonItem.h" />
+    <ClInclude Include="..\..\GameSource\WeaponCacheManager.h" />
+    <ClInclude Include="..\..\main\AppDelegate.h" />
+    <ClInclude Include="..\..\main\AppMacros.h" />
+    <ClInclude Include="..\..\main\GameFrame.h" />
+    <ClInclude Include="..\..\test\TestManager.h" />
+    <ClInclude Include="..\..\test\UIButtonTest.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

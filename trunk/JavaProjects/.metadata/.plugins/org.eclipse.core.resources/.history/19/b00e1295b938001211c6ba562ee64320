@@ -1,0 +1,9 @@
+package MSSQL;
+
+import java.sql.*;
+import com.microsoft.sqlserver.jdbc.*;
+
+public class SqlConnection
+{
+	private Connection m_Connection;
+}
